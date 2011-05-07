@@ -9,6 +9,7 @@
 #import "RdioService.h"
 #import "HBUser.h"
 #import <Rdio/Rdio.h>
+#import "HBLoginViewController.h"
 
 @implementation RdioService
 
@@ -19,6 +20,16 @@
 		rdio = [[Rdio alloc] initWithConsumerKey:@"8qqfmsqn4dqkqnpc6jcfcmej" andSecret:@"sDyHtdCu8C" delegate:nil];		
 	}
 	return self;
+}
+
+static Rdio *s_rdio=nil;
++ (Rdio *)rdioInstance
+{
+	if (s_rdio == nil)
+	{
+		s_rdio = [[RdioService alloc] init];
+	}
+	return s_rdio;
 }
 
 - (void)dealloc
@@ -51,40 +62,10 @@
 #pragma mark HBAuthenticatedServiceProtocol
 - (BOOL)authenticateUser:(NSString *)username password:(NSString *)password
 {
-	//TODO: implement
-	[rdio authorizeFromController:self];
+	[rdio authorizeFromController:[HBLoginViewController sharedLoginController]];
+	return YES;
 }
 
-#pragma mark RdioDelegate
-- (void)rdioDidAuthorizeUser:(NSDictionary *)user withAccessToken:(NSString *)accessToken {
-	HBRelease(mUser);
-	
-	NSString *userName = [NSString stringWithFormat:@"%@ %@", [user valueForKey:@"firstName"], [user valueForKey:@"lastName"]];
-	
-	mUser = [[HBUser alloc] initWithName:userName];
-	
-	if ([user valueForKey:@"icon"])
-	{
-		NSData *imageData = [NSData dataWithContentsOfURL:[user valueForKey:@"icon"]];
-		if (imageData)
-		{
-			UIImage *image = [UIImage imageWithData:imageData];
-			if (image)
-				mUser.avatar = image;
-		}
-		
-	}
-	
-	[mUser.userData setObject:accessToken forKey:@"accessToken"];
-	[mUser.userData addEntriesFromDictionary:user];
-}
-
-/**
- * Authentication failed so we should alert the user.
- */
-- (void)rdioAuthorizationFailed:(NSString *)message {
-	NSLog(@"Rdio authorization failed: %@", message);
-}
 
 
 

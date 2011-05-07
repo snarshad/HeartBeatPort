@@ -42,6 +42,8 @@
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* HeartBeatPort */,
 		);
+		breakpoints = (
+		);
 		codeSenseManager = EF982B9A1375EF7B009B4B28 /* Code sense */;
 		executables = (
 			EF982B8E1375EF76009B4B28 /* HeartBeatPort */,
@@ -119,6 +121,36 @@
 			EF982CB713760784009B4B28 /* PBXTextBookmark */ = EF982CB713760784009B4B28 /* PBXTextBookmark */;
 			EF982CB813760784009B4B28 /* PBXTextBookmark */ = EF982CB813760784009B4B28 /* PBXTextBookmark */;
 			EF982CB913760784009B4B28 /* PBXTextBookmark */ = EF982CB913760784009B4B28 /* PBXTextBookmark */;
+			EF982D3513761306009B4B28 /* PBXTextBookmark */ = EF982D3513761306009B4B28 /* PBXTextBookmark */;
+			EF982D3613761306009B4B28 /* PBXTextBookmark */ = EF982D3613761306009B4B28 /* PBXTextBookmark */;
+			EF982D3713761306009B4B28 /* PBXTextBookmark */ = EF982D3713761306009B4B28 /* PBXTextBookmark */;
+			EF982D3813761306009B4B28 /* PBXTextBookmark */ = EF982D3813761306009B4B28 /* PBXTextBookmark */;
+			EF982D3A13761306009B4B28 /* PBXTextBookmark */ = EF982D3A13761306009B4B28 /* PBXTextBookmark */;
+			EF982D3B13761306009B4B28 /* PBXTextBookmark */ = EF982D3B13761306009B4B28 /* PBXTextBookmark */;
+			EF982D3C13761306009B4B28 /* PBXTextBookmark */ = EF982D3C13761306009B4B28 /* PBXTextBookmark */;
+			EF982D3D13761306009B4B28 /* PBXTextBookmark */ = EF982D3D13761306009B4B28 /* PBXTextBookmark */;
+			EF982D3E13761306009B4B28 /* PBXTextBookmark */ = EF982D3E13761306009B4B28 /* PBXTextBookmark */;
+			EF982D3F13761306009B4B28 /* PBXTextBookmark */ = EF982D3F13761306009B4B28 /* PBXTextBookmark */;
+			EF982D4013761306009B4B28 /* PBXTextBookmark */ = EF982D4013761306009B4B28 /* PBXTextBookmark */;
+			EF982D4113761306009B4B28 /* PBXTextBookmark */ = EF982D4113761306009B4B28 /* PBXTextBookmark */;
+			EF982D4213761306009B4B28 /* PBXTextBookmark */ = EF982D4213761306009B4B28 /* PBXTextBookmark */;
+			EF982D4313761306009B4B28 /* PBXTextBookmark */ = EF982D4313761306009B4B28 /* PBXTextBookmark */;
+			EF982D4413761306009B4B28 /* PBXTextBookmark */ = EF982D4413761306009B4B28 /* PBXTextBookmark */;
+			EF982D4513761306009B4B28 /* PBXTextBookmark */ = EF982D4513761306009B4B28 /* PBXTextBookmark */;
+			EF982D4613761306009B4B28 /* PBXTextBookmark */ = EF982D4613761306009B4B28 /* PBXTextBookmark */;
+			EF982D4713761306009B4B28 /* PBXTextBookmark */ = EF982D4713761306009B4B28 /* PBXTextBookmark */;
+			EF982D4813761306009B4B28 /* PBXTextBookmark */ = EF982D4813761306009B4B28 /* PBXTextBookmark */;
+			EF982D4913761306009B4B28 /* PBXTextBookmark */ = EF982D4913761306009B4B28 /* PBXTextBookmark */;
+			EF982D4A13761306009B4B28 /* PBXTextBookmark */ = EF982D4A13761306009B4B28 /* PBXTextBookmark */;
+			EF982D4B1376131B009B4B28 /* PBXTextBookmark */ = EF982D4B1376131B009B4B28 /* PBXTextBookmark */;
+			EF982D4C1376131B009B4B28 /* PBXTextBookmark */ = EF982D4C1376131B009B4B28 /* PBXTextBookmark */;
+			EF982D501376131F009B4B28 /* PBXTextBookmark */ = EF982D501376131F009B4B28 /* PBXTextBookmark */;
+			EF982D511376131F009B4B28 /* PBXTextBookmark */ = EF982D511376131F009B4B28 /* PBXTextBookmark */;
+			EF982D531376131F009B4B28 /* PBXTextBookmark */ = EF982D531376131F009B4B28 /* PBXTextBookmark */;
+			EF982D551376132F009B4B28 /* PBXTextBookmark */ = EF982D551376132F009B4B28 /* PBXTextBookmark */;
+			EF982D561376132F009B4B28 /* PBXTextBookmark */ = EF982D561376132F009B4B28 /* PBXTextBookmark */;
+			EF982D5913761356009B4B28 /* PBXTextBookmark */ = EF982D5913761356009B4B28 /* PBXTextBookmark */;
+			EF982D5A13761356009B4B28 /* PBXTextBookmark */ = EF982D5A13761356009B4B28 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EF982B991375EF7B009B4B28 /* Source Control */;
 		userBuildSettings = {
@@ -171,30 +203,30 @@
 	EF982C231375F6B6009B4B28 /* HBHomeViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {781, 429}}";
-			sepNavSelRange = "{587, 0}";
-			sepNavVisRange = "{0, 633}";
+			sepNavSelRange = "{552, 0}";
+			sepNavVisRange = "{292, 341}";
 		};
 	};
 	EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 936}}";
-			sepNavSelRange = "{330, 0}";
-			sepNavVisRange = "{0, 852}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 670}";
 		};
 	};
 	EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {834, 699}}";
-			sepNavSelRange = "{440, 0}";
-			sepNavVisRange = "{0, 467}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 377}}";
+			sepNavSelRange = "{478, 50}";
+			sepNavVisRange = "{3, 545}";
 			sepNavWindowFrame = "{{15, 46}, {893, 827}}";
 		};
 	};
 	EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 845}}";
-			sepNavSelRange = "{246, 0}";
-			sepNavVisRange = "{0, 838}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1469}}";
+			sepNavSelRange = "{808, 1}";
+			sepNavVisRange = "{214, 772}";
 		};
 	};
 	EF982C461375FAC1009B4B28 /* PBXBookmark */ = {
@@ -217,9 +249,9 @@
 	};
 	EF982C5013760009009B4B28 /* HBUser.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 611}}";
-			sepNavSelRange = "{873, 0}";
-			sepNavVisRange = "{793, 85}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 598}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{167, 430}";
 		};
 	};
 	EF982C5213760098009B4B28 /* PBXTextBookmark */ = {
@@ -267,7 +299,7 @@
 		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
 		name = "HBLoginViewController.h: 19";
 		rLen = 19;
-		rLoc = 441;
+		rLoc = 529;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -277,7 +309,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 61";
 		rLen = 0;
-		rLoc = 1638;
+		rLoc = 1842;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 634;
@@ -377,7 +409,7 @@
 		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
 		name = "HBLoginViewController.h: 18";
 		rLen = 0;
-		rLoc = 440;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -407,7 +439,7 @@
 		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
 		name = "HBLoginViewController.h: 18";
 		rLen = 0;
-		rLoc = 440;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -477,7 +509,7 @@
 		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
 		name = "HBLoginViewController.h: 18";
 		rLen = 0;
-		rLoc = 440;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -498,9 +530,9 @@
 	};
 	EF982C9913760596009B4B28 /* HBArtistMatcher.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 422}}";
-			sepNavSelRange = "{472, 0}";
-			sepNavVisRange = "{0, 482}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 338}}";
+			sepNavSelRange = "{440, 33}";
+			sepNavVisRange = "{151, 331}";
 		};
 	};
 	EF982CA613760720009B4B28 /* PBXTextBookmark */ = {
@@ -574,7 +606,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 11";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 838;
 		vrLoc = 0;
@@ -624,7 +656,7 @@
 		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
 		name = "HBLoginViewController.h: 19";
 		rLen = 20;
-		rLoc = 395;
+		rLoc = 432;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 0;
@@ -653,7 +685,7 @@
 		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
 		name = "HBLoginViewController.h: 21";
 		rLen = 0;
-		rLoc = 440;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 0;
@@ -693,23 +725,340 @@
 		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
 		name = "HBLoginViewController.h: 21";
 		rLen = 0;
-		rLoc = 440;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 0;
 	};
 	EF982CC113760858009B4B28 /* RdioService.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 455}}";
-			sepNavSelRange = "{792, 0}";
-			sepNavVisRange = "{261, 537}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 442}}";
+			sepNavSelRange = "{685, 0}";
+			sepNavVisRange = "{215, 476}";
 		};
 	};
 	EF982CC213760858009B4B28 /* RdioService.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {901, 1131}}";
-			sepNavSelRange = "{1455, 0}";
-			sepNavVisRange = "{1170, 471}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 988}}";
+			sepNavSelRange = "{1131, 0}";
+			sepNavVisRange = "{795, 35}";
 		};
+	};
+	EF982D3513761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C95137603FC009B4B28 /* HBServiceProtocol.h */;
+		name = "HBServiceProtocol.h: 15";
+		rLen = 336;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 626;
+		vrLoc = 0;
+	};
+	EF982D3613761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */;
+		name = "HeartBeatPortAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 490;
+		rType = 0;
+		vrLen = 642;
+		vrLoc = 0;
+	};
+	EF982D3713761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HeartBeatPortAppDelegate.m */;
+		name = "HeartBeatPortAppDelegate.m: 68";
+		rLen = 0;
+		rLoc = 2414;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 1798;
+	};
+	EF982D3813761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982D3913761306009B4B28 /* Rdio.h */;
+		name = "Rdio.h: 118";
+		rLen = 0;
+		rLoc = 4623;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 4371;
+	};
+	EF982D3913761306009B4B28 /* Rdio.h */ = {
+		isa = PBXFileReference;
+		name = Rdio.h;
+		path = /Users/arshad/HeartBeatPort/Rdio.framework/Headers/Rdio.h;
+		sourceTree = "<absolute>";
+	};
+	EF982D3A13761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
+		name = "HBUser.h: 25";
+		rLen = 6;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 146;
+	};
+	EF982D3B13761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
+		name = "HBUser.m: 48";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 85;
+		vrLoc = 793;
+	};
+	EF982D3C13761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
+		name = "HBLoginViewController.h: 23";
+		rLen = 50;
+		rLoc = 478;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 3;
+	};
+	EF982D3D13761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 28";
+		rLen = 1;
+		rLoc = 808;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 214;
+	};
+	EF982D3E13761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC113760858009B4B28 /* RdioService.h */;
+		name = "RdioService.h: 32";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 215;
+	};
+	EF982D3F13761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 66";
+		rLen = 0;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 770;
+	};
+	EF982D4013761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 66";
+		rLen = 0;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 770;
+	};
+	EF982D4113761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
+		name = "HBUser.h: 20";
+		rLen = 9;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 180;
+	};
+	EF982D4213761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
+		name = "HBUser.m: 17";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 167;
+	};
+	EF982D4313761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 37";
+		rLen = 0;
+		rLoc = 653;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 431;
+	};
+	EF982D4413761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC113760858009B4B28 /* RdioService.h */;
+		name = "RdioService.h: 30";
+		rLen = 0;
+		rLoc = 607;
+		rType = 0;
+		vrLen = 452;
+		vrLoc = 260;
+	};
+	EF982D4513761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 63";
+		rLen = 0;
+		rLoc = 1842;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 1352;
+	};
+	EF982D4613761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 0;
+	};
+	EF982D4713761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C231375F6B6009B4B28 /* HBHomeViewController.h */;
+		name = "HBHomeViewController.h: 28";
+		rLen = 0;
+		rLoc = 552;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 292;
+	};
+	EF982D4813761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
+		name = "HBLoginViewController.h: 23";
+		rLen = 0;
+		rLoc = 527;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 185;
+	};
+	EF982D4913761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 22";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 43;
+	};
+	EF982D4A13761306009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 22";
+		rLen = 33;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 151;
+	};
+	EF982D4B1376131B009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 22";
+		rLen = 33;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 151;
+	};
+	EF982D4C1376131B009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 66";
+		rLen = 0;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 770;
+	};
+	EF982D501376131F009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 22";
+		rLen = 33;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 327;
+		vrLoc = 155;
+	};
+	EF982D511376131F009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982D521376131F009B4B28 /* asm __kill  0x9996216c */;
+		name = "asm __kill  0x9996216c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	EF982D521376131F009B4B28 /* asm __kill  0x9996216c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = "asm __kill  0x9996216c";
+		sourceTree = "<group>";
+	};
+	EF982D531376131F009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982D541376131F009B4B28 /* asm __kill  0x9996216c */;
+		name = "asm __kill  0x9996216c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	EF982D541376131F009B4B28 /* asm __kill  0x9996216c */ = {
+		isa = PBXFileReference;
+		path = "asm __kill  0x9996216c";
+		sourceTree = "<group>";
+	};
+	EF982D551376132F009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 22";
+		rLen = 33;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 151;
+	};
+	EF982D561376132F009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 66";
+		rLen = 0;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 48;
+		vrLoc = 769;
+	};
+	EF982D5913761356009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 22";
+		rLen = 33;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 151;
+	};
+	EF982D5A13761356009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 66";
+		rLen = 0;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 35;
+		vrLoc = 795;
 	};
 }

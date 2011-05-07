@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Rdio/Rdio.h>
 
 @class HBHomeViewController;
 
-@interface HBLoginViewController : UIViewController {
+@interface HBLoginViewController : UIViewController <RdioDelegate> {
 
 	IBOutlet UITextField *mUsernameField;
 	IBOutlet UITextField *mPasswordField;
@@ -18,6 +19,8 @@
 	
 	IBOutlet HBHomeViewController *mHomeViewController;
 }
+
++ (HBLoginViewController *)sharedLoginController;
 
 - (IBAction)login;
 
