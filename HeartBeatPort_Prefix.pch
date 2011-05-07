@@ -11,4 +11,5 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
+#define HBRelease(var) { [var release]; var = nil; }
 #endif

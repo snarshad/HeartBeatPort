@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class Rdio;
+
 @interface HeartBeatPortAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;
+	Rdio *rdio;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

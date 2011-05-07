@@ -8,6 +8,7 @@
 
 #import "HeartBeatPortAppDelegate.h"
 #import "RootViewController.h"
+#import <Rdio/Rdio.h>
 
 
 @implementation HeartBeatPortAppDelegate
@@ -26,7 +27,7 @@
     // Set the navigation controller as the window's root view controller and display.
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
-
+	rdio = [[Rdio alloc] initWithConsumerKey:@"8qqfmsqn4dqkqnpc6jcfcmej" andSecret:@"sDyHtdCu8C" delegate:nil];
     return YES;
 }
 
@@ -66,6 +67,8 @@
      Called when the application is about to terminate.
      See also applicationDidEnterBackground:.
      */
+	HBRelease(rdio);
+	
 }
 
 
