@@ -20,6 +20,13 @@
 		BC06E0361375F2CF0007E46C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC06E0351375F2CF0007E46C /* CFNetwork.framework */; };
 		BC06E0381375F2CF0007E46C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC06E0371375F2CF0007E46C /* Security.framework */; };
 		BC06E03A1375F2CF0007E46C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC06E0391375F2CF0007E46C /* SystemConfiguration.framework */; };
+		EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */; };
+		EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */; };
+		EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF982C361375F962009B4B28 /* dummyUser.jpg */; };
+		EF982C3D1375F97F009B4B28 /* HBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */; };
+		EF982C3E1375F97F009B4B28 /* HBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C3C1375F97F009B4B28 /* HBLoginViewController.xib */; };
+		EF982C5113760009009B4B28 /* HBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C5013760009009B4B28 /* HBUser.m */; };
+		EF982C9A13760596009B4B28 /* HBArtistMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +48,19 @@
 		BC06E0351375F2CF0007E46C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		BC06E0371375F2CF0007E46C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BC06E0391375F2CF0007E46C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EF982C231375F6B6009B4B28 /* HBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHomeViewController.h; sourceTree = "<group>"; };
+		EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHomeViewController.m; sourceTree = "<group>"; };
+		EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBHomeViewController.xib; sourceTree = "<group>"; };
+		EF982C361375F962009B4B28 /* dummyUser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dummyUser.jpg; path = Resources/dummyUser.jpg; sourceTree = "<group>"; };
+		EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLoginViewController.h; sourceTree = "<group>"; };
+		EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLoginViewController.m; sourceTree = "<group>"; };
+		EF982C3C1375F97F009B4B28 /* HBLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBLoginViewController.xib; sourceTree = "<group>"; };
+		EF982C4C1375FF73009B4B28 /* HBMatcherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBMatcherProtocol.h; sourceTree = "<group>"; };
+		EF982C4F13760009009B4B28 /* HBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUser.h; sourceTree = "<group>"; };
+		EF982C5013760009009B4B28 /* HBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUser.m; sourceTree = "<group>"; };
+		EF982C95137603FC009B4B28 /* HBServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBServiceProtocol.h; sourceTree = "<group>"; };
+		EF982C9813760596009B4B28 /* HBArtistMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBArtistMatcher.h; sourceTree = "<group>"; };
+		EF982C9913760596009B4B28 /* HBArtistMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBArtistMatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +85,13 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
-				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				EF982C231375F6B6009B4B28 /* HBHomeViewController.h */,
+				EF982C241375F6B6009B4B28 /* HBHomeViewController.m */,
+				EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */,
+				EF982C9F1376069F009B4B28 /* ViewControllers */,
+				EF982C9E13760695009B4B28 /* User */,
+				EF982C9C13760674009B4B28 /* Matching */,
+				EF982CA1137606B9009B4B28 /* Service */,
 				1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */,
 				1D3623250D0F684500981E51 /* HeartBeatPortAppDelegate.m */,
 			);
@@ -85,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
+				EF982CA0137606AD009B4B28 /* Obselete */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -105,6 +131,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF982C361375F962009B4B28 /* dummyUser.jpg */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* HeartBeatPort-Info.plist */,
@@ -125,6 +152,53 @@
 				BC06E0391375F2CF0007E46C /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF982C9C13760674009B4B28 /* Matching */ = {
+			isa = PBXGroup;
+			children = (
+				EF982C4C1375FF73009B4B28 /* HBMatcherProtocol.h */,
+				EF982C9813760596009B4B28 /* HBArtistMatcher.h */,
+				EF982C9913760596009B4B28 /* HBArtistMatcher.m */,
+			);
+			name = Matching;
+			sourceTree = "<group>";
+		};
+		EF982C9E13760695009B4B28 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EF982C4F13760009009B4B28 /* HBUser.h */,
+				EF982C5013760009009B4B28 /* HBUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		EF982C9F1376069F009B4B28 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */,
+				EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */,
+				EF982C3C1375F97F009B4B28 /* HBLoginViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF982CA0137606AD009B4B28 /* Obselete */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+			);
+			name = Obselete;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF982CA1137606B9009B4B28 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EF982C95137603FC009B4B28 /* HBServiceProtocol.h */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +253,9 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */,
+				EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */,
+				EF982C3E1375F97F009B4B28 /* HBLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +269,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* HeartBeatPortAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */,
+				EF982C3D1375F97F009B4B28 /* HBLoginViewController.m in Sources */,
+				EF982C5113760009009B4B28 /* HBUser.m in Sources */,
+				EF982C9A13760596009B4B28 /* HBArtistMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
