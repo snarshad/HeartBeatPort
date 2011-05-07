@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class HBLoginViewController, HBHomeViewController;
 @interface HeartBeatPortAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;
+	IBOutlet HBLoginViewController *loginController;
+	IBOutlet HBHomeViewController *homeController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
