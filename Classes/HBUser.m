@@ -12,6 +12,7 @@
 @implementation HBUser
 @synthesize userName = mUserName, realName = mRealName;
 @synthesize avatar, artistList = mArtistList;
+@synthesize userData = mUserData;
 
 - (HBUser *)initWithName:(NSString *)userName
 {
@@ -19,16 +20,18 @@
 	{
 		self.userName = userName;
 		mArtistList = [[NSMutableArray alloc] initWithCapacity:10];
+		mUserData = [[NSMutableDictionary alloc] initWithCapacity:10];
 	}
 	return self;
 }
 
 - (void)dealloc
 {
-//	HBRelease(mUserName);
-//	HBRelease(mAvatar);
-//	HBRelease(mRealName);
-//	HBRelease(mArtistList);
+	HBRelease(mUserName);
+	HBRelease(mAvatar);
+	HBRelease(mRealName);
+	HBRelease(mArtistList);
+	HBRelease(mUserData);
 	[super dealloc];
 }
 

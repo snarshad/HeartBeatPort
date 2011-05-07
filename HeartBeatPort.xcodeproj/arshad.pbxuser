@@ -187,6 +187,7 @@
 			sepNavIntBoundsRect = "{{0, 0}, {834, 699}}";
 			sepNavSelRange = "{440, 0}";
 			sepNavVisRange = "{0, 467}";
+			sepNavWindowFrame = "{{15, 46}, {893, 827}}";
 		};
 	};
 	EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */ = {
@@ -209,16 +210,16 @@
 	};
 	EF982C4F13760009009B4B28 /* HBUser.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 390}}";
-			sepNavSelRange = "{311, 1}";
-			sepNavVisRange = "{145, 373}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 429}}";
+			sepNavSelRange = "{526, 6}";
+			sepNavVisRange = "{146, 507}";
 		};
 	};
 	EF982C5013760009009B4B28 /* HBUser.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 572}}";
-			sepNavSelRange = "{477, 0}";
-			sepNavVisRange = "{166, 126}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 611}}";
+			sepNavSelRange = "{873, 0}";
+			sepNavVisRange = "{793, 85}";
 		};
 	};
 	EF982C5213760098009B4B28 /* PBXTextBookmark */ = {
@@ -326,7 +327,7 @@
 		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
 		name = "HBUser.h: 25";
 		rLen = 0;
-		rLoc = 515;
+		rLoc = 651;
 		rType = 0;
 		vrLen = 438;
 		vrLoc = 0;
@@ -336,7 +337,7 @@
 		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
 		name = "HBUser.h: 22";
 		rLen = 0;
-		rLoc = 410;
+		rLoc = 485;
 		rType = 0;
 		vrLen = 341;
 		vrLoc = 182;
@@ -346,7 +347,7 @@
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
 		name = "HBUser.m: 18";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 288;
 		vrLoc = 142;
@@ -356,7 +357,7 @@
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
 		name = "HBUser.m: 18";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 315;
 		vrLoc = 166;
@@ -366,7 +367,7 @@
 		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
 		name = "HBUser.h: 20";
 		rLen = 1;
-		rLoc = 311;
+		rLoc = 386;
 		rType = 0;
 		vrLen = 374;
 		vrLoc = 142;
@@ -386,7 +387,7 @@
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
 		name = "HBUser.m: 18";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 315;
 		vrLoc = 166;
@@ -396,7 +397,7 @@
 		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
 		name = "HBUser.h: 20";
 		rLen = 1;
-		rLoc = 311;
+		rLoc = 386;
 		rType = 0;
 		vrLen = 372;
 		vrLoc = 146;
@@ -416,7 +417,7 @@
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
 		name = "HBUser.m: 24";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 126;
 		vrLoc = 166;
@@ -426,7 +427,7 @@
 		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
 		name = "HBUser.h: 20";
 		rLen = 1;
-		rLoc = 311;
+		rLoc = 386;
 		rType = 0;
 		vrLen = 373;
 		vrLoc = 145;
@@ -507,7 +508,7 @@
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
 		name = "HBUser.m: 24";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 126;
 		vrLoc = 166;
@@ -662,7 +663,7 @@
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
 		name = "HBUser.m: 24";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 126;
 		vrLoc = 166;
@@ -699,16 +700,16 @@
 	};
 	EF982CC113760858009B4B28 /* RdioService.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 403}}";
-			sepNavSelRange = "{378, 11}";
-			sepNavVisRange = "{0, 644}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 455}}";
+			sepNavSelRange = "{792, 0}";
+			sepNavVisRange = "{261, 537}";
 		};
 	};
 	EF982CC213760858009B4B28 /* RdioService.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 728}}";
-			sepNavSelRange = "{411, 0}";
-			sepNavVisRange = "{3, 543}";
+			sepNavIntBoundsRect = "{{0, 0}, {901, 1131}}";
+			sepNavSelRange = "{1455, 0}";
+			sepNavVisRange = "{1170, 471}";
 		};
 	};
 }

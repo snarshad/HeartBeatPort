@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "HBServiceProtocol.h"
+#import <Rdio/Rdio.h>
+
 @class Rdio, HBUser;
 
 
-@interface RdioService : NSObject <HBAuthenticatedServiceProtocol>{
+@interface RdioService : NSObject <HBAuthenticatedServiceProtocol, RdioDelegate>{
 	Rdio *rdio;
 	
 	HBUser *mUser;	// the logged in user
@@ -26,5 +28,7 @@
 #pragma mark HBAuthenticatedServiceProtocol
 - (BOOL)authenticateUser:(NSString *)username password:(NSString *)password;
 
+#pragma mark RdioDelegate
+- (void)rdioDidAuthorizeUser:(NSDictionary *)user withAccessToken:(NSString *)accessToken;
 
 @end

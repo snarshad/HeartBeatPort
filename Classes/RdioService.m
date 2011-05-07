@@ -52,9 +52,40 @@
 - (BOOL)authenticateUser:(NSString *)username password:(NSString *)password
 {
 	//TODO: implement
-	return NO;
+	[rdio authorizeFromController:self];
 }
 
-#pragma mark -
+#pragma mark RdioDelegate
+- (void)rdioDidAuthorizeUser:(NSDictionary *)user withAccessToken:(NSString *)accessToken {
+	HBRelease(mUser);
+	
+	NSString *userName = [NSString stringWithFormat:@"%@ %@", [user valueForKey:@"firstName"], [user valueForKey:@"lastName"]];
+	
+	mUser = [[HBUser alloc] initWithName:userName];
+	
+	if ([user valueForKey:@"icon"])
+	{
+		NSData *imageData = [NSData dataWithContentsOfURL:[user valueForKey:@"icon"]];
+		if (imageData)
+		{
+			UIImage *image = [UIImage imageWithData:imageData];
+			if (image)
+				mUser.avatar = image;
+		}
+		
+	}
+	
+	[mUser.userData setObject:accessToken forKey:@"accessToken"];
+	[mUser.userData addEntriesFromDictionary:user];
+}
+
+/**
+ * Authentication failed so we should alert the user.
+ */
+- (void)rdioAuthorizationFailed:(NSString *)message {
+	NSLog(@"Rdio authorization failed: %@", message);
+}
+
+
 
 @end

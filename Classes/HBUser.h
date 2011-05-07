@@ -16,12 +16,15 @@
 	UIImage *mAvatar;
 	
 	NSMutableArray *mArtistList;
+	
+	NSMutableDictionary *mUserData;	//might be different service to service
 }
 
 @property (nonatomic, retain)	NSString *userName;
 @property (nonatomic, retain)	NSString *realName;
-@property (nonatomic, readonly)	UIImage *avatar;
+@property (nonatomic, retain)	UIImage *avatar;
 @property (nonatomic, readonly) NSArray *artistList;
+@property (nonatomic, readonly)	NSMutableDictionary *userData;
 
 
 
