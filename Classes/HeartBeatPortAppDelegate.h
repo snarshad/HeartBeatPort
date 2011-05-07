@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @class HBLoginViewController, HBHomeViewController;
-@class Rdio;
 
 @interface HeartBeatPortAppDelegate : NSObject <UIApplicationDelegate> {
     
@@ -17,7 +16,6 @@
     UINavigationController *navigationController;
 	IBOutlet HBLoginViewController *loginController;
 	IBOutlet HBHomeViewController *homeController;
-	Rdio *rdio;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

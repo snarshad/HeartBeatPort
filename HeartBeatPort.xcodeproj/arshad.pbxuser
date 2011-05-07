@@ -3,15 +3,15 @@
 	1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {781, 422}}";
-			sepNavSelRange = "{504, 0}";
-			sepNavVisRange = "{0, 668}";
+			sepNavSelRange = "{490, 0}";
+			sepNavVisRange = "{0, 642}";
 		};
 	};
 	1D3623250D0F684500981E51 /* HeartBeatPortAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1196}}";
-			sepNavSelRange = "{2418, 0}";
-			sepNavVisRange = "{1792, 990}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1131}}";
+			sepNavSelRange = "{2414, 0}";
+			sepNavVisRange = "{1798, 886}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* HeartBeatPort */ = {
@@ -226,7 +226,7 @@
 		fRef = 1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */;
 		name = "HeartBeatPortAppDelegate.h: 16";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 368;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 0;
@@ -236,7 +236,7 @@
 		fRef = 1D3623250D0F684500981E51 /* HeartBeatPortAppDelegate.m */;
 		name = "HeartBeatPortAppDelegate.m: 71";
 		rLen = 0;
-		rLoc = 2418;
+		rLoc = 2287;
 		rType = 0;
 		vrLen = 990;
 		vrLoc = 1792;
@@ -484,7 +484,7 @@
 	EF982C95137603FC009B4B28 /* HBServiceProtocol.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {781, 422}}";
-			sepNavSelRange = "{361, 0}";
+			sepNavSelRange = "{285, 336}";
 			sepNavVisRange = "{0, 626}";
 		};
 	};
@@ -634,7 +634,7 @@
 		fRef = 1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 13;
+		rLoc = 12;
 		rType = 1;
 	};
 	EF982CB413760720009B4B28 /* PBXTextBookmark */ = {
@@ -682,7 +682,7 @@
 		fRef = 1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */;
 		name = "HeartBeatPortAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 490;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 0;
@@ -696,5 +696,19 @@
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 0;
+	};
+	EF982CC113760858009B4B28 /* RdioService.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 403}}";
+			sepNavSelRange = "{378, 11}";
+			sepNavVisRange = "{0, 644}";
+		};
+	};
+	EF982CC213760858009B4B28 /* RdioService.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 728}}";
+			sepNavSelRange = "{411, 0}";
+			sepNavVisRange = "{3, 543}";
+		};
 	};
 }

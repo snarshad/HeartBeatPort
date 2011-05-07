@@ -27,6 +27,7 @@
 		EF982C3E1375F97F009B4B28 /* HBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C3C1375F97F009B4B28 /* HBLoginViewController.xib */; };
 		EF982C5113760009009B4B28 /* HBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C5013760009009B4B28 /* HBUser.m */; };
 		EF982C9A13760596009B4B28 /* HBArtistMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */; };
+		EF982CC313760858009B4B28 /* RdioService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982CC213760858009B4B28 /* RdioService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,8 @@
 		EF982C95137603FC009B4B28 /* HBServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBServiceProtocol.h; sourceTree = "<group>"; };
 		EF982C9813760596009B4B28 /* HBArtistMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBArtistMatcher.h; sourceTree = "<group>"; };
 		EF982C9913760596009B4B28 /* HBArtistMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBArtistMatcher.m; sourceTree = "<group>"; };
+		EF982CC113760858009B4B28 /* RdioService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RdioService.h; sourceTree = "<group>"; };
+		EF982CC213760858009B4B28 /* RdioService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RdioService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 				EF982C9E13760695009B4B28 /* User */,
 				EF982C9C13760674009B4B28 /* Matching */,
 				EF982CA1137606B9009B4B28 /* Service */,
+				EF982CBC13760824009B4B28 /* RdioService */,
 				1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */,
 				1D3623250D0F684500981E51 /* HeartBeatPortAppDelegate.m */,
 			);
@@ -201,6 +205,15 @@
 			name = Service;
 			sourceTree = "<group>";
 		};
+		EF982CBC13760824009B4B28 /* RdioService */ = {
+			isa = PBXGroup;
+			children = (
+				EF982CC113760858009B4B28 /* RdioService.h */,
+				EF982CC213760858009B4B28 /* RdioService.m */,
+			);
+			name = RdioService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -273,6 +286,7 @@
 				EF982C3D1375F97F009B4B28 /* HBLoginViewController.m in Sources */,
 				EF982C5113760009009B4B28 /* HBUser.m in Sources */,
 				EF982C9A13760596009B4B28 /* HBArtistMatcher.m in Sources */,
+				EF982CC313760858009B4B28 /* RdioService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
