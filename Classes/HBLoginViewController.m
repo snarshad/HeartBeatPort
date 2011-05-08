@@ -41,7 +41,15 @@ static HBLoginViewController *s_loginController = nil;
 	mService.loginDelegate = self;
 	
 	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead. 
-	
+	NSString *token = [[NSUserDefaults standardUserDefaults] objectForKey:@"rdioSavedUserToken"];
+
+	if (token) //for demo, assume token means it will login
+	{	
+		UIImageView *iv = [[UIImageView alloc] initWithFrame:self.view.frame];
+		[iv setImage:[UIImage imageNamed:@"loading_screen"]];
+		self.view = iv;
+		
+	}
 	
 	mMatcher = [[HBArtistMatcher alloc] init];
 	mHomeViewController.service = mService;
