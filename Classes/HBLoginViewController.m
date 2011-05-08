@@ -129,7 +129,8 @@ static HBLoginViewController *s_loginController = nil;
 	mHomeViewController.user = rdioUser;
 	[mService setUser:rdioUser];
 	
-	[self.navigationController pushViewController:mHomeViewController animated:YES];
+	if (![self.navigationController.viewControllers containsObject:mHomeViewController])
+		[self.navigationController pushViewController:mHomeViewController animated:YES];
 }
 
 /**

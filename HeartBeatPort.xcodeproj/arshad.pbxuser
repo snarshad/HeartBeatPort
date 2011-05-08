@@ -46,6 +46,7 @@
 		breakpoints = (
 			EF983033137639C6009B4B28 /* HBHomeViewController.m:37 */,
 			EF983326137660B6009B4B28 /* objc_exception_throw */,
+			EF1AD00813774C1D004D135F /* HBLoginViewController.m:103 */,
 		);
 		codeSenseManager = EF982B9A1375EF7B009B4B28 /* Code sense */;
 		executables = (
@@ -1018,6 +1019,31 @@
 			EF1ACFC4137747EA004D135F = EF1ACFC4137747EA004D135F /* PBXTextBookmark */;
 			EF1ACFC5137747EA004D135F = EF1ACFC5137747EA004D135F /* PBXTextBookmark */;
 			EF1ACFC6137747EA004D135F = EF1ACFC6137747EA004D135F /* PBXTextBookmark */;
+			EF1ACFED13774A67004D135F /* PBXBookmark */ = EF1ACFED13774A67004D135F /* PBXBookmark */;
+			EF1ACFF213774AEA004D135F /* PBXBookmark */ = EF1ACFF213774AEA004D135F /* PBXBookmark */;
+			EF1ACFF313774AEA004D135F /* PBXTextBookmark */ = EF1ACFF313774AEA004D135F /* PBXTextBookmark */;
+			EF1ACFF713774AEE004D135F /* PBXTextBookmark */ = EF1ACFF713774AEE004D135F /* PBXTextBookmark */;
+			EF1ACFFA13774AEE004D135F /* PBXTextBookmark */ = EF1ACFFA13774AEE004D135F /* PBXTextBookmark */;
+			EF1ACFFF13774B83004D135F /* PBXTextBookmark */ = EF1ACFFF13774B83004D135F /* PBXTextBookmark */;
+			EF1AD00013774B84004D135F /* PBXTextBookmark */ = EF1AD00013774B84004D135F /* PBXTextBookmark */;
+			EF1AD00113774B84004D135F /* PBXTextBookmark */ = EF1AD00113774B84004D135F /* PBXTextBookmark */;
+			EF1AD00213774B84004D135F /* PBXTextBookmark */ = EF1AD00213774B84004D135F /* PBXTextBookmark */;
+			EF1AD00413774B90004D135F /* PBXBookmark */ = EF1AD00413774B90004D135F /* PBXBookmark */;
+			EF1AD00613774BF6004D135F /* PBXTextBookmark */ = EF1AD00613774BF6004D135F /* PBXTextBookmark */;
+			EF1AD00713774BF6004D135F /* PBXTextBookmark */ = EF1AD00713774BF6004D135F /* PBXTextBookmark */;
+			EF1AD01413774CC1004D135F /* PBXTextBookmark */ = EF1AD01413774CC1004D135F /* PBXTextBookmark */;
+			EF1AD01513774CC1004D135F /* PBXTextBookmark */ = EF1AD01513774CC1004D135F /* PBXTextBookmark */;
+			EF1AD01613774CC1004D135F /* PBXTextBookmark */ = EF1AD01613774CC1004D135F /* PBXTextBookmark */;
+			EF1AD01713774CC1004D135F /* PBXTextBookmark */ = EF1AD01713774CC1004D135F /* PBXTextBookmark */;
+			EF1AD01A13774CC1004D135F /* PBXBookmark */ = EF1AD01A13774CC1004D135F /* PBXBookmark */;
+			EF1AD01C13774CC4004D135F /* PBXTextBookmark */ = EF1AD01C13774CC4004D135F /* PBXTextBookmark */;
+			EF1AD01D13774CC4004D135F /* PBXTextBookmark */ = EF1AD01D13774CC4004D135F /* PBXTextBookmark */;
+			EF1AD01E13774CC4004D135F /* PBXTextBookmark */ = EF1AD01E13774CC4004D135F /* PBXTextBookmark */;
+			EF1AD01F13774CC4004D135F /* PBXBookmark */ = EF1AD01F13774CC4004D135F /* PBXBookmark */;
+			EF1AD02213774D0B004D135F /* PBXTextBookmark */ = EF1AD02213774D0B004D135F /* PBXTextBookmark */;
+			EF1AD02313774D0B004D135F /* PBXTextBookmark */ = EF1AD02313774D0B004D135F /* PBXTextBookmark */;
+			EF1AD02413774D0B004D135F /* PBXTextBookmark */ = EF1AD02413774D0B004D135F /* PBXTextBookmark */;
+			EF1AD02513774D0B004D135F /* PBXBookmark */ = EF1AD02513774D0B004D135F /* PBXBookmark */;
 			EF982C461375FAC1009B4B28 = EF982C461375FAC1009B4B28 /* PBXBookmark */;
 			EF982C5213760098009B4B28 = EF982C5213760098009B4B28 /* PBXTextBookmark */;
 			EF982C5313760098009B4B28 = EF982C5313760098009B4B28 /* PBXTextBookmark */;
@@ -10681,6 +10707,238 @@
 		vrLen = 1925;
 		vrLoc = 5676;
 	};
+	EF1ACFED13774A67004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+	};
+	EF1ACFF213774AEA004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+	};
+	EF1ACFF313774AEA004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 2858;
+	};
+	EF1ACFF713774AEE004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 2858;
+	};
+	EF1ACFFA13774AEE004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 46";
+		rLen = 228;
+		rLoc = 1421;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 748;
+	};
+	EF1ACFFF13774B83004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 2856;
+	};
+	EF1AD00013774B84004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 617;
+		vrLoc = 2690;
+	};
+	EF1AD00113774B84004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 2858;
+	};
+	EF1AD00213774B84004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 46";
+		rLen = 228;
+		rLoc = 1421;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 748;
+	};
+	EF1AD00413774B90004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BC06E182137744100007E46C /* Default.png */;
+	};
+	EF1AD00613774BF6004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 617;
+		vrLoc = 2690;
+	};
+	EF1AD00713774BF6004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 2858;
+	};
+	EF1AD00813774C1D004D135F /* HBLoginViewController.m:103 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		functionName = "-service:loginDidSucceedWithUser:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 103;
+		location = HeartBeatPort;
+		modificationTime = 326585539.265397;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	EF1AD01413774CC1004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 2688;
+	};
+	EF1AD01513774CC1004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 2858;
+	};
+	EF1AD01613774CC1004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 132";
+		rLen = 0;
+		rLoc = 4150;
+		rType = 0;
+		vrLen = 1787;
+		vrLoc = 2633;
+	};
+	EF1AD01713774CC1004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 103";
+		rLen = 19;
+		rLoc = 3164;
+		rType = 0;
+		vrLen = 1910;
+		vrLoc = 2570;
+	};
+	EF1AD01A13774CC1004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BC06E182137744100007E46C /* Default.png */;
+	};
+	EF1AD01C13774CC4004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 2688;
+	};
+	EF1AD01D13774CC4004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 2858;
+	};
+	EF1AD01E13774CC4004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 103";
+		rLen = 19;
+		rLoc = 3164;
+		rType = 0;
+		vrLen = 1910;
+		vrLoc = 2570;
+	};
+	EF1AD01F13774CC4004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BC06E182137744100007E46C /* Default.png */;
+	};
+	EF1AD02213774D0B004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 2688;
+	};
+	EF1AD02313774D0B004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 145";
+		rLen = 0;
+		rLoc = 3029;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 2858;
+	};
+	EF1AD02413774D0B004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 103";
+		rLen = 19;
+		rLoc = 3164;
+		rType = 0;
+		vrLen = 1932;
+		vrLoc = 2570;
+	};
+	EF1AD02513774D0B004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BC06E182137744100007E46C /* Default.png */;
+	};
 	EF982B8E1375EF76009B4B28 /* HeartBeatPort */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -10751,9 +11009,9 @@
 	};
 	EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1177, 1781}}";
-			sepNavSelRange = "{2823, 18}";
-			sepNavVisRange = "{2419, 809}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1898}}";
+			sepNavSelRange = "{3164, 19}";
+			sepNavVisRange = "{2570, 1932}";
 		};
 	};
 	EF982C461375FAC1009B4B28 /* PBXBookmark */ = {
@@ -13532,7 +13790,7 @@
 		comments = "Expected '{' before 'end'";
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		rLen = 1;
-		rLoc = 135;
+		rLoc = 136;
 		rType = 1;
 	};
 	EF982EF313762623009B4B28 /* PBXTextBookmark */ = {
@@ -13908,7 +14166,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 114";
 		rLen = 0;
-		rLoc = 4064;
+		rLoc = 4151;
 		rType = 0;
 		vrLen = 601;
 		vrLoc = 2768;
@@ -14257,7 +14515,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		rLen = 0;
-		rLoc = 4112;
+		rLoc = 4199;
 		rType = 0;
 	};
 	EF982F9C137632F3009B4B28 /* PBXTextBookmark */ = {
@@ -15222,7 +15480,7 @@
 		ignoreCount = 0;
 		lineNumber = 37;
 		location = HeartBeatPort;
-		modificationTime = 326584952.154206;
+		modificationTime = 326585539.264306;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -20308,7 +20566,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 326584952.155131;
+		modificationTime = 326585539.267191;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 		symbolName = objc_exception_throw;
