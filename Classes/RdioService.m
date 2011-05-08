@@ -87,9 +87,12 @@ static Rdio *s_rdio=nil;
 
 - (void)searchForNearbyUsers
 {
-	NSDictionary *params = [NSDictionary dictionary];
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[mUser.userData objectForKey:@"key"], @"user"
+							@"true", @"friends",
+							@"artists", @"type",
+							nil];
 	
-	RDAPIRequest *currentRequest =[s_rdio callAPIMethod:@""
+	RDAPIRequest *currentRequest =[s_rdio callAPIMethod:@"getHeavyRotation"
 										 withParameters:params
 											   delegate:self];	
 }

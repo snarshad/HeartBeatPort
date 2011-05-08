@@ -13,6 +13,7 @@
 @synthesize userName = mUserName, realName = mRealName;
 @synthesize avatar, artistList = mArtistList;
 @synthesize userData = mUserData;
+@synthesize gender = mGender;
 
 - (HBUser *)initWithName:(NSString *)userName
 {

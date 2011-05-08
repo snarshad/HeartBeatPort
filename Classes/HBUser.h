@@ -18,9 +18,12 @@
 	NSMutableArray *mArtistList;
 	
 	NSMutableDictionary *mUserData;	//might be different service to service
+	
+	NSString *mGender;
 }
 
 @property (nonatomic, retain)	NSString *userName;
+@property (nonatomic, retain)	NSString *gender;
 @property (nonatomic, retain)	NSString *realName;
 @property (nonatomic, retain)	UIImage *avatar;
 @property (nonatomic, readonly) NSArray *artistList;

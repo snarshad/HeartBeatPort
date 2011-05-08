@@ -202,6 +202,47 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>EF982FB91376355F009B4B28</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>HBUser.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>EF982FBA1376355F009B4B28</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>HBUser.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>EF982FE3137635A9009B4B28</string>
+						<key>history</key>
+						<array>
+							<string>EF982FBB1376355F009B4B28</string>
+							<string>EF982FBC1376355F009B4B28</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1100, 600}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>495 237 1100 641 0 0 1440 878 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>EF982F84137632F3009B4B28</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>RdioService.m</string>
@@ -216,10 +257,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982F86137632F3009B4B28</string>
+						<string>EF982FE4137635A9009B4B28</string>
 						<key>history</key>
 						<array>
-							<string>EF982F78137632EC009B4B28</string>
+							<string>EF982FBE1376355F009B4B28</string>
+							<string>EF982FBF1376355F009B4B28</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -256,7 +298,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982F88137632F3009B4B28</string>
+						<string>EF982FE5137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982F87137632F3009B4B28</string>
@@ -297,7 +339,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982F8C137632F3009B4B28</string>
+						<string>EF982FE6137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982F8B137632F3009B4B28</string>
@@ -338,7 +380,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982F90137632F3009B4B28</string>
+						<string>EF982FE7137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982F8F137632F3009B4B28</string>
@@ -378,7 +420,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982F94137632F3009B4B28</string>
+						<string>EF982FE8137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982F93137632F3009B4B28</string>
@@ -418,7 +460,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982F97137632F3009B4B28</string>
+						<string>EF982FE9137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982F95137632F3009B4B28</string>
@@ -459,7 +501,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982F9C137632F3009B4B28</string>
+						<string>EF982FEA137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982F9A137632F3009B4B28</string>
@@ -500,7 +542,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982FA1137632F3009B4B28</string>
+						<string>EF982FEB137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982F9F137632F3009B4B28</string>
@@ -540,7 +582,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982FA6137632F3009B4B28</string>
+						<string>EF982FEC137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982FA5137632F3009B4B28</string>
@@ -580,7 +622,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982FAB137632F3009B4B28</string>
+						<string>EF982FED137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982FA9137632F3009B4B28</string>
@@ -621,7 +663,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF982FAC137632F3009B4B28</string>
+						<string>EF982FEE137635A9009B4B28</string>
 						<key>history</key>
 						<array>
 							<string>EF982E9313761F3B009B4B28</string>
@@ -774,7 +816,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EF982F79137632F3009B4B28</string>
+										<string>EF982FE0137635A9009B4B28</string>
 										<key>history</key>
 										<array>
 											<string>EF982C5213760098009B4B28</string>
@@ -814,6 +856,8 @@
 							<string>167pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -831,7 +875,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EF982F83137632F3009B4B28</string>
+										<string>EF982FE2137635A9009B4B28</string>
 										<key>history</key>
 										<array>
 											<string>EF982C5513760098009B4B28</string>
@@ -846,12 +890,12 @@
 											<string>EF982F7A137632F3009B4B28</string>
 											<string>EF982F7B137632F3009B4B28</string>
 											<string>EF982F7C137632F3009B4B28</string>
-											<string>EF982F7D137632F3009B4B28</string>
 											<string>EF982F7E137632F3009B4B28</string>
 											<string>EF982F7F137632F3009B4B28</string>
 											<string>EF982F80137632F3009B4B28</string>
 											<string>EF982F81137632F3009B4B28</string>
-											<string>EF982F82137632F3009B4B28</string>
+											<string>EF982FB61376355F009B4B28</string>
+											<string>EF982FE1137635A9009B4B28</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -1170,8 +1214,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>EF982FCB1376355F009B4B28</string>
 		<string>EF982F4A13762D10009B4B28</string>
-		<string>EF982F221376276C009B4B28</string>
 		<string>EF982D4D1376131B009B4B28</string>
 		<string>EF982C6D1376015F009B4B28</string>
 		<string>EF982C6E1376015F009B4B28</string>
@@ -1185,8 +1229,9 @@
 		<string>EF982F8D137632F3009B4B28</string>
 		<string>EF982F89137632F3009B4B28</string>
 		<string>EF982DB6137616D2009B4B28</string>
-		<string>/Users/arshad/HeartBeatPort/HeartBeatPort.xcodeproj</string>
 		<string>EF982F84137632F3009B4B28</string>
+		<string>EF982FB91376355F009B4B28</string>
+		<string>/Users/arshad/HeartBeatPort/HeartBeatPort.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>98 71 1219 807 0 0 1440 878 </string>
