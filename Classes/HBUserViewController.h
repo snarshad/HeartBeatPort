@@ -15,7 +15,10 @@
 	
 	IBOutlet UILabel *mUserName;	
 	HBUser *mUser;
-	IBOutlet UITextView *mCommonArtists;
+	IBOutlet UILabel *mCommonArtists;
+	IBOutlet UILabel *mGenderLabel;
+	IBOutlet UILabel *mSeekingLabel;
+	IBOutlet UILabel *mScoreLabel;
 }
 @property (nonatomic, retain) HBUser *user;
 @property (nonatomic, retain) NSArray *commonArtists;
