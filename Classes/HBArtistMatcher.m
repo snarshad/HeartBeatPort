@@ -70,7 +70,8 @@
 	srandom([[NSDate date] timeIntervalSince1970]);
 	
 	NSMutableDictionary *allMatches = [NSMutableDictionary dictionaryWithCapacity:10];
-	for (HBUser *targetUser in mUsersToMatch)
+	NSArray *users = [mUsersToMatch copy];
+	for (HBUser *targetUser in users)
 	{
 		CGFloat matchStrength = [self matchUser:mUser withUser:targetUser];
 		if (matchStrength > 0.0)
@@ -78,6 +79,7 @@
 			[allMatches setObject:[NSNumber numberWithFloat:matchStrength] forKey:[targetUser.userData valueForKey:@"key"]];
 		}
 	}
+	HBRelease(users);
 
 	NSString *bestMatch = nil;
 	CGFloat bestStrength = 0.0f;

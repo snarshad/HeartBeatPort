@@ -46,7 +46,7 @@
 			EF983033137639C6009B4B28 /* HBHomeViewController.m:35 */,
 			EF9830DE13763DC6009B4B28 /* RdioService.m:252 */,
 			EF983326137660B6009B4B28 /* objc_exception_throw */,
-			EF98348113766BAF009B4B28 /* HBArtistMatcher.m:105 */,
+			EF98348113766BAF009B4B28 /* HBArtistMatcher.m:107 */,
 		);
 		codeSenseManager = EF982B9A1375EF7B009B4B28 /* Code sense */;
 		executables = (
@@ -1267,6 +1267,17 @@
 			EF98349013766C30009B4B28 /* PBXTextBookmark */ = EF98349013766C30009B4B28 /* PBXTextBookmark */;
 			EF98349113766C30009B4B28 /* PBXTextBookmark */ = EF98349113766C30009B4B28 /* PBXTextBookmark */;
 			EF98349213766C30009B4B28 /* PBXTextBookmark */ = EF98349213766C30009B4B28 /* PBXTextBookmark */;
+			EF98349613766C95009B4B28 /* PBXTextBookmark */ = EF98349613766C95009B4B28 /* PBXTextBookmark */;
+			EF98349713766C95009B4B28 /* PBXTextBookmark */ = EF98349713766C95009B4B28 /* PBXTextBookmark */;
+			EF98349813766C95009B4B28 /* PBXTextBookmark */ = EF98349813766C95009B4B28 /* PBXTextBookmark */;
+			EF98349913766C95009B4B28 /* PBXTextBookmark */ = EF98349913766C95009B4B28 /* PBXTextBookmark */;
+			EF98349A13766C95009B4B28 /* PBXTextBookmark */ = EF98349A13766C95009B4B28 /* PBXTextBookmark */;
+			EF98349B13766C95009B4B28 /* PBXTextBookmark */ = EF98349B13766C95009B4B28 /* PBXTextBookmark */;
+			EF98349C13766C95009B4B28 /* PBXTextBookmark */ = EF98349C13766C95009B4B28 /* PBXTextBookmark */;
+			EF98349D13766C95009B4B28 /* PBXTextBookmark */ = EF98349D13766C95009B4B28 /* PBXTextBookmark */;
+			EF98349E13766C95009B4B28 /* PBXTextBookmark */ = EF98349E13766C95009B4B28 /* PBXTextBookmark */;
+			EF98349F13766C95009B4B28 /* PBXTextBookmark */ = EF98349F13766C95009B4B28 /* PBXTextBookmark */;
+			EF9834A013766C95009B4B28 /* PBXTextBookmark */ = EF9834A013766C95009B4B28 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EF982B991375EF7B009B4B28 /* Source Control */;
 		userBuildSettings = {
@@ -1341,9 +1352,9 @@
 	};
 	EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1272, 2106}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 2145}}";
 			sepNavSelRange = "{2835, 0}";
-			sepNavVisRange = "{2083, 1663}";
+			sepNavVisRange = "{2086, 1764}";
 		};
 	};
 	EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */ = {
@@ -1664,9 +1675,9 @@
 	};
 	EF982C9913760596009B4B28 /* HBArtistMatcher.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1079, 1482}}";
-			sepNavSelRange = "{2208, 0}";
-			sepNavVisRange = "{1039, 1340}";
+			sepNavIntBoundsRect = "{{0, 0}, {1079, 1508}}";
+			sepNavSelRange = "{2259, 0}";
+			sepNavVisRange = "{1039, 1386}";
 		};
 	};
 	EF982CA613760720009B4B28 /* PBXTextBookmark */ = {
@@ -1721,7 +1732,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 0;
-		rLoc = 2369;
+		rLoc = 2420;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 0;
@@ -2081,7 +2092,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 0;
-		rLoc = 2369;
+		rLoc = 2420;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 43;
@@ -2091,7 +2102,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -2101,7 +2112,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -2121,7 +2132,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 327;
 		vrLoc = 155;
@@ -2163,7 +2174,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -2183,7 +2194,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -2213,7 +2224,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 160;
 		vrLoc = 202;
@@ -2223,7 +2234,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 183;
@@ -2275,7 +2286,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 33;
-		rLoc = 2337;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 160;
 		vrLoc = 202;
@@ -4606,7 +4617,7 @@
 		comments = "Method definition for '-service:nearbyFriendsFound:' not found";
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		rLen = 1;
-		rLoc = 112;
+		rLoc = 114;
 		rType = 1;
 	};
 	EF982F73137632CD009B4B28 /* PBXTextBookmark */ = {
@@ -4670,7 +4681,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 61";
 		rLen = 0;
-		rLoc = 2259;
+		rLoc = 2310;
 		rType = 0;
 		vrLen = 330;
 		vrLoc = 946;
@@ -4778,7 +4789,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 2374;
+		rLoc = 2425;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 390;
@@ -4977,7 +4988,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 61";
 		rLen = 0;
-		rLoc = 2259;
+		rLoc = 2310;
 		rType = 0;
 		vrLen = 333;
 		vrLoc = 943;
@@ -5075,7 +5086,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 2374;
+		rLoc = 2425;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -5215,7 +5226,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 2374;
+		rLoc = 2425;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -5363,7 +5374,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 2374;
+		rLoc = 2425;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -5503,7 +5514,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 2374;
+		rLoc = 2425;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -5826,7 +5837,7 @@
 		ignoreCount = 0;
 		lineNumber = 35;
 		location = HeartBeatPort;
-		modificationTime = 326527905.436755;
+		modificationTime = 326528052.492117;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -7074,7 +7085,7 @@
 		ignoreCount = 0;
 		lineNumber = 252;
 		location = HeartBeatPort;
-		modificationTime = 326527905.437834;
+		modificationTime = 326528052.492936;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -10719,7 +10730,7 @@
 		comments = "Incompatible Objective-C types 'struct HBUser *', expected 'struct NSString *' when passing argument 1 of 'valueForKey:' from distinct Objective-C type";
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		rLen = 1;
-		rLoc = 86;
+		rLoc = 88;
 		rType = 1;
 	};
 	EF98330B13766041009B4B28 /* PBXTextBookmark */ = {
@@ -10727,7 +10738,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 78";
 		rLen = 0;
-		rLoc = 1802;
+		rLoc = 1853;
 		rType = 0;
 		vrLen = 177;
 		vrLoc = 1459;
@@ -10914,7 +10925,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 78";
 		rLen = 0;
-		rLoc = 1802;
+		rLoc = 1853;
 		rType = 0;
 		vrLen = 177;
 		vrLoc = 1459;
@@ -10927,10 +10938,10 @@
 		continueAfterActions = 0;
 		countType = 0;
 		delayBeforeContinue = 0;
-		hitCount = 0;
+		hitCount = 1;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 326527905.439058;
+		modificationTime = 326528105.207285;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 		symbolName = objc_exception_throw;
@@ -10940,7 +10951,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 78";
 		rLen = 0;
-		rLoc = 1802;
+		rLoc = 1853;
 		rType = 0;
 		vrLen = 124;
 		vrLoc = 1518;
@@ -10960,7 +10971,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 69";
 		rLen = 9;
-		rLoc = 1580;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 941;
@@ -11100,7 +11111,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 84";
 		rLen = 0;
-		rLoc = 1802;
+		rLoc = 1853;
 		rType = 0;
 		vrLen = 116;
 		vrLoc = 1822;
@@ -11130,7 +11141,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 95";
 		rLen = 0;
-		rLoc = 2104;
+		rLoc = 2155;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 1475;
@@ -11140,7 +11151,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 95";
 		rLen = 0;
-		rLoc = 2103;
+		rLoc = 2154;
 		rType = 0;
 		vrLen = 770;
 		vrLoc = 1479;
@@ -11150,7 +11161,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 75";
 		rLen = 9;
-		rLoc = 1580;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 815;
 		vrLoc = 784;
@@ -11290,7 +11301,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 84";
 		rLen = 0;
-		rLoc = 1802;
+		rLoc = 1853;
 		rType = 0;
 		vrLen = 201;
 		vrLoc = 1947;
@@ -11320,7 +11331,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 99";
 		rLen = 0;
-		rLoc = 2133;
+		rLoc = 2184;
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 868;
@@ -12190,7 +12201,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 102";
 		rLen = 6;
-		rLoc = 2186;
+		rLoc = 2237;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 1096;
@@ -12723,7 +12734,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 105";
 		rLen = 0;
-		rLoc = 2208;
+		rLoc = 2259;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1039;
@@ -12818,7 +12829,7 @@
 		vrLen = 2171;
 		vrLoc = 850;
 	};
-	EF98348113766BAF009B4B28 /* HBArtistMatcher.m:105 */ = {
+	EF98348113766BAF009B4B28 /* HBArtistMatcher.m:107 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -12828,11 +12839,11 @@
 		delayBeforeContinue = 0;
 		fileReference = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		functionName = "-matchUser:withUser:";
-		hitCount = 3;
+		hitCount = 5;
 		ignoreCount = 0;
-		lineNumber = 105;
+		lineNumber = 107;
 		location = HeartBeatPort;
-		modificationTime = 326527965.873008;
+		modificationTime = 326528102.576579;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -12881,7 +12892,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 105";
 		rLen = 0;
-		rLoc = 2208;
+		rLoc = 2259;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1039;
@@ -12891,7 +12902,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 105";
 		rLen = 0;
-		rLoc = 2208;
+		rLoc = 2259;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1039;
@@ -12967,6 +12978,116 @@
 		vrLoc = 158;
 	};
 	EF98349213766C30009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF9833B2137666BE009B4B28 /* UIBarButtonItem.h */;
+		name = "UIBarButtonItem.h: 78";
+		rLen = 13;
+		rLoc = 2218;
+		rType = 0;
+		vrLen = 2171;
+		vrLoc = 850;
+	};
+	EF98349613766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 18";
+		rLen = 0;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 714;
+	};
+	EF98349713766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
+		name = "HBUser.h: 34";
+		rLen = 19;
+		rLoc = 912;
+		rType = 0;
+		vrLen = 1025;
+		vrLoc = 0;
+	};
+	EF98349813766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 107";
+		rLen = 0;
+		rLoc = 2259;
+		rType = 0;
+		vrLen = 1386;
+		vrLoc = 1039;
+	};
+	EF98349913766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 80";
+		rLen = 0;
+		rLoc = 1952;
+		rType = 0;
+		vrLen = 1366;
+		vrLoc = 1831;
+	};
+	EF98349A13766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4C1375FF73009B4B28 /* HBMatcherProtocol.h */;
+		name = "HBMatcherProtocol.h: 18";
+		rLen = 0;
+		rLoc = 449;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	EF98349B13766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9813760596009B4B28 /* HBArtistMatcher.h */;
+		name = "HBArtistMatcher.h: 21";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	EF98349C13766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 115";
+		rLen = 0;
+		rLoc = 2835;
+		rType = 0;
+		vrLen = 1764;
+		vrLoc = 2086;
+	};
+	EF98349D13766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC06E0A11376417A0007E46C /* HBUserViewController.m */;
+		name = "HBUserViewController.m: 48";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1722;
+		vrLoc = 51;
+	};
+	EF98349E13766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
+		name = "HBUser.h: 38";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1025;
+		vrLoc = 0;
+	};
+	EF98349F13766C95009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC06E0A11376417A0007E46C /* HBUserViewController.m */;
+		name = "HBUserViewController.m: 48";
+		rLen = 0;
+		rLoc = 1343;
+		rType = 0;
+		vrLen = 1712;
+		vrLoc = 158;
+	};
+	EF9834A013766C95009B4B28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = EF9833B2137666BE009B4B28 /* UIBarButtonItem.h */;
 		name = "UIBarButtonItem.h: 78";
