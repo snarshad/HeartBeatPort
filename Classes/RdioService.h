@@ -13,7 +13,7 @@
 @class Rdio, HBUser;
 
 
-@interface RdioService : NSObject <HBAuthenticatedServiceProtocol>{
+@interface RdioService : NSObject <HBServiceProtocol>{
 	Rdio *rdio;
 	
 	HBUser *mUser;	// the logged in user
@@ -28,6 +28,5 @@
 - (NSArray *)nearbyUsers;
 - (NSArray *)artistListForUser:(HBUser *)user;
 #pragma mark HBAuthenticatedServiceProtocol
-- (BOOL)authenticateUser:(NSString *)username password:(NSString *)password;
 
 @end

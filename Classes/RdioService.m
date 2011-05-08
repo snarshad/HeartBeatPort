@@ -44,7 +44,10 @@ static Rdio *s_rdio=nil;
 #pragma mark HBServiceProtocol
 - (HBUser *)user
 {
-	return mUser;
+	if (mUser)
+		return mUser;
+	[rdio authorizeFromController:[HBLoginViewController sharedLoginController]];
+	return nil;
 }
 
 - (NSArray *)nearbyUsers
@@ -57,13 +60,6 @@ static Rdio *s_rdio=nil;
 {
 	//TODO: Implement!
 	return nil;	
-}
-
-#pragma mark HBAuthenticatedServiceProtocol
-- (BOOL)authenticateUser:(NSString *)username password:(NSString *)password
-{
-	[rdio authorizeFromController:[HBLoginViewController sharedLoginController]];
-	return YES;
 }
 
 

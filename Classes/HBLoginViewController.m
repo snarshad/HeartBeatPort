@@ -70,7 +70,7 @@ static HBLoginViewController *s_loginController = nil;
 	mUsernameField.hidden = YES;
 	mPasswordField.hidden = YES;
 
-	[[RdioService rdioInstance] authorizeFromController:self];	
+	[[RdioService rdioInstance] user];	
 	
 }
 
