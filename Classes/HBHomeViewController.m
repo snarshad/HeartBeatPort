@@ -129,6 +129,7 @@
 
 - (void)setRightButton:(NSString *)string
 {
+	NSLog(@"Set Right Button %@", string);
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:string style:UIBarButtonItemStylePlain target:self action:@selector(viewMatch)] autorelease];	
 	[NSObject cancelPreviousPerformRequestsWithTarget:self];
 	[self performSelector:@selector(enableButton:) withObject:nil afterDelay:3.0];
@@ -180,6 +181,7 @@
 	[self showUser:bestMatch];
 	[mMatchImageView setImage:[bestMatch getAvatar]];
 	[mMatchname setText:[NSString stringWithFormat:@"%@ %d%%", bestMatch.userName, [[bestMatch.userData valueForKey:@"strength"] intValue]  ]];
+	[self setRightButton:[NSString stringWithFormat:@"%@ %d%%", bestMatch.userName, [[bestMatch.userData valueForKey:@"strength"] intValue]]];
 }
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches

@@ -113,7 +113,7 @@
 		}
 		
 	}
-	NSLog(@"Matches: %@", allMatches);
+//	NSLog(@"Matches: %@", allMatches);
 	if (!bestMatch)
 		return;
 	
