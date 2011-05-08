@@ -129,6 +129,7 @@
 	matcher.user = mMe;
 	
 	[mMatchedUsers setObject:user forKey:[NSNumber numberWithFloat:strength]];
+	[user.userData setObject:[NSNumber numberWithFloat:strength] forKey:@"strength"];
 
 	if (strength > bestStrength)
 	{
@@ -140,7 +141,7 @@
 	if (bestMatch)
 	{
 		mResultController.user = bestMatch;
-		NSString *matchString = [bestMatch.userName stringByAppendingFormat:@" (%d%)", (int)(bestStrength * 100)];
+		NSString *matchString = [bestMatch.userName stringByAppendingFormat:@" (%d%%)", (int)(bestStrength * 100)];
 		[self performSelectorOnMainThread:@selector(setRightButton:) withObject:matchString waitUntilDone:YES];
 	}
 
@@ -164,7 +165,7 @@
 	NSLog(@"%d matches found!", matches.count);
 //	HBUser *dummyUser = [[HBUser alloc] initWithName:@"Dummy User"];
 //	dummyUser.gender = @"Female";
-//	[dummyUser.userData setObject:[NSArray arrayWithObjects:@"The Beatles", @"Radiohead", @"U2", @"Bon Jovi", nil] forKey:@"commonArtists"];
+//	[dummyUser.userData setObject:[NSArray arrayWithObjects:@"The Beatles", @"Radiohead", @"U2", @"Bon ", nil] forKey:@"commonArtists"];
 	
 	
 	mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
