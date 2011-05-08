@@ -8,6 +8,7 @@
 
 #import "HBHomeViewController.h"
 #import "HBUser.h"
+#import "HBUserViewController.h"
 
 @implementation HBHomeViewController
 @synthesize user=mMe, matcher = mMatcher, service = mService;
@@ -74,6 +75,8 @@
 {
 	[mService setDelegate:mMatcher];
 	[mService searchForNearbyUsers];
+	
+	[self matcher:mMatcher foundMatches:nil];
 }
 
 - (IBAction)showMyArtists:(id)sender
@@ -98,6 +101,12 @@
 	//TODO: Send notification here? allow viewing of users?
 	
 	NSLog(@"%d matches found!", matches.count);
+	HBUser *dummyUser = [[HBUser alloc] initWithName:@"Dummy User"];
+	dummyUser.gender = @"Female";
+	[dummyUser.userData setObject:[NSArray arrayWithObjects:@"The Beatles", @"Radiohead", @"U2", @"Bon Jovi", nil] forKey:@"commonArtists"];
+	mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
+	mResultController.user = dummyUser;
+	[self.navigationController pushViewController:mResultController animated:YES];
 }
 
 #pragma mark -
