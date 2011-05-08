@@ -15,6 +15,7 @@
 
 @implementation HBArtistMatcher
 @synthesize delegate;
+@synthesize user = mUser;
 
 - (HBArtistMatcher *)initWithUser:(HBUser *)user
 {
@@ -66,6 +67,8 @@
 #pragma mark matching
 - (void)matchAllUsers
 {
+	srandom([[NSDate date] timeIntervalSince1970]);
+	
 	NSMutableDictionary *allMatches = [NSMutableDictionary dictionaryWithCapacity:10];
 	for (HBUser *targetUser in mUsersToMatch)
 	{

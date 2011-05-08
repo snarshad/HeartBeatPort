@@ -69,6 +69,7 @@
 	HBRelease(mMatcher);
 	mMatcher = matcher;
 	matcher.delegate = self;
+	matcher.user = mMe;
 }
 
 #pragma mark -
@@ -76,6 +77,7 @@
 {
 	bestStrength = 0;
 	HBRelease(bestMatch);
+	mMatcher.user = mMe;
 	[mService setDelegate:mMatcher];
 	[mService searchForNearbyUsers];
 }
@@ -109,6 +111,8 @@
 		mMatchedUsers = [[NSMutableDictionary alloc] initWithCapacity:10];
 	}
 
+	matcher.user = mMe;
+	
 	[mMatchedUsers setObject:user forKey:[NSNumber numberWithFloat:strength]];
 
 	if (strength > bestStrength)

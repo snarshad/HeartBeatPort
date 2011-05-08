@@ -15,6 +15,7 @@
 @synthesize userData = mUserData;
 @synthesize gender = mGender;
 @synthesize service = mService;
+@synthesize artistToWeightsDict = mArtistToWeightsDict;
 
 - (HBUser *)initWithName:(NSString *)userName
 {

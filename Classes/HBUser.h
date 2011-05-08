@@ -31,6 +31,7 @@
 @property (nonatomic, retain)	UIImage *avatar;
 @property (nonatomic, readonly) NSArray *artistList;
 @property (nonatomic, readonly)	NSMutableDictionary *userData;
+@property (nonatomic, readonly)	NSMutableDictionary *artistToWeightsDict;
 
 
 - (void)addArtist:(NSString *)artist weight:(NSNumber *)weight;

@@ -14,6 +14,7 @@
 @protocol HBMatcherProtocol <NSObject>
 - (CGFloat)matchUser:(HBUser *)sourceUser withUser:(HBUser *)targetUser;
 @property (readwrite, assign) id<HBMatcherDelegate>delegate;
+@property (nonatomic, retain) HBUser *user; //ME
 @end
 
 @protocol HBMatcherDelegate <NSObject>
