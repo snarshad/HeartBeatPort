@@ -28,6 +28,15 @@
 	return self;
 }
 
+- (NSString *)description
+{
+	return [NSString stringWithFormat:@"%@ %@ (%@) (%@) %d artists", [super description],  
+			mUserName, 
+			mGender,
+			[mUserData valueForKey:@"key"],
+			mArtistToWeightsDict.count];
+}
+
 - (void)dealloc
 {
 	HBRelease(mService);

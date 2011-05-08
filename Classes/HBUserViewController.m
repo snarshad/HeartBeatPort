@@ -37,15 +37,19 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	int max = 3;
-	if ([[mUser artistList] count] < 3)
-	{
-		max = [[mUser artistList] count];
-	}
 	
-	//TODO: this isn't real 
+	
+	self.commonArtists = [mUser.userData valueForKey:@"commonArtists"];
+	
+	int max = 3;
+	if (self.commonArtists.count < 3)
+	{
+		max = self.commonArtists.count;
+	}
 	mCommonArtists.numberOfLines = max;
-	self.commonArtists = [[mUser artistList] objectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, max)]];
+	//self.commonArtists = [[mUser artistList] objectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, max)]];
+
+	
 	mUserName.text = mUser.userName;
 	mUserImageView.image = [mUser getAvatar];
 	mGenderLabel.text = mUser.gender;

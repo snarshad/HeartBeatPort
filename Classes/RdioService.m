@@ -19,6 +19,7 @@
 @interface RdioService (Private)
 - (NSArray *)followedPeople;
 - (void)getHeavyRotationForUser:(HBUser *)user;
+- (void)getArtistsForUser:(HBUser *)user;
 @end
 
 @implementation RdioService
@@ -66,8 +67,11 @@ static Rdio *s_rdio=nil;
 	[user retain];
 	HBRelease(mUser);
 	mUser = user;
-	[[NSUserDefaults standardUserDefaults] setObject:[mUser.userData valueForKey:@"accessToken"] forKey:@"rdioSavedUserToken"];
-	[self getHeavyRotationForUser:user];
+	if (user)
+	{
+		[[NSUserDefaults standardUserDefaults] setObject:[mUser.userData valueForKey:@"accessToken"] forKey:@"rdioSavedUserToken"];
+		[self getArtistsForUser:user];
+	}
 }
 
 - (HBUser *)user
@@ -95,20 +99,19 @@ static Rdio *s_rdio=nil;
 
 
 static NSDate *lastRequest = nil;
-
-- (void)getHeavyRotationForUser:(HBUser *)user
+- (void)getArtistsForUser:(HBUser *)user
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	NSDate *lastDate = nil;
 	@synchronized(self)
 	{
 		lastDate = [lastRequest retain];
-	
-		if (lastRequest && [[NSDate date] timeIntervalSinceDate:lastRequest] < .11)
+
+		while (lastRequest && [[NSDate date] timeIntervalSinceDate:lastRequest] < .11)
 		{
-			NSLog(@"sleeping");
-			usleep(110000);
-			NSLog(@"awake");
+			//NSLog(@"sleeping");
+			usleep(11000);
+			//NSLog(@"awake");
 		}
 		
 		HBRelease(lastDate);	
@@ -119,7 +122,44 @@ static NSDate *lastRequest = nil;
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
 							[user.userData objectForKey:@"key"], @"user",
 							@"artists", @"type",
-//							@"30", @"limit",
+							@"30", @"limit",
+							//							@"false", @"friends",
+							nil];
+	
+	[s_rdio callAPIMethod:@"getArtistsInCollection"
+		   withParameters:params
+				 delegate:self];
+	
+	//Give the run loop time to come back
+	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:2.0]];
+	[pool drain];
+	
+}
+
+- (void)getHeavyRotationForUser:(HBUser *)user
+{
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	NSDate *lastDate = nil;
+	@synchronized(self)
+	{
+		lastDate = [lastRequest retain];
+	
+		while (lastRequest && [[NSDate date] timeIntervalSinceDate:lastRequest] < .11)
+		{
+			//NSLog(@"sleeping");
+			usleep(11000);
+			//NSLog(@"awake");
+		}
+		
+		HBRelease(lastDate);	
+		HBRelease(lastRequest);
+		lastRequest = [[NSDate date] retain];
+	}
+	
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
+							[user.userData objectForKey:@"key"], @"user",
+							@"artists", @"type",
+							@"300", @"limit",
 //							@"false", @"friends",
 								nil];
 	
@@ -206,7 +246,7 @@ static NSDate *lastRequest = nil;
 #pragma mark -
 - (void)rdioRequest:(RDAPIRequest *)request didLoadData:(id)data
 {
-	NSLog(@"Rdio answered %@", data);
+	//NSLog(@"Rdio answered %@", data);
 	if ([[[request parameters] objectForKey:@"method"] isEqualToString:@"userFollowing"])
 	{
 		for (NSDictionary *userDict in data)
@@ -214,8 +254,38 @@ static NSDate *lastRequest = nil;
 			HBUser *user = [HBUser HBUserFromRdioResult:userDict];
 			NSString *key = [user.userData valueForKey:@"key"];
 			[mHBUsersByUserKey setObject:user forKey:key];
-			[NSThread detachNewThreadSelector:@selector(getHeavyRotationForUser:) toTarget:self withObject:user];			
+			[user getAvatar];
+			[NSThread detachNewThreadSelector:@selector(getArtistsForUser:) toTarget:self withObject:user];			
 		}
+	} else if ([[[request parameters] objectForKey:@"method"] isEqualToString:@"getArtistsInCollection"]) {
+		HBUser *user = [mHBUsersByUserKey objectForKey:[[request parameters] objectForKey:@"user"]];
+		
+		if (!user)
+		{
+			if ([[[request parameters] objectForKey:@"user"] isEqualToString:[mUser.userData objectForKey:@"key"]])
+			{
+				user = mUser;
+			}
+		}
+		NSLog(@"Adding %d artists for user %@", [data count], [user userName]);
+		for (NSDictionary *artistsDict in data) {
+			NSString *artist = [artistsDict objectForKey:@"name"];
+			
+			[user addArtist:artist weight:[NSNumber numberWithInt:1]];
+			
+			@synchronized(mArtistsByKey)
+			{
+				if (![[mArtistsByKey allKeys] containsObject:[artistsDict valueForKey:@"key"]])
+				{
+					[mArtistsByKey setObject:artistsDict forKey:[artistsDict valueForKey:@"key"]];
+				}
+			}
+		}
+		if (user != mUser)
+		{
+			[delegate service:self nearbyUserFound:user];
+		}
+		[self getHeavyRotationForUser:user];
 	} else if ([[[request parameters] objectForKey:@"method"] isEqualToString:@"getHeavyRotation"]) {
 		HBUser *user = [mHBUsersByUserKey objectForKey:[[request parameters] objectForKey:@"user"]];
 		
@@ -226,19 +296,23 @@ static NSDate *lastRequest = nil;
 				user = mUser;
 			}
 		}
+		NSLog(@"Adding %d heavy rotation artists for user %@", [data count], [user userName]);
 		for (NSDictionary *rotationDict in data) {
 			NSString *artist = [rotationDict objectForKey:@"name"];
 			
 			[user addArtist:artist weight:[rotationDict valueForKey:@"hits"]];
 			
-			if (![[mArtistsByKey allKeys] containsObject:[rotationDict valueForKey:@"key"]])
+			@synchronized(mArtistsByKey)
 			{
-				[mArtistsByKey setObject:rotationDict forKey:[rotationDict valueForKey:@"key"]];
+				if (![[mArtistsByKey allKeys] containsObject:[rotationDict valueForKey:@"key"]])
+				{
+					[mArtistsByKey setObject:rotationDict forKey:[rotationDict valueForKey:@"key"]];
+				}
 			}
 		}
 		if (user && user != mUser)
 		{
-			[delegate service:self nearbyUserFound:user];
+			[delegate service:self nearbyMatchDataAcquired:user];
 		}
 	}
 

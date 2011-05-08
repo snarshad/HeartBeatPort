@@ -18,6 +18,7 @@
 @end
 
 @protocol HBMatcherDelegate <NSObject>
+- (void)matcher:(id<HBMatcherProtocol>)matcher userAdded:(HBUser *)user;
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength;
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches;  //Dict of HBUser->NSNumbers (numbers are CGFloats between 0-1)
 @end

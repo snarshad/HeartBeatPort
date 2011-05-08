@@ -29,6 +29,8 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	NSLog(@"did load %@, %@", mUserName, mUserImageView);
+	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain 
+																			 target:self action:@selector(goBack)] autorelease];	
     [super viewDidLoad];
 }
 
@@ -77,9 +79,15 @@
 {
 	bestStrength = 0;
 	HBRelease(bestMatch);
-	mMatcher.user = mMe;
+	self.navigationItem.rightBarButtonItem = nil;
+	[mMatchImageView setImage:nil];
+	[mMatchname setText:@""];
 	[mService setDelegate:mMatcher];
 	[mService searchForNearbyUsers];
+	[mMatcher setUser:mMe];
+	[mFindMatchesButton setTitle:@"Find Matches" forState:UIControlStateNormal];
+	[mFindMatchesButton setTitle:@"Searching..." forState:UIControlStateDisabled];
+	[mFindMatchesButton setEnabled:NO];
 }
 
 - (IBAction)showMyArtists:(id)sender
@@ -91,17 +99,46 @@
 
 #pragma mark HBMatcherDelegate
 
+- (void)goBack
+{
+	[self.navigationController popViewControllerAnimated:YES];
+}
+
 - (void)viewMatch
 {
-	if (!mResultController)
-		mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
+	HBRelease(mResultController);
+	mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
 	mResultController.user = bestMatch;
 	[self.navigationController pushViewController:mResultController animated:YES];
+}
+
+- (void)showUser:(HBUser *)user
+{
+	[mMatchImageView setImage:[user getAvatar]];
+
+	NSString *matchString = [NSString stringWithFormat:@"%@", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0]];
+	if ([[user.userData valueForKey:@"strength"] intValue]> 0)
+	{
+		matchString = [NSString stringWithFormat:@"%@ (%d%%)", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0], [[user.userData valueForKey:@"strength"] intValue]];
+	}
+	
+	[mMatchname setText:[NSString stringWithFormat:@"%@", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0]
+						 
+						 ]];	
 }
 
 - (void)setRightButton:(NSString *)string
 {
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:string style:UIBarButtonItemStylePlain target:self action:@selector(viewMatch)] autorelease];	
+	[NSObject cancelPreviousPerformRequestsWithTarget:self];
+	[self performSelector:@selector(enableButton:) withObject:nil afterDelay:3.0];
+}
+
+- (void)matcher:(id<HBMatcherProtocol>)matcher userAdded:(HBUser *)user
+{
+	NSLog(@"User Added %@", user);
+	[self performSelectorOnMainThread:@selector(showUser:) withObject:user waitUntilDone:NO];
+		
 }
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength
@@ -111,9 +148,8 @@
 		mMatchedUsers = [[NSMutableDictionary alloc] initWithCapacity:10];
 	}
 
-	matcher.user = mMe;
-	
 	[mMatchedUsers setObject:user forKey:[NSNumber numberWithFloat:strength]];
+	[user.userData setObject:[NSNumber numberWithInt:(strength *100)] forKey:@"strength"];
 
 	if (strength > bestStrength)
 	{
@@ -125,12 +161,26 @@
 	if (bestMatch)
 	{
 		mResultController.user = bestMatch;
-		NSString *matchString = [bestMatch.userName stringByAppendingFormat:@" (%d%)", (int)(bestStrength * 100)];
+		NSString *matchString = [NSString stringWithFormat:@"%@ (%d%%)", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0], (int)(bestStrength * 100)];
 		[self performSelectorOnMainThread:@selector(setRightButton:) withObject:matchString waitUntilDone:YES];
-	}
-
+	}	
 }
 
+- (void)enableButton:(id)sender
+{
+	if (![NSThread isMainThread])
+	{
+		[self performSelectorOnMainThread:@selector(enableButton:) withObject:nil waitUntilDone:NO];
+		return;
+	}
+	[mFindMatchesButton setTitle:@"Find Matches" forState:UIControlStateNormal];
+	[mFindMatchesButton setEnabled:YES];
+
+
+	[self showUser:bestMatch];
+	[mMatchImageView setImage:[bestMatch getAvatar]];
+	[mMatchname setText:[NSString stringWithFormat:@"%@ %d%%", bestMatch.userName, [[bestMatch.userData valueForKey:@"strength"] intValue]  ]];
+}
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches
 {
@@ -139,7 +189,7 @@
 	NSLog(@"%d matches found!", matches.count);
 //	HBUser *dummyUser = [[HBUser alloc] initWithName:@"Dummy User"];
 //	dummyUser.gender = @"Female";
-//	[dummyUser.userData setObject:[NSArray arrayWithObjects:@"The Beatles", @"Radiohead", @"U2", @"Bon Jovi", nil] forKey:@"commonArtists"];
+//	[dummyUser.userData setObject:[NSArray arrayWithObjects:@"The Beatles", @"Radiohead", @"U2", @"Bon ", nil] forKey:@"commonArtists"];
 	
 	
 	mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];

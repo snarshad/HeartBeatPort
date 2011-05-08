@@ -14,6 +14,8 @@
 @class HBUser, HBUserViewController;
 @interface HBHomeViewController : UIViewController <HBMatcherDelegate> {
 	IBOutlet UIImageView *mUserImageView;
+	IBOutlet UIImageView *mMatchImageView;
+	IBOutlet UILabel *mMatchname;	
 
 	IBOutlet UILabel *mUserName;	
 	

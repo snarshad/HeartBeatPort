@@ -21,6 +21,7 @@
 
 - (void)service:(id<HBServiceProtocol>)service nearbyUsersFound:(NSArray *)users;
 - (void)service:(id<HBServiceProtocol>)service nearbyUserFound:(HBUser *)user;
+- (void)service:(id<HBServiceProtocol>)service nearbyMatchDataAcquired:(HBUser *)user;
 
 - (CGFloat)matchUser:(HBUser *)sourceUser withUser:(HBUser *)targetUser;
 @end
