@@ -22,6 +22,7 @@
 		BC06E03A1375F2CF0007E46C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC06E0391375F2CF0007E46C /* SystemConfiguration.framework */; };
 		BC06E0A31376417A0007E46C /* HBUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06E0A11376417A0007E46C /* HBUserViewController.m */; };
 		BC06E0A41376417A0007E46C /* HBUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC06E0A21376417A0007E46C /* HBUserViewController.xib */; };
+		BC06E0DF13772ACB0007E46C /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BC06E0DE13772ACB0007E46C /* map.png */; };
 		EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */; };
 		EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */; };
 		EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF982C361375F962009B4B28 /* dummyUser.jpg */; };
@@ -54,6 +55,7 @@
 		BC06E0A01376417A0007E46C /* HBUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUserViewController.h; sourceTree = "<group>"; };
 		BC06E0A11376417A0007E46C /* HBUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUserViewController.m; sourceTree = "<group>"; };
 		BC06E0A21376417A0007E46C /* HBUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBUserViewController.xib; sourceTree = "<group>"; };
+		BC06E0DE13772ACB0007E46C /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		EF982C231375F6B6009B4B28 /* HBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHomeViewController.h; sourceTree = "<group>"; };
 		EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHomeViewController.m; sourceTree = "<group>"; };
 		EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBHomeViewController.xib; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BC06E0DE13772ACB0007E46C /* map.png */,
 				EF982C361375F962009B4B28 /* dummyUser.jpg */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -278,6 +281,7 @@
 				EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */,
 				EF982C3E1375F97F009B4B28 /* HBLoginViewController.xib in Resources */,
 				BC06E0A41376417A0007E46C /* HBUserViewController.xib in Resources */,
+				BC06E0DF13772ACB0007E46C /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

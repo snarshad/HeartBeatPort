@@ -43,9 +43,13 @@
 	}
 	
 	//TODO: this isn't real 
+	mCommonArtists.numberOfLines = max;
 	self.commonArtists = [[mUser artistList] objectsAtIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, max)]];
 	mUserName.text = mUser.userName;
 	mUserImageView.image = [mUser getAvatar];
+	mGenderLabel.text = mUser.gender;
+	mSeekingLabel.text = [mUser.gender isEqualToString:@"Male"]?@"Female":@"Male";
+	mScoreLabel.text = [mUser.userData objectForKey:@"strength"]?[[mUser.userData objectForKey:@"strength"] stringValue]:@"Unkown";
 }
 
 
