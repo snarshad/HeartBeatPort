@@ -77,6 +77,7 @@
 {
 	bestStrength = 0;
 	HBRelease(bestMatch);
+	self.navigationItem.rightBarButtonItem = nil;
 	mMatcher.user = mMe;
 	[mService setDelegate:mMatcher];
 	[mService searchForNearbyUsers];
@@ -93,8 +94,8 @@
 
 - (void)viewMatch
 {
-	if (!mResultController)
-		mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
+	HBRelease(mResultController);
+	mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
 	mResultController.user = bestMatch;
 	[self.navigationController pushViewController:mResultController animated:YES];
 }
