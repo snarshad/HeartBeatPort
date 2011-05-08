@@ -39,6 +39,7 @@
 }
 
 
+
 - (UIImage *)getAvatar
 {
 	if (mAvatar)

@@ -34,6 +34,7 @@
 
 - (void)dealloc
 {
+	HBRelease(bestMatch);
 	HBRelease(mService);
 	HBRelease(mMe);
 	HBRelease(mMatcher);
@@ -73,10 +74,10 @@
 #pragma mark -
 - (IBAction)findMatches:(id)sender
 {
+	bestStrength = 0;
+	HBRelease(bestMatch);
 	[mService setDelegate:mMatcher];
 	[mService searchForNearbyUsers];
-	
-	[self matcher:mMatcher foundMatches:nil];
 }
 
 - (IBAction)showMyArtists:(id)sender
@@ -84,7 +85,23 @@
 	
 }
 
+
+
 #pragma mark HBMatcherDelegate
+
+- (void)viewMatch
+{
+	if (!mResultController)
+		mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
+	mResultController.user = bestMatch;
+	[self.navigationController pushViewController:mResultController animated:YES];
+}
+
+- (void)setRightButton:(NSString *)string
+{
+	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:string style:UIBarButtonItemStylePlain target:self action:@selector(viewMatch)] autorelease];	
+}
+
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength
 {
 	if (!mMatchedUsers)
@@ -93,6 +110,21 @@
 	}
 
 	[mMatchedUsers setObject:user forKey:[NSNumber numberWithFloat:strength]];
+
+	if (strength > bestStrength)
+	{
+		bestStrength = strength;
+		HBRelease(bestMatch);
+		bestMatch = [user retain];
+	}
+	
+	if (bestMatch)
+	{
+		mResultController.user = bestMatch;
+		NSString *matchString = [bestMatch.userName stringByAppendingFormat:@" (%d%)", (int)(bestStrength * 100)];
+		[self performSelectorOnMainThread:@selector(setRightButton:) withObject:matchString waitUntilDone:YES];
+	}
+
 }
 
 
@@ -101,12 +133,13 @@
 	//TODO: Send notification here? allow viewing of users?
 	
 	NSLog(@"%d matches found!", matches.count);
-	HBUser *dummyUser = [[HBUser alloc] initWithName:@"Dummy User"];
-	dummyUser.gender = @"Female";
-	[dummyUser.userData setObject:[NSArray arrayWithObjects:@"The Beatles", @"Radiohead", @"U2", @"Bon Jovi", nil] forKey:@"commonArtists"];
+//	HBUser *dummyUser = [[HBUser alloc] initWithName:@"Dummy User"];
+//	dummyUser.gender = @"Female";
+//	[dummyUser.userData setObject:[NSArray arrayWithObjects:@"The Beatles", @"Radiohead", @"U2", @"Bon Jovi", nil] forKey:@"commonArtists"];
+	
+	
 	mResultController = [[HBUserViewController alloc] initWithNibName:@"HBUserViewController" bundle:nil];
-	mResultController.user = dummyUser;
-	[self.navigationController pushViewController:mResultController animated:YES];
+//	[self.navigationController pushViewController:mResultController animated:YES];
 }
 
 #pragma mark -

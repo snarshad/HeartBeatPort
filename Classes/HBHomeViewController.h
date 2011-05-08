@@ -27,6 +27,9 @@
 	id<HBServiceProtocol>mService;
 	id<HBMatcherProtocol,HBServiceDelegate>mMatcher;
 	HBUserViewController *mResultController;
+	
+	CGFloat bestStrength;
+	HBUser *bestMatch;
 }
 
 @property (nonatomic, retain) id<HBMatcherProtocol,HBServiceDelegate>matcher;

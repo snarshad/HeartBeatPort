@@ -34,6 +34,7 @@
 
 
 - (void)addArtist:(NSString *)artist weight:(NSNumber *)weight;
+- (UIImage *)getAvatar;
 
 
 
