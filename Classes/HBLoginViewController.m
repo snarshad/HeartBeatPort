@@ -81,7 +81,9 @@ static HBLoginViewController *s_loginController = nil;
 {
 	//TODO: Validate Login
 	//TODO: Set up the home view controller with actual user data
-
+	[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"rdioSavedUserToken"];
+	[mService setUser:nil];
+	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead.
 	
 }
 

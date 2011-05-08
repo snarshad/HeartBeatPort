@@ -29,6 +29,8 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	NSLog(@"did load %@, %@", mUserName, mUserImageView);
+	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain 
+																			 target:self action:@selector(goBack)] autorelease];	
     [super viewDidLoad];
 }
 
@@ -78,9 +80,14 @@
 	bestStrength = 0;
 	HBRelease(bestMatch);
 	self.navigationItem.rightBarButtonItem = nil;
+	[mMatchImageView setImage:nil];
+	[mMatchname setText:@""];
 	mMatcher.user = mMe;
 	[mService setDelegate:mMatcher];
 	[mService searchForNearbyUsers];
+	[mFindMatchesButton setTitle:@"Find Matches" forState:UIControlStateNormal];
+	[mFindMatchesButton setTitle:@"Searching..." forState:UIControlStateDisabled];
+	[mFindMatchesButton setEnabled:NO];
 }
 
 - (IBAction)showMyArtists:(id)sender
@@ -91,6 +98,11 @@
 
 
 #pragma mark HBMatcherDelegate
+
+- (void)goBack
+{
+	[self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)viewMatch
 {
@@ -103,6 +115,8 @@
 - (void)setRightButton:(NSString *)string
 {
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:string style:UIBarButtonItemStylePlain target:self action:@selector(viewMatch)] autorelease];	
+	[mMatchImageView setImage:[bestMatch getAvatar]];
+	[mMatchname setText:string];
 }
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength
@@ -130,8 +144,18 @@
 		[self performSelectorOnMainThread:@selector(setRightButton:) withObject:matchString waitUntilDone:YES];
 	}
 
+	[NSObject cancelPreviousPerformRequestsWithTarget:self];
+	[self performSelector:@selector(enableButton:) withObject:nil afterDelay:3.0];
+	
 }
 
+
+
+- (void)enableButton:(id)sender
+{
+	[mFindMatchesButton setTitle:@"Find Matches" forState:UIControlStateNormal];
+	[mFindMatchesButton setEnabled:YES];
+}
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches
 {

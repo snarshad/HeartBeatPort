@@ -66,8 +66,11 @@ static Rdio *s_rdio=nil;
 	[user retain];
 	HBRelease(mUser);
 	mUser = user;
-	[[NSUserDefaults standardUserDefaults] setObject:[mUser.userData valueForKey:@"accessToken"] forKey:@"rdioSavedUserToken"];
-	[self getHeavyRotationForUser:user];
+	if (user)
+	{
+		[[NSUserDefaults standardUserDefaults] setObject:[mUser.userData valueForKey:@"accessToken"] forKey:@"rdioSavedUserToken"];
+		[self getArtistsForUser:user];
+	}
 }
 
 - (HBUser *)user
