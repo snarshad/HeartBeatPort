@@ -42,7 +42,7 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUITextView" id="597330778">
+					<object class="IBUITextView" id="831070203">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{320, 360}</string>
@@ -61,7 +61,7 @@
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="895405111">
+					<object class="IBUIImageView" id="343896308">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">269</int>
 						<string key="NSFrame">{{0, 368}, {320, 48}}</string>
@@ -105,7 +105,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">mAttachView</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="895405111"/>
+						<reference key="destination" ref="343896308"/>
 					</object>
 					<int key="connectionID">6</int>
 				</object>
@@ -113,7 +113,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">mMessageView</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="597330778"/>
+						<reference key="destination" ref="831070203"/>
 					</object>
 					<int key="connectionID">7</int>
 				</object>
@@ -132,8 +132,8 @@
 						<reference key="object" ref="191373211"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="597330778"/>
-							<reference ref="895405111"/>
+							<reference ref="343896308"/>
+							<reference ref="831070203"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -150,12 +150,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
-						<reference key="object" ref="895405111"/>
+						<reference key="object" ref="343896308"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="597330778"/>
+						<reference key="object" ref="831070203"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -205,7 +205,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">11</int>
+			<int key="maxID">12</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -223,7 +223,7 @@
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UIImageView</string>
-							<string>UITextField</string>
+							<string>UITextView</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -241,7 +241,7 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">mMessageView</string>
-								<string key="candidateClassName">UITextField</string>
+								<string key="candidateClassName">UITextView</string>
 							</object>
 						</object>
 					</object>
@@ -339,17 +339,9 @@
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="281402797">
+					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="405701001">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">UIKit.framework/Headers/UIResponder.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">UIControl</string>
-					<string key="superclassName">UIView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">UIKit.framework/Headers/UIControl.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -363,7 +355,7 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">UIResponder</string>
 					<string key="superclassName">NSObject</string>
-					<reference key="sourceIdentifier" ref="281402797"/>
+					<reference key="sourceIdentifier" ref="405701001"/>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">UIScrollView</string>
@@ -390,14 +382,6 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">UITextField</string>
-					<string key="superclassName">UIControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="684246774">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">UIKit.framework/Headers/UITextField.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
 					<string key="className">UITextView</string>
 					<string key="superclassName">UIScrollView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
@@ -414,7 +398,10 @@
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">UIView</string>
-					<reference key="sourceIdentifier" ref="684246774"/>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBFrameworkSource</string>
+						<string key="minorKey">UIKit.framework/Headers/UITextField.h</string>
+					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">UIView</string>
