@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Rdio/Rdio.h>
 #import "HBServiceProtocol.h"
+#import "HBMatcherProtocol.h"
 
 @class HBUser;
-@interface HBHomeViewController : UIViewController {
+@interface HBHomeViewController : UIViewController <HBMatcherDelegate> {
 	IBOutlet UIImageView *mUserImageView;
 
 	IBOutlet UILabel *mUserName;	
@@ -18,16 +20,22 @@
 	IBOutlet UIButton *mFindMatchesButton;
 	IBOutlet UIButton *mMyArtistsButton;
 	
-	NSString *mServiceName;
-
 	HBUser *mMe;
-	
+
+	id<HBServiceProtocol>mService;
+	id<HBMatcherProtocol,HBServiceDelegate>mMatcher;
+
 }
 
-@property (nonatomic, retain) NSString *serviceName;
+@property (nonatomic, retain) id<HBMatcherProtocol,HBServiceDelegate>matcher;
+@property (nonatomic, retain) id<HBServiceProtocol>service;
 @property (nonatomic, retain) HBUser *user;
+
+
 
 - (IBAction)findMatches:(id)sender;
 - (IBAction)showMyArtists:(id)sender;
 
+#pragma mark HBMatcherDelegate
+- (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches;  //Dict of HBUser->NSNumbers (numbers are CGFloats between 0-1)
 @end

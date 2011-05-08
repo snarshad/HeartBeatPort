@@ -10,10 +10,11 @@
 #import "HBMatcherProtocol.h"
 #import "HBServiceProtocol.h"
 
-@interface HBArtistMatcher : NSObject <HBMatcherProtocol, HBServiceDelegate>{
+@interface HBArtistMatcher : NSObject <HBMatcherProtocol, HBServiceDelegate> {
 
 	HBUser *mUser;
 	NSArray *mUsersToMatch;
+	id <HBMatcherDelegate>delegate;
 }
 
 - (void)service:(id<HBServiceProtocol>)service nearbyUsersFound:(NSArray *)users;

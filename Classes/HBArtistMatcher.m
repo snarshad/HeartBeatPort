@@ -10,7 +10,7 @@
 #import "HBUser.h"
 
 @implementation HBArtistMatcher
-
+@synthesize delegate;
 
 - (HBArtistMatcher *)initWithUser:(HBUser *)user
 {

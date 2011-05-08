@@ -90,7 +90,7 @@ static Rdio *s_rdio=nil;
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[mUser.userData objectForKey:@"key"], @"user"
 							@"true", @"friends",
 							@"artists", @"type",
-							nil];
+								nil];
 	
 	RDAPIRequest *currentRequest =[s_rdio callAPIMethod:@"getHeavyRotation"
 										 withParameters:params

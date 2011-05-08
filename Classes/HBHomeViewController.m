@@ -10,7 +10,7 @@
 #import "HBUser.h"
 
 @implementation HBHomeViewController
-@synthesize user=mMe, serviceName = mServiceName;
+@synthesize user=mMe, matcher = mMatcher, service = mService;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 
@@ -29,6 +29,14 @@
 - (void)viewDidLoad {
 	NSLog(@"did load %@, %@", mUserName, mUserImageView);
     [super viewDidLoad];
+}
+
+- (void)dealloc
+{
+	HBRelease(mService);
+	HBRelease(mMe);
+	HBRelease(mMatcher);
+	[super dealloc];
 }
 
 /*
@@ -52,16 +60,33 @@
 	[mUserImageView setImage:mMe.avatar];
 }
 
+#pragma mark -
+- (void)setMatcher:(id <HBMatcherProtocol,HBServiceDelegate>)matcher
+{
+	[matcher retain];
+	HBRelease(mMatcher);
+	mMatcher = matcher;
+	matcher.delegate = self;
+}
 
 #pragma mark -
 - (IBAction)findMatches:(id)sender
 {
-	
+	[mService setDelegate:mMatcher];
+	[mService searchForNearbyUsers];
 }
 
 - (IBAction)showMyArtists:(id)sender
 {
 	
+}
+
+#pragma mark HBMatcherDelegate
+- (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches
+{
+	//TODO: Send notification here? allow viewing of users?
+	
+	NSLog(@"%d matches found!", matches.count);
 }
 
 #pragma mark -
@@ -77,11 +102,6 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-}
-
-
-- (void)dealloc {
-    [super dealloc];
 }
 
 
