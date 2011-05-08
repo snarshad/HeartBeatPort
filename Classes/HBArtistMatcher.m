@@ -142,7 +142,7 @@
 	CGFloat base = 30.0;
 	base += (random() % 30);
 	
-	CGFloat adjustment = (intersectionList.count * 5.0);
+	CGFloat adjustment = (intersectionList.count);
 	if (adjustment > 28)
 	{
 		adjustment = 29;
