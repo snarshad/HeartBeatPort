@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class HBUser;
+@class HBUser, HBMessageViewController;
 
 @interface HBUserViewController : UIViewController {
 	IBOutlet UIImageView *mUserImageView;
@@ -19,7 +19,11 @@
 	IBOutlet UILabel *mGenderLabel;
 	IBOutlet UILabel *mSeekingLabel;
 	IBOutlet UILabel *mScoreLabel;
+	HBMessageViewController *mMessageController;
 }
 @property (nonatomic, retain) HBUser *user;
 @property (nonatomic, retain) NSArray *commonArtists;
+- (IBAction)message:(id)sender;
+- (IBAction)meet:(id)sender;
+- (IBAction)decline:(id)sender;
 @end
