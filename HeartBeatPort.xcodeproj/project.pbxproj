@@ -23,6 +23,9 @@
 		BC06E0A31376417A0007E46C /* HBUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06E0A11376417A0007E46C /* HBUserViewController.m */; };
 		BC06E0A41376417A0007E46C /* HBUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC06E0A21376417A0007E46C /* HBUserViewController.xib */; };
 		BC06E0DF13772ACB0007E46C /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BC06E0DE13772ACB0007E46C /* map.png */; };
+		BC06E105137730B70007E46C /* HBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06E103137730B70007E46C /* HBMessageViewController.m */; };
+		BC06E106137730B70007E46C /* HBMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC06E104137730B70007E46C /* HBMessageViewController.xib */; };
+		BC06E109137731830007E46C /* song_bar_load.png in Resources */ = {isa = PBXBuildFile; fileRef = BC06E108137731830007E46C /* song_bar_load.png */; };
 		EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */; };
 		EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */; };
 		EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF982C361375F962009B4B28 /* dummyUser.jpg */; };
@@ -56,6 +59,10 @@
 		BC06E0A11376417A0007E46C /* HBUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUserViewController.m; sourceTree = "<group>"; };
 		BC06E0A21376417A0007E46C /* HBUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBUserViewController.xib; sourceTree = "<group>"; };
 		BC06E0DE13772ACB0007E46C /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		BC06E102137730B70007E46C /* HBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBMessageViewController.h; sourceTree = "<group>"; };
+		BC06E103137730B70007E46C /* HBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBMessageViewController.m; sourceTree = "<group>"; };
+		BC06E104137730B70007E46C /* HBMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBMessageViewController.xib; sourceTree = "<group>"; };
+		BC06E108137731830007E46C /* song_bar_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = song_bar_load.png; path = Designs/Images/song_bar_load.png; sourceTree = "<group>"; };
 		EF982C231375F6B6009B4B28 /* HBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHomeViewController.h; sourceTree = "<group>"; };
 		EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHomeViewController.m; sourceTree = "<group>"; };
 		EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBHomeViewController.xib; sourceTree = "<group>"; };
@@ -95,6 +102,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BC06E102137730B70007E46C /* HBMessageViewController.h */,
+				BC06E103137730B70007E46C /* HBMessageViewController.m */,
+				BC06E104137730B70007E46C /* HBMessageViewController.xib */,
 				EF982C231375F6B6009B4B28 /* HBHomeViewController.h */,
 				EF982C241375F6B6009B4B28 /* HBHomeViewController.m */,
 				EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */,
@@ -146,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				BC06E0DE13772ACB0007E46C /* map.png */,
+				BC06E108137731830007E46C /* song_bar_load.png */,
 				EF982C361375F962009B4B28 /* dummyUser.jpg */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -282,6 +293,8 @@
 				EF982C3E1375F97F009B4B28 /* HBLoginViewController.xib in Resources */,
 				BC06E0A41376417A0007E46C /* HBUserViewController.xib in Resources */,
 				BC06E0DF13772ACB0007E46C /* map.png in Resources */,
+				BC06E106137730B70007E46C /* HBMessageViewController.xib in Resources */,
+				BC06E109137731830007E46C /* song_bar_load.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +314,7 @@
 				EF982C9A13760596009B4B28 /* HBArtistMatcher.m in Sources */,
 				EF982CC313760858009B4B28 /* RdioService.m in Sources */,
 				BC06E0A31376417A0007E46C /* HBUserViewController.m in Sources */,
+				BC06E105137730B70007E46C /* HBMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

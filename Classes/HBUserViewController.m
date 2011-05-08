@@ -7,6 +7,7 @@
 //
 
 #import "HBUserViewController.h"
+#import "HBMessageViewController.h"
 #import "HBUser.h"
 
 
@@ -78,6 +79,18 @@
 - (void)dealloc {
     [super dealloc];
 }
-
-
+- (IBAction)decline:(id)sender
+{
+	[self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)meet:(id)sender
+{
+	//TODO: implement
+}
+- (IBAction)message:(id)sender
+{
+	HBRelease(mMessageController);
+	mMessageController = [[HBMessageViewController alloc] initWithNibName:@"HBMessageViewController" bundle:nil];
+	[self.navigationController pushViewController:mMessageController animated:YES];
+}
 @end
