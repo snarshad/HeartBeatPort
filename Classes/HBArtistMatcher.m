@@ -150,7 +150,7 @@
 
 	NSLog(@"%d intersecting artists with user %@ (%f%%)", intersectionList.count, targetUser, (base + adjustment));
 
-	if ([targetUser.gender isEqualToString:@"Female"])
+	if ([targetUser.gender isEqualToString:@"Male"])
 		adjustment = 0;
 	
 	return (base + adjustment)/100.0;

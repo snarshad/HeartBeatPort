@@ -94,7 +94,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					495,
+					743,
 					20,
 					48,
 					43,
@@ -923,6 +923,20 @@
 			EF1ACF1213773E4C004D135F = EF1ACF1213773E4C004D135F /* PBXTextBookmark */;
 			EF1ACF1313773E4C004D135F = EF1ACF1313773E4C004D135F /* PBXTextBookmark */;
 			EF1ACF1413773E4C004D135F = EF1ACF1413773E4C004D135F /* PBXTextBookmark */;
+			EF1ACF32137740F7004D135F /* PBXBookmark */ = EF1ACF32137740F7004D135F /* PBXBookmark */;
+			EF1ACF33137740F7004D135F /* PBXTextBookmark */ = EF1ACF33137740F7004D135F /* PBXTextBookmark */;
+			EF1ACF34137740FD004D135F /* PBXTextBookmark */ = EF1ACF34137740FD004D135F /* PBXTextBookmark */;
+			EF1ACF4313774171004D135F /* PBXBookmark */ = EF1ACF4313774171004D135F /* PBXBookmark */;
+			EF1ACF4413774171004D135F /* PBXTextBookmark */ = EF1ACF4413774171004D135F /* PBXTextBookmark */;
+			EF1ACF471377418E004D135F /* PBXTextBookmark */ = EF1ACF471377418E004D135F /* PBXTextBookmark */;
+			EF1ACF481377418E004D135F /* PBXTextBookmark */ = EF1ACF481377418E004D135F /* PBXTextBookmark */;
+			EF1ACF4B1377418E004D135F /* PBXBookmark */ = EF1ACF4B1377418E004D135F /* PBXBookmark */;
+			EF1ACF4C1377418E004D135F /* PBXTextBookmark */ = EF1ACF4C1377418E004D135F /* PBXTextBookmark */;
+			EF1ACF4F13774193004D135F /* PBXTextBookmark */ = EF1ACF4F13774193004D135F /* PBXTextBookmark */;
+			EF1ACF5013774194004D135F /* PBXTextBookmark */ = EF1ACF5013774194004D135F /* PBXTextBookmark */;
+			EF1ACF5113774194004D135F /* PBXTextBookmark */ = EF1ACF5113774194004D135F /* PBXTextBookmark */;
+			EF1ACF56137741F1004D135F /* PBXTextBookmark */ = EF1ACF56137741F1004D135F /* PBXTextBookmark */;
+			EF1ACF57137741F1004D135F /* PBXTextBookmark */ = EF1ACF57137741F1004D135F /* PBXTextBookmark */;
 			EF982C461375FAC1009B4B28 = EF982C461375FAC1009B4B28 /* PBXBookmark */;
 			EF982C5213760098009B4B28 = EF982C5213760098009B4B28 /* PBXTextBookmark */;
 			EF982C5313760098009B4B28 = EF982C5313760098009B4B28 /* PBXTextBookmark */;
@@ -2103,6 +2117,13 @@
 			sepNavVisRange = "{0, 1429}";
 		};
 	};
+	BC06E102137730B70007E46C /* HBMessageViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 380}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 323}";
+		};
+	};
 	EF1AC9D913771E31004D135F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
@@ -2232,7 +2253,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 106";
 		rLen = 0;
-		rLoc = 2247;
+		rLoc = 2281;
 		rType = 0;
 		vrLen = 1459;
 		vrLoc = 2195;
@@ -2352,7 +2373,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 1409;
 		vrLoc = 2277;
@@ -2472,7 +2493,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 125";
 		rLen = 0;
-		rLoc = 2773;
+		rLoc = 2807;
 		rType = 0;
 		vrLen = 1492;
 		vrLoc = 2343;
@@ -2592,7 +2613,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 121";
 		rLen = 0;
-		rLoc = 2656;
+		rLoc = 2690;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 2343;
@@ -2712,7 +2733,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 265";
 		rLen = 0;
-		rLoc = 6721;
+		rLoc = 6835;
 		rType = 0;
 		vrLen = 2010;
 		vrLoc = 5820;
@@ -2832,7 +2853,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 272";
 		rLen = 0;
-		rLoc = 7087;
+		rLoc = 7201;
 		rType = 0;
 		vrLen = 1855;
 		vrLoc = 5942;
@@ -2969,7 +2990,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 272";
 		rLen = 0;
-		rLoc = 7087;
+		rLoc = 7201;
 		rType = 0;
 		vrLen = 1850;
 		vrLoc = 5942;
@@ -3099,7 +3120,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 272";
 		rLen = 0;
-		rLoc = 7087;
+		rLoc = 7201;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 5942;
@@ -3229,7 +3250,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 278";
 		rLen = 0;
-		rLoc = 7087;
+		rLoc = 7201;
 		rType = 0;
 		vrLen = 2034;
 		vrLoc = 5952;
@@ -3359,7 +3380,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 278";
 		rLen = 0;
-		rLoc = 7087;
+		rLoc = 7201;
 		rType = 0;
 		vrLen = 2034;
 		vrLoc = 5952;
@@ -4235,7 +4256,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 0;
-		rLoc = 319;
+		rLoc = 323;
 		rType = 1;
 	};
 	EF1ACAE913772582004D135F /* PBXTextBookmark */ = {
@@ -4243,7 +4264,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 542;
 		vrLoc = 7889;
@@ -4263,7 +4284,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 550;
 		vrLoc = 7883;
@@ -4393,7 +4414,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 550;
 		vrLoc = 7883;
@@ -4403,7 +4424,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 802;
 		vrLoc = 8086;
@@ -4533,7 +4554,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 2809;
@@ -4670,7 +4691,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 2809;
@@ -4800,7 +4821,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 146";
 		rLen = 0;
-		rLoc = 3288;
+		rLoc = 3355;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 2809;
@@ -4950,7 +4971,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 139";
 		rLen = 0;
-		rLoc = 3125;
+		rLoc = 3192;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 2809;
@@ -5941,7 +5962,7 @@
 		comments = "Method definition for '-getArtistsForUser:' not found";
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 352;
+		rLoc = 356;
 		rType = 1;
 	};
 	EF1ACBCD13772E20004D135F /* PBXTextBookmark */ = {
@@ -6109,7 +6130,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 114";
 		rLen = 0;
-		rLoc = 2376;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 1746;
@@ -6299,7 +6320,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 114";
 		rLen = 0;
-		rLoc = 2376;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 1861;
@@ -6459,7 +6480,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 114";
 		rLen = 0;
-		rLoc = 2376;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 1861;
@@ -6619,7 +6640,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 114";
 		rLen = 0;
-		rLoc = 2376;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 1861;
@@ -6769,7 +6790,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 114";
 		rLen = 0;
-		rLoc = 2376;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 1941;
@@ -6919,7 +6940,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 114";
 		rLen = 0;
-		rLoc = 2376;
+		rLoc = 2410;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 1941;
@@ -7076,7 +7097,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 203";
 		rLen = 0;
-		rLoc = 4566;
+		rLoc = 4634;
 		rType = 0;
 		vrLen = 1483;
 		vrLoc = 3887;
@@ -7086,7 +7107,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 311";
 		rLen = 23;
-		rLoc = 8205;
+		rLoc = 8319;
 		rType = 0;
 		vrLen = 1420;
 		vrLoc = 6880;
@@ -7304,7 +7325,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 260";
 		rLen = 0;
-		rLoc = 6239;
+		rLoc = 6353;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 5403;
@@ -7364,7 +7385,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 260";
 		rLen = 0;
-		rLoc = 6239;
+		rLoc = 6353;
 		rType = 0;
 		vrLen = 1756;
 		vrLoc = 5403;
@@ -7418,7 +7439,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 260";
 		rLen = 0;
-		rLoc = 6239;
+		rLoc = 6353;
 		rType = 0;
 		vrLen = 1756;
 		vrLoc = 5403;
@@ -7428,7 +7449,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1801;
 		vrLoc = 6341;
@@ -7498,7 +7519,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 6548;
@@ -7548,7 +7569,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1614;
 		vrLoc = 6565;
@@ -7598,7 +7619,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 311";
 		rLen = 23;
-		rLoc = 8205;
+		rLoc = 8319;
 		rType = 0;
 		vrLen = 599;
 		vrLoc = 7568;
@@ -7760,7 +7781,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1568;
 		vrLoc = 6672;
@@ -7840,7 +7861,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1549;
 		vrLoc = 6695;
@@ -7910,7 +7931,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1542;
 		vrLoc = 6704;
@@ -7990,7 +8011,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1428;
 		vrLoc = 6822;
@@ -8024,7 +8045,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8074,7 +8095,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 6946;
@@ -8124,7 +8145,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8164,7 +8185,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 6946;
@@ -8214,7 +8235,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8254,7 +8275,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1395;
 		vrLoc = 6982;
@@ -8294,7 +8315,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8334,7 +8355,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 7071;
@@ -8374,7 +8395,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 143";
 		rLen = 0;
-		rLoc = 3105;
+		rLoc = 3172;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 2965;
@@ -8424,7 +8445,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 315";
 		rLen = 23;
-		rLoc = 8205;
+		rLoc = 8319;
 		rType = 0;
 		vrLen = 641;
 		vrLoc = 7954;
@@ -8474,7 +8495,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8514,7 +8535,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 7161;
@@ -8564,7 +8585,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8604,7 +8625,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 7161;
@@ -8644,7 +8665,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8684,7 +8705,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 7167;
@@ -8724,7 +8745,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8764,7 +8785,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 7167;
@@ -8824,7 +8845,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 6822;
@@ -8834,7 +8855,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 6822;
@@ -8854,7 +8875,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -8934,7 +8955,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1447;
 		vrLoc = 6884;
@@ -8954,7 +8975,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9014,7 +9035,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 6946;
@@ -9034,7 +9055,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9094,7 +9115,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 6946;
@@ -9114,7 +9135,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9174,7 +9195,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 6946;
@@ -9194,7 +9215,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9264,7 +9285,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1434;
 		vrLoc = 6946;
@@ -9284,7 +9305,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 2823;
@@ -9334,7 +9355,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 288";
 		rLen = 0;
-		rLoc = 7254;
+		rLoc = 7368;
 		rType = 0;
 		vrLen = 849;
 		vrLoc = 7293;
@@ -9399,7 +9420,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 6982;
@@ -9419,7 +9440,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9489,7 +9510,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 6982;
@@ -9509,7 +9530,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9579,7 +9600,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 6982;
@@ -9599,7 +9620,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9669,7 +9690,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 6982;
@@ -9679,7 +9700,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9759,7 +9780,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 7071;
@@ -9769,7 +9790,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -9839,7 +9860,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 7071;
@@ -9849,7 +9870,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -10003,7 +10024,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 299";
 		rLen = 0;
-		rLoc = 7685;
+		rLoc = 7799;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 7071;
@@ -10013,7 +10034,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -10080,7 +10101,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 286";
 		rLen = 15;
-		rLoc = 7227;
+		rLoc = 7341;
 		rType = 0;
 		vrLen = 1797;
 		vrLoc = 6345;
@@ -10110,7 +10131,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 171";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3853;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 2823;
@@ -10134,6 +10155,128 @@
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 0;
+	};
+	EF1ACF32137740F7004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BC06E102137730B70007E46C /* HBMessageViewController.h */;
+	};
+	EF1ACF33137740F7004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC06E102137730B70007E46C /* HBMessageViewController.h */;
+		name = "HBMessageViewController.h: 11";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	EF1ACF34137740FD004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC06E102137730B70007E46C /* HBMessageViewController.h */;
+		name = "HBMessageViewController.h: 11";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	EF1ACF4313774171004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+	};
+	EF1ACF4413774171004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 141";
+		rLen = 0;
+		rLoc = 3083;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 2775;
+	};
+	EF1ACF471377418E004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC06E102137730B70007E46C /* HBMessageViewController.h */;
+		name = "HBMessageViewController.h: 11";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	EF1ACF481377418E004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 138";
+		rLen = 1;
+		rLoc = 3003;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 2532;
+	};
+	EF1ACF4B1377418E004D135F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+	};
+	EF1ACF4C1377418E004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 266";
+		rLen = 0;
+		rLoc = 6661;
+		rType = 0;
+		vrLen = 1925;
+		vrLoc = 5674;
+	};
+	EF1ACF4F13774193004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 138";
+		rLen = 1;
+		rLoc = 3003;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 2532;
+	};
+	EF1ACF5013774194004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 138";
+		rLen = 1;
+		rLoc = 3003;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 2532;
+	};
+	EF1ACF5113774194004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 266";
+		rLen = 0;
+		rLoc = 6661;
+		rType = 0;
+		vrLen = 1925;
+		vrLoc = 5674;
+	};
+	EF1ACF56137741F1004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 138";
+		rLen = 1;
+		rLoc = 3003;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 2529;
+	};
+	EF1ACF57137741F1004D135F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 266";
+		rLen = 0;
+		rLoc = 6661;
+		rType = 0;
+		vrLen = 1925;
+		vrLoc = 5676;
 	};
 	EF982B8E1375EF76009B4B28 /* HeartBeatPort */ = {
 		isa = PBXExecutable;
@@ -10723,9 +10866,9 @@
 	};
 	EF982CC213760858009B4B28 /* RdioService.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {929, 4940}}";
-			sepNavSelRange = "{3786, 0}";
-			sepNavVisRange = "{2823, 1328}";
+			sepNavIntBoundsRect = "{{0, 0}, {901, 4459}}";
+			sepNavSelRange = "{6661, 0}";
+			sepNavVisRange = "{5676, 1925}";
 			sepNavWindowFrame = "{{587, 58}, {723, 820}}";
 		};
 	};
@@ -10831,7 +10974,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 66";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 373;
 		vrLoc = 770;
@@ -10841,7 +10984,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 66";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 373;
 		vrLoc = 770;
@@ -10961,7 +11104,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 66";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 373;
 		vrLoc = 770;
@@ -11023,7 +11166,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 66";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 48;
 		vrLoc = 769;
@@ -11043,7 +11186,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 66";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 35;
 		vrLoc = 795;
@@ -11053,7 +11196,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 66";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 313;
 		vrLoc = 830;
@@ -11115,7 +11258,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 65";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 313;
 		vrLoc = 830;
@@ -11191,7 +11334,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 62";
 		rLen = 0;
-		rLoc = 5732;
+		rLoc = 5800;
 		rType = 0;
 		vrLen = 313;
 		vrLoc = 817;
@@ -13426,7 +13569,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 80";
 		rLen = 0;
-		rLoc = 4535;
+		rLoc = 4603;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 820;
@@ -13472,7 +13615,7 @@
 		comments = "Unused variable 'currentRequest'";
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 184;
+		rLoc = 186;
 		rType = 1;
 	};
 	EF982F79137632F3009B4B28 /* PBXTextBookmark */ = {
@@ -13570,7 +13713,7 @@
 		comments = "Unused variable 'currentRequest'";
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 184;
+		rLoc = 186;
 		rType = 1;
 	};
 	EF982F83137632F3009B4B28 /* PBXTextBookmark */ = {
@@ -13578,7 +13721,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 92";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 1476;
@@ -13588,7 +13731,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 92";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 1196;
@@ -13672,7 +13815,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 92";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 1344;
@@ -13837,7 +13980,7 @@
 		comments = "Missing sentinel in function call";
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 182;
+		rLoc = 184;
 		rType = 1;
 	};
 	EF982FB81376355F009B4B28 /* PBXTextBookmark */ = {
@@ -13845,7 +13988,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 91";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 404;
 		vrLoc = 1572;
@@ -13895,7 +14038,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 90";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 1196;
@@ -13905,7 +14048,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 90";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 1448;
 		vrLoc = 1993;
@@ -14025,7 +14168,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 92";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 463;
 		vrLoc = 1576;
@@ -14045,7 +14188,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 90";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 1406;
 		vrLoc = 2039;
@@ -14165,7 +14308,7 @@
 		comments = "Expected expression before ',' token";
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 182;
+		rLoc = 184;
 		rType = 1;
 	};
 	EF982FE2137635A9009B4B28 /* PBXTextBookmark */ = {
@@ -14173,7 +14316,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 93";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 1601;
@@ -14193,7 +14336,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 90";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 1406;
 		vrLoc = 2038;
@@ -14313,7 +14456,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 93";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 1601;
@@ -14333,7 +14476,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 90";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 1406;
 		vrLoc = 2038;
@@ -14453,7 +14596,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 93";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 1601;
@@ -14676,7 +14819,7 @@
 		ignoreCount = 0;
 		lineNumber = 37;
 		location = HeartBeatPort;
-		modificationTime = 326581627.11839;
+		modificationTime = 326582671.959207;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -15095,7 +15238,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 150";
 		rLen = 0;
-		rLoc = 5799;
+		rLoc = 5867;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2422;
@@ -15245,7 +15388,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 150";
 		rLen = 0;
-		rLoc = 5799;
+		rLoc = 5867;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2422;
@@ -15375,7 +15518,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 150";
 		rLen = 0;
-		rLoc = 5799;
+		rLoc = 5867;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2422;
@@ -15525,7 +15668,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 150";
 		rLen = 0;
-		rLoc = 5799;
+		rLoc = 5867;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2422;
@@ -15695,7 +15838,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 150";
 		rLen = 0;
-		rLoc = 5799;
+		rLoc = 5867;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2422;
@@ -15835,7 +15978,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 150";
 		rLen = 0;
-		rLoc = 5799;
+		rLoc = 5867;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2422;
@@ -15935,7 +16078,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 156";
 		rLen = 0;
-		rLoc = 8291;
+		rLoc = 8405;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 2542;
@@ -15945,7 +16088,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 91";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 1346;
@@ -16075,7 +16218,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 91";
 		rLen = 0;
-		rLoc = 3923;
+		rLoc = 3991;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 1346;
@@ -16215,7 +16358,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 180";
 		rLen = 0;
-		rLoc = 8512;
+		rLoc = 8626;
 		rType = 0;
 		vrLen = 907;
 		vrLoc = 3135;
@@ -16225,7 +16368,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 181";
 		rLen = 0;
-		rLoc = 8512;
+		rLoc = 8626;
 		rType = 0;
 		vrLen = 681;
 		vrLoc = 3412;
@@ -16432,7 +16575,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 198";
 		rLen = 0;
-		rLoc = 8152;
+		rLoc = 8266;
 		rType = 0;
 		vrLen = 1053;
 		vrLoc = 3638;
@@ -16442,7 +16585,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 198";
 		rLen = 0;
-		rLoc = 8152;
+		rLoc = 8266;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 3300;
@@ -16579,7 +16722,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 195";
 		rLen = 0;
-		rLoc = 7650;
+		rLoc = 7764;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 3784;
@@ -16589,7 +16732,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 190";
 		rLen = 0;
-		rLoc = 6052;
+		rLoc = 6120;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 3572;
@@ -16729,7 +16872,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 190";
 		rLen = 0;
-		rLoc = 6052;
+		rLoc = 6120;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 4284;
@@ -16869,7 +17012,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 190";
 		rLen = 0;
-		rLoc = 6052;
+		rLoc = 6120;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 4284;
@@ -17039,7 +17182,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 190";
 		rLen = 0;
-		rLoc = 6052;
+		rLoc = 6120;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 4288;
@@ -17189,7 +17332,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 191";
 		rLen = 0;
-		rLoc = 6052;
+		rLoc = 6120;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 4321;
@@ -17339,7 +17482,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 191";
 		rLen = 0;
-		rLoc = 6052;
+		rLoc = 6120;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 4318;
@@ -17489,7 +17632,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 191";
 		rLen = 0;
-		rLoc = 6052;
+		rLoc = 6120;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 4321;
@@ -17658,7 +17801,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 138;
+		rLoc = 139;
 		rType = 1;
 	};
 	EF9831D2137651A9009B4B28 /* PBXTextBookmark */ = {
@@ -17666,7 +17809,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 1480;
@@ -17712,7 +17855,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 407;
 		vrLoc = 1495;
@@ -17749,7 +17892,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 103";
 		rLen = 326;
-		rLoc = 3418;
+		rLoc = 3485;
 		rType = 0;
 		vrLen = 818;
 		vrLoc = 1610;
@@ -17759,7 +17902,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 193";
 		rLen = 0;
-		rLoc = 6256;
+		rLoc = 6370;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 4071;
@@ -17909,7 +18052,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 1735;
@@ -17939,7 +18082,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 1735;
@@ -17949,7 +18092,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 219";
 		rLen = 0;
-		rLoc = 7725;
+		rLoc = 7839;
 		rType = 0;
 		vrLen = 1074;
 		vrLoc = 4466;
@@ -17959,7 +18102,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 219";
 		rLen = 0;
-		rLoc = 7725;
+		rLoc = 7839;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 4533;
@@ -18089,7 +18232,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 483;
 		vrLoc = 1978;
@@ -18099,7 +18242,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 217";
 		rLen = 0;
-		rLoc = 6256;
+		rLoc = 6370;
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 4589;
@@ -18229,7 +18372,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 414;
 		vrLoc = 1757;
@@ -18239,7 +18382,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 218";
 		rLen = 0;
-		rLoc = 6256;
+		rLoc = 6370;
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 4644;
@@ -18369,7 +18512,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 492;
 		vrLoc = 1774;
@@ -18379,7 +18522,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 108";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3342;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 4312;
@@ -18389,7 +18532,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 108";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3342;
 		rType = 0;
 		vrLen = 1109;
 		vrLoc = 4316;
@@ -18519,7 +18662,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 483;
 		vrLoc = 1840;
@@ -18529,7 +18672,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 108";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3342;
 		rType = 0;
 		vrLen = 1109;
 		vrLoc = 4318;
@@ -18659,7 +18802,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 1773;
@@ -18669,7 +18812,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 108";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3342;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 4319;
@@ -18799,7 +18942,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 98";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 1944;
@@ -18809,7 +18952,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 108";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3342;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 4388;
@@ -18939,7 +19082,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 101";
 		rLen = 0;
-		rLoc = 3016;
+		rLoc = 3051;
 		rType = 0;
 		vrLen = 460;
 		vrLoc = 2507;
@@ -18979,7 +19122,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 215";
 		rLen = 17;
-		rLoc = 6087;
+		rLoc = 6155;
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 4883;
@@ -19126,7 +19269,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 231";
 		rLen = 0;
-		rLoc = 7754;
+		rLoc = 7868;
 		rType = 0;
 		vrLen = 743;
 		vrLoc = 5313;
@@ -19136,7 +19279,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 245";
 		rLen = 0;
-		rLoc = 8151;
+		rLoc = 8265;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 5657;
@@ -19146,7 +19289,7 @@
 		comments = "'user' undeclared (first use in this function)";
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 312;
+		rLoc = 316;
 		rType = 1;
 	};
 	EF9832C413765DEF009B4B28 /* PBXTextBookmark */ = {
@@ -19164,7 +19307,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 247";
 		rLen = 0;
-		rLoc = 8151;
+		rLoc = 8265;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 5662;
@@ -19174,7 +19317,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 241";
 		rLen = 0;
-		rLoc = 8088;
+		rLoc = 8202;
 		rType = 0;
 		vrLen = 1114;
 		vrLoc = 5096;
@@ -19342,7 +19485,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 247";
 		rLen = 0;
-		rLoc = 8151;
+		rLoc = 8265;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 5662;
@@ -19371,7 +19514,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		rLen = 1;
-		rLoc = 138;
+		rLoc = 139;
 		rType = 1;
 	};
 	EF9832E513765E7F009B4B28 /* PBXTextBookmark */ = {
@@ -19616,7 +19759,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 241";
 		rLen = 15;
-		rLoc = 8120;
+		rLoc = 8234;
 		rType = 0;
 		vrLen = 1172;
 		vrLoc = 5083;
@@ -19762,7 +19905,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 326581627.119782;
+		modificationTime = 326582671.959672;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 		symbolName = objc_exception_throw;
@@ -19812,7 +19955,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 241";
 		rLen = 15;
-		rLoc = 8120;
+		rLoc = 8234;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 5196;
@@ -20002,7 +20145,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 241";
 		rLen = 15;
-		rLoc = 8120;
+		rLoc = 8234;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 5354;
@@ -20172,7 +20315,7 @@
 		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
 		name = "RdioService.m: 241";
 		rLen = 15;
-		rLoc = 8120;
+		rLoc = 8234;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 5457;

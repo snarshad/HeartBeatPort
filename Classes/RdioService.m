@@ -101,6 +101,7 @@ static Rdio *s_rdio=nil;
 static NSDate *lastRequest = nil;
 - (void)getArtistsForUser:(HBUser *)user
 {
+	NSLog(@"Get Artists: %@", user);
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	NSDate *lastDate = nil;
 	@synchronized(self)
@@ -131,13 +132,14 @@ static NSDate *lastRequest = nil;
 				 delegate:self];
 	
 	//Give the run loop time to come back
-	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:2.0]];
+	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10.0]];
 	[pool drain];
 	
 }
 
 - (void)getHeavyRotationForUser:(HBUser *)user
 {
+	NSLog(@"Get Heavy: %@", user);
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	NSDate *lastDate = nil;
 	@synchronized(self)
@@ -168,7 +170,7 @@ static NSDate *lastRequest = nil;
 											   delegate:self];
 	
 	//Give the run loop time to come back
-	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:2.0]];
+	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10.0]];
 	[pool drain];
 }	
 
@@ -255,6 +257,8 @@ static NSDate *lastRequest = nil;
 			NSString *key = [user.userData valueForKey:@"key"];
 			[mHBUsersByUserKey setObject:user forKey:key];
 			[user getAvatar];
+			NSLog(@"About to get artists: %@", user);
+
 			[NSThread detachNewThreadSelector:@selector(getArtistsForUser:) toTarget:self withObject:user];			
 		}
 	} else if ([[[request parameters] objectForKey:@"method"] isEqualToString:@"getArtistsInCollection"]) {
