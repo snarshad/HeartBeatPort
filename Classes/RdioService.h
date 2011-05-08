@@ -13,13 +13,20 @@
 @class Rdio, HBUser;
 
 
-@interface RdioService : NSObject <HBServiceProtocol>{
+@interface RdioService : NSObject <HBServiceProtocol, RDAPIRequestDelegate, RdioDelegate>{
 	Rdio *rdio;
 	
 	HBUser *mUser;	// the logged in user
 	
 	NSMutableArray *mFoundUsers;
+	
+	id <HBServiceLoginDelegate>loginDelegate;
+	id <HBServiceDelegate>delegate;
+	
 }
+@property (readwrite, assign)id <HBServiceLoginDelegate>loginDelegate;
+@property (readwrite, assign)id <HBServiceDelegate>delegate;
+
 
 + (Rdio *)rdioInstance;
 

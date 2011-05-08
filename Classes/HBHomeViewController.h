@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HBServiceProtocol.h"
 
 @class HBUser;
 @interface HBHomeViewController : UIViewController {

@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <Rdio/Rdio.h>
 #import "HBServiceProtocol.h"
+#import "HBMatcherProtocol.h"
 
 @class HBHomeViewController;
 
-@interface HBLoginViewController : UIViewController <RdioDelegate> {
+@interface HBLoginViewController : UIViewController <RdioDelegate, HBServiceLoginDelegate> {
 
 	IBOutlet UITextField *mUsernameField;
 	IBOutlet UITextField *mPasswordField;
@@ -21,11 +22,14 @@
 	IBOutlet HBHomeViewController *mHomeViewController;
 	
 	id<HBServiceProtocol>mService;
+	
+	id<HBMatcherProtocol,HBServiceDelegate>mMatcher;
 }
 
 + (HBLoginViewController *)sharedLoginController;
 
 - (IBAction)login;
+- (void)service:(id<HBServiceProtocol>)service loginDidSucceedWithUser:(HBUser *)user;
 
 
 @end

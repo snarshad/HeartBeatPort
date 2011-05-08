@@ -11,7 +11,15 @@
 #import <Rdio/Rdio.h>
 #import "HBLoginViewController.h"
 
+@interface RdioService (Private)
+
+- (NSArray *)followedPeople;
+
+@end
+
 @implementation RdioService
+@synthesize loginDelegate, delegate;
+
 static Rdio *s_rdio=nil;
 
 - (RdioService *)init
@@ -31,6 +39,7 @@ static Rdio *s_rdio=nil;
 	if (s_rdio == nil)
 	{
 		s_rdio = [[RdioService alloc] init];
+		s_rdio.delegate = self;
 	}
 	return s_rdio;
 }
@@ -76,13 +85,72 @@ static Rdio *s_rdio=nil;
 	return nil;
 }
 
+- (void)searchForNearbyUsers
+{
+	NSDictionary *params = [NSDictionary dictionary];
+	
+	RDAPIRequest *currentRequest =[s_rdio callAPIMethod:@""
+										 withParameters:params
+											   delegate:self];	
+}
+
+- (NSArray *)followedPeople
+{
+	return nil;
+}
+
 - (NSArray *)artistListForUser:(HBUser *)user
 {
 	//TODO: Implement!
 	return nil;	
 }
 
+#pragma mark -
+- (void)rdioDidAuthorizeUser:(NSDictionary *)user withAccessToken:(NSString *)accessToken {	
+	NSString *userName = [NSString stringWithFormat:@"%@ %@", [user valueForKey:@"firstName"], [user valueForKey:@"lastName"]];
+	
+	HBUser *rdioUser = [[HBUser alloc] initWithName:userName];
+	[rdioUser.userData setObject:accessToken forKey:@"accessToken"];
+	[rdioUser.userData addEntriesFromDictionary:user];
+	
+	if ([user valueForKey:@"icon"])
+	{
+		NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:[user valueForKey:@"icon"]]];
+		if (imageData)
+		{
+			UIImage *image = [UIImage imageWithData:imageData];
+			if (image)
+				rdioUser.avatar = image;
+		}
+		
+	}
+	
+	[rdioUser.userData setObject:accessToken forKey:@"accessToken"];
+	[rdioUser.userData addEntriesFromDictionary:user];
 
+	[self setUser:rdioUser];
+
+	[loginDelegate service:self loginDidSucceedWithUser:rdioUser];
+}
+
+/**
+ * Authentication failed so we should alert the user.
+ */
+- (void)rdioAuthorizationFailed:(NSString *)message {
+	NSLog(@"Rdio authorization failed: %@", message);
+	[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"rdioSavedUserToken"];
+}
+
+#pragma mark -
+- (void)rdioRequest:(RDAPIRequest *)request didLoadData:(id)data
+{
+	
+}
+
+- (void)rdioRequest:(RDAPIRequest *)request didFailWithError:(NSError *)error
+{
+	NSLog(@"Rdio request failed: %@", error);	
+}
 
 
 @end

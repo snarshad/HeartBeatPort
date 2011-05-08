@@ -11,6 +11,7 @@
 #import "HBHomeViewController.h"
 #import <Rdio/Rdio.h>
 #import "RdioService.h"
+#import "HBArtistMatcher.h"
 
 @implementation HBLoginViewController
 
@@ -37,8 +38,12 @@ static HBLoginViewController *s_loginController = nil;
 
 	[mHomeViewController view];
 	mService = [[RdioService alloc] init];
+	mService.loginDelegate = self;
 	
 	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead. 
+	
+	
+	mMatcher = [[HBArtistMatcher alloc] init];
 	
     [super viewDidLoad];
 }
@@ -79,6 +84,15 @@ static HBLoginViewController *s_loginController = nil;
 }
 
 #pragma mark RdioDelegate
+- (void)service:(id<HBServiceProtocol>)service loginDidSucceedWithUser:(HBUser *)user
+{
+	mHomeViewController.user = user;
+	mService.delegate = mMatcher; //after login, the home controller continues listening
+	[self.navigationController pushViewController:mHomeViewController animated:YES];
+
+}
+
+
 - (void)rdioDidAuthorizeUser:(NSDictionary *)user withAccessToken:(NSString *)accessToken {	
 	NSString *userName = [NSString stringWithFormat:@"%@ %@", [user valueForKey:@"firstName"], [user valueForKey:@"lastName"]];
 	
