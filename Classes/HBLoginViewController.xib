@@ -95,7 +95,7 @@
 					<object class="IBUIButton" id="741380797">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{205, 176}, {95, 37}}</string>
+						<string key="NSFrame">{{20, 170}, {280, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -252,7 +252,7 @@
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABDZAAAw8UAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw1MAAA</bytes>
 					</object>
 				</object>
 			</object>
@@ -326,7 +326,7 @@
 							<string>UIButton</string>
 							<string>UIButton</string>
 							<string>UIImageView</string>
-							<string>UITextField</string>
+							<string>UILabel</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -354,7 +354,7 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">mUserName</string>
-								<string key="candidateClassName">UITextField</string>
+								<string key="candidateClassName">UILabel</string>
 							</object>
 						</object>
 					</object>
@@ -384,6 +384,7 @@
 							<string>mHomeViewController</string>
 							<string>mLoginButton</string>
 							<string>mPasswordField</string>
+							<string>mService</string>
 							<string>mUsernameField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -391,6 +392,7 @@
 							<string>HBHomeViewController</string>
 							<string>UIButton</string>
 							<string>UITextField</string>
+							<string>id</string>
 							<string>UITextField</string>
 						</object>
 					</object>
@@ -401,6 +403,7 @@
 							<string>mHomeViewController</string>
 							<string>mLoginButton</string>
 							<string>mPasswordField</string>
+							<string>mService</string>
 							<string>mUsernameField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -416,6 +419,10 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">mPasswordField</string>
 								<string key="candidateClassName">UITextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">mService</string>
+								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">mUsernameField</string>
@@ -544,6 +551,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">UIKit.framework/Headers/UIImageView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">UILabel</string>
+					<string key="superclassName">UIView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBFrameworkSource</string>
+						<string key="minorKey">UIKit.framework/Headers/UILabel.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

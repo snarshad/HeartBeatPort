@@ -50,14 +50,24 @@ static Rdio *s_rdio=nil;
 	[user retain];
 	HBRelease(mUser);
 	mUser = user;
+	[[NSUserDefaults standardUserDefaults] setObject:[mUser.userData valueForKey:@"accessToken"] forKey:@"rdioSavedUserToken"];
 }
 
 - (HBUser *)user
 {
 	if (mUser)
 		return mUser;
-	[rdio authorizeFromController:[HBLoginViewController sharedLoginController]];
+	//If there was a saved user, reload
+	NSString *token = [[NSUserDefaults standardUserDefaults] objectForKey:@"rdioSavedUserToken"];
+	
+	if (token)
+	{
+		[s_rdio authorizeUsingAccessToken:token fromController:[HBLoginViewController sharedLoginController]];
+	} else {
+		[rdio authorizeFromController:[HBLoginViewController sharedLoginController]];
+	}
 	return nil;
+
 }
 
 - (NSArray *)nearbyUsers

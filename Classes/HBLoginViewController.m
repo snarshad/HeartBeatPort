@@ -36,6 +36,10 @@ static HBLoginViewController *s_loginController = nil;
 	mPasswordField.hidden = YES;
 
 	[mHomeViewController view];
+	mService = [[RdioService alloc] init];
+	
+	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead. 
+	
     [super viewDidLoad];
 }
 
@@ -71,9 +75,6 @@ static HBLoginViewController *s_loginController = nil;
 	//TODO: Validate Login
 	//TODO: Set up the home view controller with actual user data
 
-	mService = [[RdioService alloc] init];
-	
-	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead. 
 	
 }
 
@@ -110,7 +111,8 @@ static HBLoginViewController *s_loginController = nil;
  */
 - (void)rdioAuthorizationFailed:(NSString *)message {
 	NSLog(@"Rdio authorization failed: %@", message);
+	[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"rdioSavedUserToken"];
 }
 
-
+#pragma mark -
 @end
