@@ -12,6 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="24"/>
 			<integer value="13"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -55,6 +56,16 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIResizesToFullScreen">YES</bool>
 			</object>
+			<object class="IBUIViewController" id="185513573">
+				<string key="IBUITitle">Me</string>
+				<string key="IBUINibName">HBHomeViewController</string>
+				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
+				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+					<int key="interfaceOrientation">1</int>
+				</object>
+				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+				<bool key="IBUIHorizontal">NO</bool>
+			</object>
 			<object class="IBUINavigationController" id="701001926">
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
@@ -71,7 +82,7 @@
 					<bool key="IBUIMultipleTouchEnabled">YES</bool>
 					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				</object>
-				<object class="NSMutableArray" key="IBUIViewControllers">
+				<object class="NSArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUIViewController" id="619226028">
 						<object class="IBUINavigationItem" key="IBUINavigationItem" id="394667715">
@@ -88,14 +99,6 @@
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
 				</object>
-			</object>
-			<object class="IBUIViewController" id="298842331">
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-					<int key="interfaceOrientation">1</int>
-				</object>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-				<bool key="IBUIHorizontal">NO</bool>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -127,11 +130,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">homeController</string>
-						<reference key="source" ref="664661524"/>
-						<reference key="destination" ref="298842331"/>
+						<string key="label">mHomeViewController</string>
+						<reference key="source" ref="619226028"/>
+						<reference key="destination" ref="185513573"/>
 					</object>
-					<int key="connectionID">20</int>
+					<int key="connectionID">26</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -197,8 +200,8 @@
 						<reference key="parent" ref="619226028"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">18</int>
-						<reference key="object" ref="298842331"/>
+						<int key="objectID">24</int>
+						<reference key="object" ref="185513573"/>
 						<reference key="parent" ref="0"/>
 					</object>
 				</object>
@@ -212,12 +215,12 @@
 					<string>11.IBPluginDependency</string>
 					<string>13.CustomClassName</string>
 					<string>13.IBPluginDependency</string>
-					<string>18.CustomClassName</string>
-					<string>18.IBEditorWindowLastContentRect</string>
-					<string>18.IBPluginDependency</string>
 					<string>2.IBAttributePlaceholdersKey</string>
 					<string>2.IBEditorWindowLastContentRect</string>
 					<string>2.IBPluginDependency</string>
+					<string>24.CustomClassName</string>
+					<string>24.IBEditorWindowLastContentRect</string>
+					<string>24.IBPluginDependency</string>
 					<string>3.CustomClassName</string>
 					<string>3.IBPluginDependency</string>
 					<string>9.IBEditorWindowLastContentRect</string>
@@ -230,9 +233,6 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>HBLoginViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>HBHomeViewController</string>
-					<string>{{650, 308}, {320, 480}}</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSMutableDictionary">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<reference key="dict.sortedKeys" ref="0"/>
@@ -242,9 +242,12 @@
 					</object>
 					<string>{{673, 376}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>HBHomeViewController</string>
+					<string>{{650, 285}, {320, 480}}</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>HeartBeatPortAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{650, 376}, {320, 480}}</string>
+					<string>{{467, 376}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -264,7 +267,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">20</int>
+			<int key="maxID">26</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -318,7 +321,7 @@
 							<string>UIButton</string>
 							<string>UIButton</string>
 							<string>UIImageView</string>
-							<string>UITextField</string>
+							<string>UILabel</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -346,7 +349,7 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">mUserName</string>
-								<string key="candidateClassName">UITextField</string>
+								<string key="candidateClassName">UILabel</string>
 							</object>
 						</object>
 					</object>
@@ -376,6 +379,7 @@
 							<string>mHomeViewController</string>
 							<string>mLoginButton</string>
 							<string>mPasswordField</string>
+							<string>mService</string>
 							<string>mUsernameField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -383,6 +387,7 @@
 							<string>HBHomeViewController</string>
 							<string>UIButton</string>
 							<string>UITextField</string>
+							<string>id</string>
 							<string>UITextField</string>
 						</object>
 					</object>
@@ -393,6 +398,7 @@
 							<string>mHomeViewController</string>
 							<string>mLoginButton</string>
 							<string>mPasswordField</string>
+							<string>mService</string>
 							<string>mUsernameField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -408,6 +414,10 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">mPasswordField</string>
 								<string key="candidateClassName">UITextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">mService</string>
+								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">mUsernameField</string>
@@ -625,6 +635,14 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+					<string key="className">UILabel</string>
+					<string key="superclassName">UIView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBFrameworkSource</string>
+						<string key="minorKey">UIKit.framework/Headers/UILabel.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
 					<string key="className">UINavigationBar</string>
 					<string key="superclassName">UIView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="193736137">
@@ -669,7 +687,7 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">UITextField</string>
 					<string key="superclassName">UIControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="820186576">
+					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="407755152">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">UIKit.framework/Headers/UITextField.h</string>
 					</object>
@@ -683,7 +701,7 @@
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">UIView</string>
-					<reference key="sourceIdentifier" ref="820186576"/>
+					<reference key="sourceIdentifier" ref="407755152"/>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">UIView</string>

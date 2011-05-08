@@ -10,6 +10,6 @@
 
 @class HBUser;
 
-@protocol HBMatcherProtocol
+@protocol HBMatcherProtocol <NSObject>
 - (CGFloat)matchUser:(HBUser *)sourceUser withUser:(HBUser *)targetUser;
 @end

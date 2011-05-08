@@ -12,7 +12,7 @@
 @interface HBHomeViewController : UIViewController {
 	IBOutlet UIImageView *mUserImageView;
 
-	IBOutlet UITextField *mUserName;	
+	IBOutlet UILabel *mUserName;	
 	
 	IBOutlet UIButton *mFindMatchesButton;
 	IBOutlet UIButton *mMyArtistsButton;

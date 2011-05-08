@@ -11,7 +11,8 @@
 @class HBUser;
 
 //Some services require no login (e.g. local user library)
-@protocol HBServiceProtocol
+@protocol HBServiceProtocol <NSObject>
+- (void)setUser:(HBUser *)user;	//I didn't want this
 - (HBUser *)user;		// "me", or the logged in user
 
 - (NSArray *)nearbyUsers;

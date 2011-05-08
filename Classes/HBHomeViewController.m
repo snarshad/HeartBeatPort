@@ -13,22 +13,23 @@
 @synthesize user=mMe, serviceName = mServiceName;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization.
+		NSLog(@"initWithNibNamed %@", nibNameOrNil );
     }
     return self;
 }
-*/
 
-/*
+
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	NSLog(@"did load %@, %@", mUserName, mUserImageView);
     [super viewDidLoad];
 }
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -42,8 +43,13 @@
 #pragma mark -
 - (void)setUser:(HBUser *)myUser
 {
-	[mUserName setText:myUser.userName];
-	[mUserImageView setImage:myUser.avatar];
+	[myUser retain];
+	HBRelease(mMe);
+	mMe = myUser;
+	NSLog(@"Set User %@, %@", mUserName, mUserImageView);
+	
+	[mUserName setText:mMe.userName];
+	[mUserImageView setImage:mMe.avatar];
 }
 
 

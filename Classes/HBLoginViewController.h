@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Rdio/Rdio.h>
+#import "HBServiceProtocol.h"
 
 @class HBHomeViewController;
 
@@ -18,6 +19,8 @@
 	IBOutlet UIButton *mLoginButton;
 	
 	IBOutlet HBHomeViewController *mHomeViewController;
+	
+	id<HBServiceProtocol>mService;
 }
 
 + (HBLoginViewController *)sharedLoginController;

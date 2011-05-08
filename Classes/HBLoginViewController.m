@@ -19,8 +19,6 @@ static HBLoginViewController *s_loginController = nil;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization.
-		s_loginController = self;
     }
     return self;
 }
@@ -30,12 +28,16 @@ static HBLoginViewController *s_loginController = nil;
 	return s_loginController;
 }
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	// Custom initialization.
+	s_loginController = self;
+	mUsernameField.hidden = YES;
+	mPasswordField.hidden = YES;
+
+	[mHomeViewController view];
     [super viewDidLoad];
 }
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -60,6 +62,7 @@ static HBLoginViewController *s_loginController = nil;
 
 
 - (void)dealloc {
+	HBRelease(mService);
     [super dealloc];
 }
 #pragma mark -
@@ -67,10 +70,10 @@ static HBLoginViewController *s_loginController = nil;
 {
 	//TODO: Validate Login
 	//TODO: Set up the home view controller with actual user data
-	mUsernameField.hidden = YES;
-	mPasswordField.hidden = YES;
 
-	[[RdioService rdioInstance] user];	
+	mService = [[RdioService alloc] init];
+	
+	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead. 
 	
 }
 
@@ -84,7 +87,7 @@ static HBLoginViewController *s_loginController = nil;
 	
 	if ([user valueForKey:@"icon"])
 	{
-		NSData *imageData = [NSData dataWithContentsOfURL:[user valueForKey:@"icon"]];
+		NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:[user valueForKey:@"icon"]]];
 		if (imageData)
 		{
 			UIImage *image = [UIImage imageWithData:imageData];
@@ -97,6 +100,7 @@ static HBLoginViewController *s_loginController = nil;
 	[rdioUser.userData setObject:accessToken forKey:@"accessToken"];
 	[rdioUser.userData addEntriesFromDictionary:user];
 	mHomeViewController.user = rdioUser;
+	[mService setUser:rdioUser];
 	
 	[self.navigationController pushViewController:mHomeViewController animated:YES];
 }

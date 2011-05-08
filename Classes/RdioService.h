@@ -24,6 +24,7 @@
 + (Rdio *)rdioInstance;
 
 #pragma mark HBServiceProtocol
+- (void)setUser:(HBUser *)user;
 - (HBUser *)user;
 - (NSArray *)nearbyUsers;
 - (NSArray *)artistListForUser:(HBUser *)user;
