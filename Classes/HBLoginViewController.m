@@ -44,6 +44,7 @@ static HBLoginViewController *s_loginController = nil;
 	
 	
 	mMatcher = [[HBArtistMatcher alloc] init];
+	mHomeViewController.matcher = mMatcher;
 	
     [super viewDidLoad];
 }

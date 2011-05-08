@@ -554,6 +554,20 @@
 			EF98305C13763B53009B4B28 /* PBXTextBookmark */ = EF98305C13763B53009B4B28 /* PBXTextBookmark */;
 			EF98305D13763B53009B4B28 /* PBXTextBookmark */ = EF98305D13763B53009B4B28 /* PBXTextBookmark */;
 			EF98305E13763B53009B4B28 /* PBXTextBookmark */ = EF98305E13763B53009B4B28 /* PBXTextBookmark */;
+			EF98306213763C0D009B4B28 /* PBXTextBookmark */ = EF98306213763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306313763C0D009B4B28 /* PBXTextBookmark */ = EF98306313763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306413763C0D009B4B28 /* PBXTextBookmark */ = EF98306413763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306513763C0D009B4B28 /* PBXTextBookmark */ = EF98306513763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306613763C0D009B4B28 /* PBXTextBookmark */ = EF98306613763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306713763C0D009B4B28 /* PBXTextBookmark */ = EF98306713763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306813763C0D009B4B28 /* PBXTextBookmark */ = EF98306813763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306913763C0D009B4B28 /* PBXTextBookmark */ = EF98306913763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306A13763C0D009B4B28 /* PBXTextBookmark */ = EF98306A13763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306B13763C0D009B4B28 /* PBXTextBookmark */ = EF98306B13763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306C13763C0D009B4B28 /* PBXTextBookmark */ = EF98306C13763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306D13763C0D009B4B28 /* PBXTextBookmark */ = EF98306D13763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306E13763C0D009B4B28 /* PBXTextBookmark */ = EF98306E13763C0D009B4B28 /* PBXTextBookmark */;
+			EF98306F13763C0D009B4B28 /* PBXTextBookmark */ = EF98306F13763C0D009B4B28 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EF982B991375EF7B009B4B28 /* Source Control */;
 		userBuildSettings = {
@@ -629,9 +643,9 @@
 	};
 	EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 1716}}";
-			sepNavSelRange = "{1373, 0}";
-			sepNavVisRange = "{161, 1573}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1742}}";
+			sepNavSelRange = "{1413, 0}";
+			sepNavVisRange = "{360, 1606}";
 		};
 	};
 	EF982C461375FAC1009B4B28 /* PBXBookmark */ = {
@@ -715,7 +729,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 61";
 		rLen = 0;
-		rLoc = 2228;
+		rLoc = 2269;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 634;
@@ -1318,7 +1332,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 63";
 		rLen = 0;
-		rLoc = 2228;
+		rLoc = 2269;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 1352;
@@ -1634,7 +1648,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		rLen = 0;
-		rLoc = 2230;
+		rLoc = 2271;
 		rType = 0;
 	};
 	EF982D7B1376149C009B4B28 /* PBXTextBookmark */ = {
@@ -1642,7 +1656,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 73";
 		rLen = 0;
-		rLoc = 2230;
+		rLoc = 2271;
 		rType = 0;
 		vrLen = 653;
 		vrLoc = 1719;
@@ -1666,7 +1680,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 81";
 		rLen = 0;
-		rLoc = 2788;
+		rLoc = 2829;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 1736;
@@ -1686,7 +1700,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 81";
 		rLen = 0;
-		rLoc = 2788;
+		rLoc = 2829;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 1736;
@@ -1716,7 +1730,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 81";
 		rLen = 0;
-		rLoc = 2788;
+		rLoc = 2829;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 1736;
@@ -1796,7 +1810,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 63";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 2084;
 		rType = 0;
 		vrLen = 406;
 		vrLoc = 1705;
@@ -1846,7 +1860,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 103";
 		rLen = 0;
-		rLoc = 3392;
+		rLoc = 3433;
 		rType = 0;
 		vrLen = 1526;
 		vrLoc = 0;
@@ -1856,7 +1870,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 103";
 		rLen = 0;
-		rLoc = 3392;
+		rLoc = 3433;
 		rType = 0;
 		vrLen = 1492;
 		vrLoc = 1742;
@@ -1946,7 +1960,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 37";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 1580;
 		vrLoc = 0;
@@ -1976,7 +1990,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 37";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 1580;
 		vrLoc = 0;
@@ -1986,7 +2000,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 37";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 1580;
 		vrLoc = 0;
@@ -2016,7 +2030,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 37";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 1580;
 		vrLoc = 0;
@@ -2046,7 +2060,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 19;
-		rLoc = 3345;
+		rLoc = 3386;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 1766;
@@ -2056,7 +2070,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 19;
-		rLoc = 3345;
+		rLoc = 3386;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 1766;
@@ -2126,7 +2140,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 19;
-		rLoc = 3345;
+		rLoc = 3386;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 745;
@@ -2136,7 +2150,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 19;
-		rLoc = 3345;
+		rLoc = 3386;
 		rType = 0;
 		vrLen = 1349;
 		vrLoc = 745;
@@ -2256,7 +2270,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1492;
 		vrLoc = 1726;
@@ -2266,7 +2280,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 1057;
@@ -2296,7 +2310,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1565;
 		vrLoc = 160;
@@ -2336,7 +2350,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1565;
 		vrLoc = 160;
@@ -2376,7 +2390,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1565;
 		vrLoc = 160;
@@ -2405,7 +2419,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		rLen = 0;
-		rLoc = 104;
+		rLoc = 105;
 		rType = 1;
 	};
 	EF982E3E13761C10009B4B28 /* PBXTextBookmark */ = {
@@ -2413,7 +2427,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 516;
 		vrLoc = 2341;
@@ -2443,7 +2457,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 2214;
@@ -2453,7 +2467,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1565;
 		vrLoc = 160;
@@ -2463,7 +2477,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 160;
@@ -2483,7 +2497,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 638;
 		vrLoc = 2341;
@@ -2513,7 +2527,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 638;
 		vrLoc = 2341;
@@ -2523,7 +2537,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 160;
@@ -2553,7 +2567,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 2401;
@@ -2563,7 +2577,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 160;
@@ -2593,7 +2607,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 649;
 		vrLoc = 2298;
@@ -2603,7 +2617,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 160;
@@ -2633,7 +2647,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3091;
+		rLoc = 3132;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 2298;
@@ -2643,7 +2657,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 160;
@@ -2672,7 +2686,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		rLen = 0;
-		rLoc = 116;
+		rLoc = 117;
 		rType = 1;
 	};
 	EF982E6213761D2A009B4B28 /* PBXTextBookmark */ = {
@@ -2680,7 +2694,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 390;
 		vrLoc = 2736;
@@ -2700,7 +2714,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 2677;
@@ -2730,7 +2744,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 160;
@@ -2830,7 +2844,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 2991;
+		rLoc = 3032;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 160;
@@ -2870,7 +2884,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1787;
@@ -2880,7 +2894,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1787;
@@ -2990,7 +3004,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1787;
@@ -3040,7 +3054,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1787;
@@ -3100,7 +3114,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1787;
@@ -3150,7 +3164,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 100";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1787;
@@ -3200,7 +3214,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 102";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1810;
@@ -3250,7 +3264,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 102";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1508;
 		vrLoc = 1756;
@@ -3300,7 +3314,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 37";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 715;
 		vrLoc = 795;
@@ -3360,7 +3374,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 102";
 		rLen = 0;
-		rLoc = 3344;
+		rLoc = 3385;
 		rType = 0;
 		vrLen = 1508;
 		vrLoc = 1756;
@@ -3411,7 +3425,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 131;
+		rLoc = 132;
 		rType = 1;
 	};
 	EF982EF313762623009B4B28 /* PBXTextBookmark */ = {
@@ -3419,7 +3433,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 633;
@@ -3478,7 +3492,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 1936;
@@ -3548,7 +3562,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 1936;
@@ -3618,7 +3632,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 1936;
@@ -3668,7 +3682,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 1936;
@@ -3718,7 +3732,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 1954;
@@ -3768,7 +3782,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 1954;
@@ -3788,7 +3802,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 114";
 		rLen = 0;
-		rLoc = 3724;
+		rLoc = 3765;
 		rType = 0;
 		vrLen = 601;
 		vrLoc = 2768;
@@ -3862,7 +3876,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1415;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 1954;
@@ -3892,7 +3906,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 46;
+		rLoc = 47;
 		rType = 1;
 	};
 	EF982F78137632EC009B4B28 /* XCBuildMessageTextBookmark */ = {
@@ -4038,7 +4052,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 47";
 		rLen = 0;
-		rLoc = 1373;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1542;
 		vrLoc = 157;
@@ -4141,7 +4155,7 @@
 		isa = PBXTextBookmark;
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		rLen = 0;
-		rLoc = 9223372036854775877;
+		rLoc = 9223372036854775918;
 		rType = 0;
 	};
 	EF982F9C137632F3009B4B28 /* PBXTextBookmark */ = {
@@ -4149,7 +4163,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 91";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2510;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 2043;
@@ -4350,7 +4364,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 47";
 		rLen = 0;
-		rLoc = 1373;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 161;
@@ -4400,7 +4414,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 91";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2510;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 2043;
@@ -4490,7 +4504,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 47";
 		rLen = 0;
-		rLoc = 1373;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 161;
@@ -4540,7 +4554,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 91";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2510;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 2043;
@@ -4639,7 +4653,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 47";
 		rLen = 0;
-		rLoc = 1373;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 161;
@@ -4689,7 +4703,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 91";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2510;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 2043;
@@ -4779,7 +4793,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 47";
 		rLen = 0;
-		rLoc = 1373;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 161;
@@ -4829,7 +4843,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 91";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2510;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 2043;
@@ -5053,7 +5067,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 47";
 		rLen = 0;
-		rLoc = 1373;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 161;
@@ -5073,7 +5087,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 91";
 		rLen = 0;
-		rLoc = 2469;
+		rLoc = 2510;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 2043;
@@ -5221,7 +5235,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 90";
 		rLen = 8;
-		rLoc = 2393;
+		rLoc = 2434;
 		rType = 0;
 		vrLen = 1515;
 		vrLoc = 1699;
@@ -5321,7 +5335,7 @@
 		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
 		name = "HBLoginViewController.m: 47";
 		rLen = 0;
-		rLoc = 1373;
+		rLoc = 1414;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 161;
@@ -5347,6 +5361,146 @@
 		vrLoc = 0;
 	};
 	EF98305E13763B53009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982D3913761306009B4B28 /* Rdio.h */;
+		name = "Rdio.h: 93";
+		rLen = 20;
+		rLoc = 4024;
+		rType = 0;
+		vrLen = 1648;
+		vrLoc = 2892;
+	};
+	EF98306213763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC213760858009B4B28 /* RdioService.m */;
+		name = "RdioService.m: 50";
+		rLen = 0;
+		rLoc = 874;
+		rType = 0;
+		vrLen = 190;
+		vrLoc = 1022;
+	};
+	EF98306313763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 75";
+		rLen = 12;
+		rLoc = 1841;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 1366;
+	};
+	EF98306413763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 47";
+		rLen = 0;
+		rLoc = 1413;
+		rType = 0;
+		vrLen = 1606;
+		vrLoc = 360;
+	};
+	EF98306513763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 64";
+		rLen = 10;
+		rLoc = 1624;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 1054;
+	};
+	EF98306613763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 64";
+		rLen = 10;
+		rLoc = 1624;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 1054;
+	};
+	EF98306713763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4C1375FF73009B4B28 /* HBMatcherProtocol.h */;
+		name = "HBMatcherProtocol.h: 15";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 600;
+		vrLoc = 0;
+	};
+	EF98306813763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */;
+		name = "HBLoginViewController.h: 10";
+		rLen = 82;
+		rLoc = 185;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	EF98306913763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9813760596009B4B28 /* HBArtistMatcher.h */;
+		name = "HBArtistMatcher.h: 13";
+		rLen = 17;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 0;
+	};
+	EF98306A13763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 77";
+		rLen = 0;
+		rLoc = 1898;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 0;
+	};
+	EF98306B13763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C95137603FC009B4B28 /* HBServiceProtocol.h */;
+		name = "HBServiceProtocol.h: 21";
+		rLen = 0;
+		rLoc = 500;
+		rType = 0;
+		vrLen = 1276;
+		vrLoc = 3;
+	};
+	EF98306C13763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
+		name = "HBUser.h: 22";
+		rLen = 20;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 0;
+	};
+	EF98306D13763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982CC113760858009B4B28 /* RdioService.h */;
+		name = "RdioService.h: 28";
+		rLen = 17;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 882;
+		vrLoc = 0;
+	};
+	EF98306E13763C0D009B4B28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982FA2137632F3009B4B28 /* RDAPIRequest.h */;
+		name = "RDAPIRequest.h: 32";
+		rLen = 79;
+		rLoc = 1082;
+		rType = 0;
+		vrLen = 1485;
+		vrLoc = 0;
+	};
+	EF98306F13763C0D009B4B28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = EF982D3913761306009B4B28 /* Rdio.h */;
 		name = "Rdio.h: 93";
