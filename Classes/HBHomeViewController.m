@@ -82,9 +82,9 @@
 	self.navigationItem.rightBarButtonItem = nil;
 	[mMatchImageView setImage:nil];
 	[mMatchname setText:@""];
-	mMatcher.user = mMe;
 	[mService setDelegate:mMatcher];
 	[mService searchForNearbyUsers];
+	[mMatcher setUser:mMe];
 	[mFindMatchesButton setTitle:@"Find Matches" forState:UIControlStateNormal];
 	[mFindMatchesButton setTitle:@"Searching..." forState:UIControlStateDisabled];
 	[mFindMatchesButton setEnabled:NO];
@@ -112,11 +112,33 @@
 	[self.navigationController pushViewController:mResultController animated:YES];
 }
 
+- (void)showUser:(HBUser *)user
+{
+	[mMatchImageView setImage:[user getAvatar]];
+
+	NSString *matchString = [NSString stringWithFormat:@"%@", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0]];
+	if ([[user.userData valueForKey:@"strength"] intValue]> 0)
+	{
+		matchString = [NSString stringWithFormat:@"%@ (%d%%)", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0], [[user.userData valueForKey:@"strength"] intValue]];
+	}
+	
+	[mMatchname setText:[NSString stringWithFormat:@"%@", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0]
+						 
+						 ]];	
+}
+
 - (void)setRightButton:(NSString *)string
 {
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:string style:UIBarButtonItemStylePlain target:self action:@selector(viewMatch)] autorelease];	
-	[mMatchImageView setImage:[bestMatch getAvatar]];
-	[mMatchname setText:string];
+	[NSObject cancelPreviousPerformRequestsWithTarget:self];
+	[self performSelector:@selector(enableButton:) withObject:nil afterDelay:3.0];
+}
+
+- (void)matcher:(id<HBMatcherProtocol>)matcher userAdded:(HBUser *)user
+{
+	NSLog(@"User Added %@", user);
+	[self performSelectorOnMainThread:@selector(showUser:) withObject:user waitUntilDone:NO];
+		
 }
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength
@@ -126,10 +148,8 @@
 		mMatchedUsers = [[NSMutableDictionary alloc] initWithCapacity:10];
 	}
 
-	matcher.user = mMe;
-	
 	[mMatchedUsers setObject:user forKey:[NSNumber numberWithFloat:strength]];
-	[user.userData setObject:[NSNumber numberWithFloat:strength] forKey:@"strength"];
+	[user.userData setObject:[NSNumber numberWithInt:(strength *100)] forKey:@"strength"];
 
 	if (strength > bestStrength)
 	{
@@ -141,21 +161,25 @@
 	if (bestMatch)
 	{
 		mResultController.user = bestMatch;
-		NSString *matchString = [bestMatch.userName stringByAppendingFormat:@" (%d%%)", (int)(bestStrength * 100)];
+		NSString *matchString = [NSString stringWithFormat:@"%@ (%d%%)", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0], (int)(bestStrength * 100)];
 		[self performSelectorOnMainThread:@selector(setRightButton:) withObject:matchString waitUntilDone:YES];
-	}
-
-	[NSObject cancelPreviousPerformRequestsWithTarget:self];
-	[self performSelector:@selector(enableButton:) withObject:nil afterDelay:3.0];
-	
+	}	
 }
-
-
 
 - (void)enableButton:(id)sender
 {
+	if (![NSThread isMainThread])
+	{
+		[self performSelectorOnMainThread:@selector(enableButton:) withObject:nil waitUntilDone:NO];
+		return;
+	}
 	[mFindMatchesButton setTitle:@"Find Matches" forState:UIControlStateNormal];
 	[mFindMatchesButton setEnabled:YES];
+
+
+	[self showUser:bestMatch];
+	[mMatchImageView setImage:[bestMatch getAvatar]];
+	[mMatchname setText:[NSString stringWithFormat:@"%@ %d%%", bestMatch.userName, [[bestMatch.userData valueForKey:@"strength"] intValue]  ]];
 }
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches

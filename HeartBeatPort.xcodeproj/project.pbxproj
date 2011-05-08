@@ -23,6 +23,7 @@
 		BC06E0A31376417A0007E46C /* HBUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06E0A11376417A0007E46C /* HBUserViewController.m */; };
 		BC06E0A41376417A0007E46C /* HBUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC06E0A21376417A0007E46C /* HBUserViewController.xib */; };
 		BC06E0DF13772ACB0007E46C /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BC06E0DE13772ACB0007E46C /* map.png */; };
+		EF1ACD8C13773574004D135F /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ACD8B13773574004D135F /* NSArray+Extensions.m */; };
 		EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */; };
 		EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */; };
 		EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF982C361375F962009B4B28 /* dummyUser.jpg */; };
@@ -56,6 +57,8 @@
 		BC06E0A11376417A0007E46C /* HBUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUserViewController.m; sourceTree = "<group>"; };
 		BC06E0A21376417A0007E46C /* HBUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBUserViewController.xib; sourceTree = "<group>"; };
 		BC06E0DE13772ACB0007E46C /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		EF1ACD8A13773574004D135F /* NSArray+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extensions.h"; sourceTree = "<group>"; };
+		EF1ACD8B13773574004D135F /* NSArray+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extensions.m"; sourceTree = "<group>"; };
 		EF982C231375F6B6009B4B28 /* HBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHomeViewController.h; sourceTree = "<group>"; };
 		EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHomeViewController.m; sourceTree = "<group>"; };
 		EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBHomeViewController.xib; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				EF982CBC13760824009B4B28 /* RdioService */,
 				1D3623240D0F684500981E51 /* HeartBeatPortAppDelegate.h */,
 				1D3623250D0F684500981E51 /* HeartBeatPortAppDelegate.m */,
+				EF1ACD8A13773574004D135F /* NSArray+Extensions.h */,
+				EF1ACD8B13773574004D135F /* NSArray+Extensions.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				EF982C9A13760596009B4B28 /* HBArtistMatcher.m in Sources */,
 				EF982CC313760858009B4B28 /* RdioService.m in Sources */,
 				BC06E0A31376417A0007E46C /* HBUserViewController.m in Sources */,
+				EF1ACD8C13773574004D135F /* NSArray+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
