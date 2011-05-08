@@ -20,6 +20,8 @@
 		BC06E0361375F2CF0007E46C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC06E0351375F2CF0007E46C /* CFNetwork.framework */; };
 		BC06E0381375F2CF0007E46C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC06E0371375F2CF0007E46C /* Security.framework */; };
 		BC06E03A1375F2CF0007E46C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC06E0391375F2CF0007E46C /* SystemConfiguration.framework */; };
+		BC06E0A31376417A0007E46C /* HBUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06E0A11376417A0007E46C /* HBUserViewController.m */; };
+		BC06E0A41376417A0007E46C /* HBUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC06E0A21376417A0007E46C /* HBUserViewController.xib */; };
 		EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */; };
 		EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */; };
 		EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF982C361375F962009B4B28 /* dummyUser.jpg */; };
@@ -49,6 +51,9 @@
 		BC06E0351375F2CF0007E46C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		BC06E0371375F2CF0007E46C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BC06E0391375F2CF0007E46C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC06E0A01376417A0007E46C /* HBUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUserViewController.h; sourceTree = "<group>"; };
+		BC06E0A11376417A0007E46C /* HBUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUserViewController.m; sourceTree = "<group>"; };
+		BC06E0A21376417A0007E46C /* HBUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBUserViewController.xib; sourceTree = "<group>"; };
 		EF982C231375F6B6009B4B28 /* HBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHomeViewController.h; sourceTree = "<group>"; };
 		EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHomeViewController.m; sourceTree = "<group>"; };
 		EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBHomeViewController.xib; sourceTree = "<group>"; };
@@ -91,6 +96,9 @@
 				EF982C231375F6B6009B4B28 /* HBHomeViewController.h */,
 				EF982C241375F6B6009B4B28 /* HBHomeViewController.m */,
 				EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */,
+				BC06E0A01376417A0007E46C /* HBUserViewController.h */,
+				BC06E0A11376417A0007E46C /* HBUserViewController.m */,
+				BC06E0A21376417A0007E46C /* HBUserViewController.xib */,
 				EF982C9F1376069F009B4B28 /* ViewControllers */,
 				EF982C9E13760695009B4B28 /* User */,
 				EF982C9C13760674009B4B28 /* Matching */,
@@ -269,6 +277,7 @@
 				EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */,
 				EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */,
 				EF982C3E1375F97F009B4B28 /* HBLoginViewController.xib in Resources */,
+				BC06E0A41376417A0007E46C /* HBUserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +296,7 @@
 				EF982C5113760009009B4B28 /* HBUser.m in Sources */,
 				EF982C9A13760596009B4B28 /* HBArtistMatcher.m in Sources */,
 				EF982CC313760858009B4B28 /* RdioService.m in Sources */,
+				BC06E0A31376417A0007E46C /* HBUserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

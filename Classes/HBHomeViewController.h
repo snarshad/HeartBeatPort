@@ -11,7 +11,7 @@
 #import "HBServiceProtocol.h"
 #import "HBMatcherProtocol.h"
 
-@class HBUser;
+@class HBUser, HBUserViewController;
 @interface HBHomeViewController : UIViewController <HBMatcherDelegate> {
 	IBOutlet UIImageView *mUserImageView;
 
@@ -24,7 +24,7 @@
 
 	id<HBServiceProtocol>mService;
 	id<HBMatcherProtocol,HBServiceDelegate>mMatcher;
-
+	HBUserViewController *mResultController;
 }
 
 @property (nonatomic, retain) id<HBMatcherProtocol,HBServiceDelegate>matcher;
