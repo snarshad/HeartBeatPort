@@ -27,6 +27,7 @@
 		BC06E106137730B70007E46C /* HBMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC06E104137730B70007E46C /* HBMessageViewController.xib */; };
 		BC06E109137731830007E46C /* song_bar_load.png in Resources */ = {isa = PBXBuildFile; fileRef = BC06E108137731830007E46C /* song_bar_load.png */; };
 		EF1ACF2813774037004D135F /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ACF2713774037004D135F /* NSArray+Extensions.m */; };
+		EF1ACFBE137747DA004D135F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1ACFBD137747DA004D135F /* Icon.png */; };
 		EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */; };
 		EF982C271375F6B6009B4B28 /* HBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */; };
 		EF982C371375F962009B4B28 /* dummyUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF982C361375F962009B4B28 /* dummyUser.jpg */; };
@@ -66,6 +67,7 @@
 		BC06E108137731830007E46C /* song_bar_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = song_bar_load.png; path = Designs/Images/song_bar_load.png; sourceTree = "<group>"; };
 		EF1ACF2613774037004D135F /* NSArray+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extensions.h"; sourceTree = "<group>"; };
 		EF1ACF2713774037004D135F /* NSArray+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extensions.m"; sourceTree = "<group>"; };
+		EF1ACFBD137747DA004D135F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		EF982C231375F6B6009B4B28 /* HBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHomeViewController.h; sourceTree = "<group>"; };
 		EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHomeViewController.m; sourceTree = "<group>"; };
 		EF982C251375F6B6009B4B28 /* HBHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBHomeViewController.xib; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF1ACFBD137747DA004D135F /* Icon.png */,
 				BC06E0DE13772ACB0007E46C /* map.png */,
 				BC06E108137731830007E46C /* song_bar_load.png */,
 				EF982C361375F962009B4B28 /* dummyUser.jpg */,
@@ -300,6 +303,7 @@
 				BC06E0DF13772ACB0007E46C /* map.png in Resources */,
 				BC06E106137730B70007E46C /* HBMessageViewController.xib in Resources */,
 				BC06E109137731830007E46C /* song_bar_load.png in Resources */,
+				EF1ACFBE137747DA004D135F /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +370,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arshad Tayyeb (LRXLYYC227)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "276BA53E-64E5-4B1F-A567-F47D2C3B290D";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -380,13 +385,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arshad Tayyeb (LRXLYYC227)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "276BA53E-64E5-4B1F-A567-F47D2C3B290D";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

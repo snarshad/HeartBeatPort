@@ -181,7 +181,7 @@
 	[self showUser:bestMatch];
 	[mMatchImageView setImage:[bestMatch getAvatar]];
 	[mMatchname setText:[NSString stringWithFormat:@"%@ %d%%", bestMatch.userName, [[bestMatch.userData valueForKey:@"strength"] intValue]  ]];
-	[self setRightButton:[NSString stringWithFormat:@"%@ %d%%", bestMatch.userName, [[bestMatch.userData valueForKey:@"strength"] intValue]]];
+	[self setRightButton:[NSString stringWithFormat:@"%@ %d%%", bestMatch.userName, [[bestMatch.userData valueForKey:@"strength"] intValue]]]	;
 }
 
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches
