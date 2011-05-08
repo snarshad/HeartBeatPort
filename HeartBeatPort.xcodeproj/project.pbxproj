@@ -26,6 +26,7 @@
 		BC06E105137730B70007E46C /* HBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06E103137730B70007E46C /* HBMessageViewController.m */; };
 		BC06E106137730B70007E46C /* HBMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC06E104137730B70007E46C /* HBMessageViewController.xib */; };
 		BC06E109137731830007E46C /* song_bar_load.png in Resources */ = {isa = PBXBuildFile; fileRef = BC06E108137731830007E46C /* song_bar_load.png */; };
+		BC06E183137744100007E46C /* loading_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = BC06E182137744100007E46C /* loading_screen.png */; };
 		EF1ACF2813774037004D135F /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1ACF2713774037004D135F /* NSArray+Extensions.m */; };
 		EF1ACFBE137747DA004D135F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1ACFBD137747DA004D135F /* Icon.png */; };
 		EF982C261375F6B6009B4B28 /* HBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */; };
@@ -65,6 +66,7 @@
 		BC06E103137730B70007E46C /* HBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBMessageViewController.m; sourceTree = "<group>"; };
 		BC06E104137730B70007E46C /* HBMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBMessageViewController.xib; sourceTree = "<group>"; };
 		BC06E108137731830007E46C /* song_bar_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = song_bar_load.png; path = Designs/Images/song_bar_load.png; sourceTree = "<group>"; };
+		BC06E182137744100007E46C /* loading_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading_screen.png; path = Designs/Images/loading_screen.png; sourceTree = "<group>"; };
 		EF1ACF2613774037004D135F /* NSArray+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extensions.h"; sourceTree = "<group>"; };
 		EF1ACF2713774037004D135F /* NSArray+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extensions.m"; sourceTree = "<group>"; };
 		EF1ACFBD137747DA004D135F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				EF1ACFBD137747DA004D135F /* Icon.png */,
+				BC06E182137744100007E46C /* loading_screen.png */,
 				BC06E0DE13772ACB0007E46C /* map.png */,
 				BC06E108137731830007E46C /* song_bar_load.png */,
 				EF982C361375F962009B4B28 /* dummyUser.jpg */,
@@ -304,6 +307,7 @@
 				BC06E106137730B70007E46C /* HBMessageViewController.xib in Resources */,
 				BC06E109137731830007E46C /* song_bar_load.png in Resources */,
 				EF1ACFBE137747DA004D135F /* Icon.png in Resources */,
+				BC06E183137744100007E46C /* loading_screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
