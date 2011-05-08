@@ -82,6 +82,17 @@
 }
 
 #pragma mark HBMatcherDelegate
+- (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength
+{
+	if (!mMatchedUsers)
+	{
+		mMatchedUsers = [[NSMutableDictionary alloc] initWithCapacity:10];
+	}
+
+	[mMatchedUsers setObject:user forKey:[NSNumber numberWithFloat:strength]];
+}
+
+
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches
 {
 	//TODO: Send notification here? allow viewing of users?

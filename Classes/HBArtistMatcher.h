@@ -13,11 +13,13 @@
 @interface HBArtistMatcher : NSObject <HBMatcherProtocol, HBServiceDelegate> {
 
 	HBUser *mUser;
-	NSArray *mUsersToMatch;
+	NSMutableArray *mUsersToMatch;
 	id <HBMatcherDelegate>delegate;
+	NSMutableDictionary *mMatchedUsersByKey;
 }
 
 - (void)service:(id<HBServiceProtocol>)service nearbyUsersFound:(NSArray *)users;
+- (void)service:(id<HBServiceProtocol>)service nearbyUserFound:(HBUser *)user;
 
 - (CGFloat)matchUser:(HBUser *)sourceUser withUser:(HBUser *)targetUser;
 @end

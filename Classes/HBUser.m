@@ -14,13 +14,14 @@
 @synthesize avatar, artistList = mArtistList;
 @synthesize userData = mUserData;
 @synthesize gender = mGender;
+@synthesize service = mService;
 
 - (HBUser *)initWithName:(NSString *)userName
 {
 	if (self = [super init])
 	{
 		self.userName = userName;
-		mArtistList = [[NSMutableArray alloc] initWithCapacity:10];
+		mArtistToWeightsDict = [[NSMutableDictionary alloc] initWithCapacity:10];
 		mUserData = [[NSMutableDictionary alloc] initWithCapacity:10];
 	}
 	return self;
@@ -28,10 +29,11 @@
 
 - (void)dealloc
 {
+	HBRelease(mService);
 	HBRelease(mUserName);
 	HBRelease(mAvatar);
 	HBRelease(mRealName);
-	HBRelease(mArtistList);
+	HBRelease(mArtistToWeightsDict);
 	HBRelease(mUserData);
 	[super dealloc];
 }
@@ -42,8 +44,34 @@
 	if (mAvatar)
 		return mAvatar;
 	
-	mAvatar = [[UIImage imageNamed:@"dummyUser.jpg"] retain];
+	if ([mUserData objectForKey:@"icon"]) //rdio specific
+	{
+		NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[mUserData objectForKey:@"icon"]]];
+		if (data)
+		{
+			mAvatar = [[UIImage alloc] initWithData:data];
+		}
+	}
+	
+	
+	if (!mAvatar)
+	{
+		mAvatar = [[UIImage imageNamed:@"dummyUser.jpg"] retain];		
+	}
 	
 	return mAvatar;
 }
+
+- (void)addArtist:(NSString *)artist weight:(NSNumber *)weight
+{
+	[self willChangeValueForKey:@"artistList"];
+	[mArtistToWeightsDict setObject:weight forKey:artist];
+	[self didChangeValueForKey:@"artistList"];
+}
+
+- (NSArray *)artistList
+{
+	return [mArtistToWeightsDict allKeys];
+}
+
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "HBServiceProtocol.h"
 
 @interface HBUser : NSObject {
 	NSString *mUserName;
@@ -15,13 +15,16 @@
 
 	UIImage *mAvatar;
 	
-	NSMutableArray *mArtistList;
+	NSMutableDictionary *mArtistToWeightsDict;
 	
 	NSMutableDictionary *mUserData;	//might be different service to service
 	
 	NSString *mGender;
+	
+	id <HBServiceProtocol>mService;
 }
 
+@property (nonatomic, retain)	id <HBServiceProtocol>service;
 @property (nonatomic, retain)	NSString *userName;
 @property (nonatomic, retain)	NSString *gender;
 @property (nonatomic, retain)	NSString *realName;
@@ -29,6 +32,8 @@
 @property (nonatomic, readonly) NSArray *artistList;
 @property (nonatomic, readonly)	NSMutableDictionary *userData;
 
+
+- (void)addArtist:(NSString *)artist weight:(NSNumber *)weight;
 
 
 

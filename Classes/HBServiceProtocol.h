@@ -40,4 +40,5 @@
 
 @protocol HBServiceDelegate <NSObject>
 - (void)service:(id<HBServiceProtocol>)service nearbyUsersFound:(NSArray *)users;
+- (void)service:(id<HBServiceProtocol>)service nearbyUserFound:(HBUser *)user;
 @end

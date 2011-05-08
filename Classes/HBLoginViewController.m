@@ -44,6 +44,7 @@ static HBLoginViewController *s_loginController = nil;
 	
 	
 	mMatcher = [[HBArtistMatcher alloc] init];
+	mHomeViewController.service = mService;
 	mHomeViewController.matcher = mMatcher;
 	
     [super viewDidLoad];
@@ -88,7 +89,7 @@ static HBLoginViewController *s_loginController = nil;
 - (void)service:(id<HBServiceProtocol>)service loginDidSucceedWithUser:(HBUser *)user
 {
 	mHomeViewController.user = user;
-	mService.delegate = mMatcher; //after login, the home controller continues listening
+	//mService.delegate = mMatcher; //after login, the home controller continues listening
 	[self.navigationController pushViewController:mHomeViewController animated:YES];
 
 }

@@ -21,6 +21,8 @@
 	IBOutlet UIButton *mMyArtistsButton;
 	
 	HBUser *mMe;
+	
+	NSMutableDictionary *mMatchedUsers; //Dictionary of @"user"->HBUser, @"strength" => NSNumber (CGFloat)
 
 	id<HBServiceProtocol>mService;
 	id<HBMatcherProtocol,HBServiceDelegate>mMatcher;
@@ -37,5 +39,6 @@
 - (IBAction)showMyArtists:(id)sender;
 
 #pragma mark HBMatcherDelegate
-- (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches;  //Dict of HBUser->NSNumbers (numbers are CGFloats between 0-1)
+- (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength;
+- (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches;  //dict of @"user"->HBUser, @"strength" => NSNumber (CGFloat)
 @end

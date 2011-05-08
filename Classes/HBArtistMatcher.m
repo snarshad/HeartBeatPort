@@ -9,6 +9,10 @@
 #import "HBArtistMatcher.h"
 #import "HBUser.h"
 
+@interface HBArtistMatcher (private)
+- (void)matchAllUsers;
+@end
+
 @implementation HBArtistMatcher
 @synthesize delegate;
 
@@ -26,33 +30,71 @@
 
 - (void)dealloc
 {
+	HBRelease(mMatchedUsersByKey);
 	HBRelease(mUser);
 	HBRelease(mUsersToMatch);
 	[super dealloc];
 }
 
+- (void)service:(id<HBServiceProtocol>)service nearbyUserFound:(HBUser *)user
+{
+	if (!mUsersToMatch)
+	{
+		mUsersToMatch = [[NSMutableArray alloc] initWithCapacity:10];
+	}
+	if (!mMatchedUsersByKey)
+	{
+		mMatchedUsersByKey = [[NSMutableDictionary alloc] initWithCapacity:10];
+	}
+	[mUsersToMatch addObject:user];
+	[mMatchedUsersByKey setObject:user forKey:[user.userData objectForKey:@"key"]];
+	[self matchAllUsers];
+}
+
+
+
 - (void)service:(id<HBServiceProtocol>)service nearbyUsersFound:(NSArray *)users
 {
-	[users retain];
-	HBRelease(mUsersToMatch);
-	mUsersToMatch = users;
+	[mUsersToMatch addObjectsFromArray:users];
 	
+	[self matchAllUsers];
+	
+	//TODO: do something with the matches!
+}
+
+
+#pragma mark matching
+- (void)matchAllUsers
+{
 	NSMutableDictionary *allMatches = [NSMutableDictionary dictionaryWithCapacity:10];
-	
-	for (HBUser *targetUser in users)
+	for (HBUser *targetUser in mUsersToMatch)
 	{
 		CGFloat matchStrength = [self matchUser:mUser withUser:targetUser];
 		if (matchStrength > 0.0)
 		{
-			[allMatches setObject:[NSNumber numberWithFloat:matchStrength] forKey:targetUser];
+			[allMatches setObject:[NSNumber numberWithFloat:matchStrength] forKey:[targetUser.userData valueForKey:@"key"]];
 		}
 	}
+
+	NSString *bestMatch = nil;
+	CGFloat bestStrength = 0.0f;
 	
-	//TODO: do something with the matches!
+	for (NSString *matchKey in [allMatches allKeys])
+	{
+		NSNumber *strength = [allMatches objectForKey:matchKey];
+		
+		if ([strength floatValue] > bestStrength)
+		{
+			bestStrength = [strength floatValue];
+			bestMatch = matchKey;
+		}
+		
+	}
 	NSLog(@"Matches: %@", allMatches);
 	
-}
+	[delegate matcher:self foundMatch:[mMatchedUsersByKey objectForKey:bestMatch] strength:bestStrength];
 
+}
 
 
 - (CGFloat)matchUser:(HBUser *)sourceUser withUser:(HBUser *)targetUser

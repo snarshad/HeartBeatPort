@@ -23,6 +23,10 @@
 	id <HBServiceLoginDelegate>loginDelegate;
 	id <HBServiceDelegate>delegate;
 	
+	NSMutableDictionary *mHBUsersByUserKey;
+	NSMutableDictionary *mArtistsByKey;
+	
+	NSOperationQueue *opQueue;
 }
 @property (readwrite, assign)id <HBServiceLoginDelegate>loginDelegate;
 @property (readwrite, assign)id <HBServiceDelegate>delegate;
