@@ -16,6 +16,7 @@
 @synthesize gender = mGender;
 @synthesize service = mService;
 @synthesize artistToWeightsDict = mArtistToWeightsDict;
+@synthesize delegate;
 
 - (HBUser *)initWithName:(NSString *)userName
 {
@@ -48,13 +49,9 @@
 	[super dealloc];
 }
 
-
-
-- (UIImage *)getAvatar
+- (void)getAvatarOnThread:(id)sender
 {
-	if (mAvatar)
-		return mAvatar;
-	
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	if ([mUserData objectForKey:@"icon"]) //rdio specific
 	{
 		NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[mUserData objectForKey:@"icon"]]];
@@ -63,13 +60,39 @@
 			mAvatar = [[UIImage alloc] initWithData:data];
 		}
 	}
-	
-	
-	if (!mAvatar)
+	if (delegate && [delegate respondsToSelector:@selector(avatarRetrieved:)])
 	{
-		mAvatar = [[UIImage imageNamed:@"dummyUser.jpg"] retain];		
+		[delegate performSelectorOnMainThread:@selector(avatarRetrieved:) withObject:self waitUntilDone:NO];
 	}
+	[pool drain];
+}
+
+
+- (UIImage *)getAvatar
+{
+	if (mAvatar)
+		return mAvatar;
+
+//	if (!gettingAvatar)
+//		[NSThread detachNewThreadSelector:@selector(getAvatarOnThread:) toTarget:self withObject:nil];
+//	gettingAvatar = YES;
+	[self getAvatarOnThread:self];
 	
+//	if ([mUserData objectForKey:@"icon"]) //rdio specific
+//	{
+//		NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:[mUserData objectForKey:@"icon"]]];
+//		if (data)
+//		{
+//			mAvatar = [[UIImage alloc] initWithData:data];
+//		}
+//	}
+//	
+//	
+//	if (!mAvatar)
+//	{
+//		mAvatar = [[UIImage imageNamed:@"dummyUser.jpg"] retain];		
+//	}
+//	
 	return mAvatar;
 }
 

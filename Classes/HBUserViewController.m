@@ -52,6 +52,7 @@
 	
 	mUserName.text = mUser.userName;
 	mUserImageView.image = [mUser getAvatar];
+	mUser.delegate = self;
 	mGenderLabel.text = mUser.gender;
 	mSeekingLabel.text = [mUser.gender isEqualToString:@"Male"]?@"Female":@"Male";
 	mScoreLabel.text = [mUser.userData objectForKey:@"strength"]?[[mUser.userData objectForKey:@"strength"] stringValue]:@"Unkown";
@@ -97,4 +98,13 @@
 	mMessageController = [[HBMessageViewController alloc] initWithNibName:@"HBMessageViewController" bundle:nil];
 	[self.navigationController pushViewController:mMessageController animated:YES];
 }
+
+- (void)avatarRetrieved:(HBUser *)user
+{
+	if (user == mUser)
+	{
+		[mUserImageView setImage:[user getAvatar]];
+	}
+}
+
 @end

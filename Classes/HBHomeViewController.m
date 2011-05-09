@@ -31,6 +31,10 @@
 	NSLog(@"did load %@, %@", mUserName, mUserImageView);
 	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain 
 																			 target:self action:@selector(goBack)] autorelease];	
+	
+	mMe.delegate = self;
+	mUserImageView.image = [mMe getAvatar];
+
     [super viewDidLoad];
 }
 
@@ -61,7 +65,8 @@
 	NSLog(@"Set User %@, %@", mUserName, mUserImageView);
 	
 	[mUserName setText:mMe.userName];
-	[mUserImageView setImage:mMe.avatar];
+	mMe.delegate = self;
+	[mUserImageView setImage:[mMe getAvatar]];
 }
 
 #pragma mark -
@@ -115,7 +120,9 @@
 - (void)showUser:(HBUser *)user
 {
 	[mMatchImageView setImage:[user getAvatar]];
-
+	
+	user.delegate = self;
+	
 	NSString *matchString = [NSString stringWithFormat:@"%@", [[user.userName componentsSeparatedByString:@" "] objectAtIndex:0]];
 	if ([[user.userData valueForKey:@"strength"] intValue]> 0)
 	{
@@ -213,5 +220,17 @@
     // e.g. self.myOutlet = nil;
 }
 
-
+- (void)avatarRetrieved:(HBUser *)user
+ {
+	if (user == mMe)
+	{
+		[mUserImageView setImage:[user getAvatar]];
+	} else {
+		if (user == bestMatch)
+		{
+			mMatchImageView.image = [user getAvatar];
+		}
+		
+	}
+ }
 @end

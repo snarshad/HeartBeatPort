@@ -15,8 +15,11 @@
 	HBUser *mUser;
 	NSMutableArray *mUsersToMatch;
 	id <HBMatcherDelegate>delegate;
-	NSMutableDictionary *mMatchedUsersByKey;
+	NSMutableDictionary *mMatchedUsersByKey;	
+	
+	BOOL alreadyMatching;
 }
+
 @property (nonatomic, retain) HBUser *user; //ME
 
 - (void)service:(id<HBServiceProtocol>)service nearbyUsersFound:(NSArray *)users;

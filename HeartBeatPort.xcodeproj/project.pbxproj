@@ -374,13 +374,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arshad Tayyeb (LRXLYYC227)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arshad Tayyeb (S7AUY6W2C6)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "276BA53E-64E5-4B1F-A567-F47D2C3B290D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D9E45EED-1236-4A43-BF8B-32F29597E31D";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -389,14 +389,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arshad Tayyeb (LRXLYYC227)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arshad Tayyeb (S7AUY6W2C6)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-all_load";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "276BA53E-64E5-4B1F-A567-F47D2C3B290D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D9E45EED-1236-4A43-BF8B-32F29597E31D";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

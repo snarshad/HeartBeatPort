@@ -132,7 +132,8 @@ static NSDate *lastRequest = nil;
 				 delegate:self];
 	
 	//Give the run loop time to come back
-	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10.0]];
+	if (![NSThread isMainThread])
+		[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10.0]];
 	[pool drain];
 	
 }
@@ -170,7 +171,9 @@ static NSDate *lastRequest = nil;
 											   delegate:self];
 	
 	//Give the run loop time to come back
-	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10.0]];
+	if (![NSThread isMainThread])		
+		[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10.0]];
+
 	[pool drain];
 }	
 

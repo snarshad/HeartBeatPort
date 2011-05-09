@@ -10,9 +10,10 @@
 #import <Rdio/Rdio.h>
 #import "HBServiceProtocol.h"
 #import "HBMatcherProtocol.h"
+#import "HBUser.h"
 
 @class HBUser, HBUserViewController;
-@interface HBHomeViewController : UIViewController <HBMatcherDelegate> {
+@interface HBHomeViewController : UIViewController <HBMatcherDelegate, HBUserDelegate> {
 	IBOutlet UIImageView *mUserImageView;
 	IBOutlet UIImageView *mMatchImageView;
 	IBOutlet UILabel *mMatchname;	
@@ -32,6 +33,7 @@
 	
 	CGFloat bestStrength;
 	HBUser *bestMatch;
+	
 }
 
 @property (nonatomic, retain) id<HBMatcherProtocol,HBServiceDelegate>matcher;
@@ -46,4 +48,7 @@
 #pragma mark HBMatcherDelegate
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatch:(HBUser *)user strength:(CGFloat)strength;
 - (void)matcher:(id<HBMatcherProtocol>)matcher foundMatches:(NSDictionary *)matches;  //dict of @"user"->HBUser, @"strength" => NSNumber (CGFloat)
+
+- (void)avatarRetrieved:(HBUser *)user;
+
 @end

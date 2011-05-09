@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HBUser.h"
 
 @class HBUser, HBMessageViewController;
 
-@interface HBUserViewController : UIViewController {
+@interface HBUserViewController : UIViewController <HBUserDelegate> {
 	IBOutlet UIImageView *mUserImageView;
 	
 	IBOutlet UILabel *mUserName;	

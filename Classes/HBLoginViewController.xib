@@ -172,6 +172,14 @@
 					</object>
 					<int key="connectionID">9</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">mLoginButton</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="741380797"/>
+					</object>
+					<int key="connectionID">10</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -272,7 +280,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">9</int>
+			<int key="maxID">10</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -317,14 +325,22 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>mFindMatchesButton</string>
+							<string>mMatchImageView</string>
+							<string>mMatcher</string>
+							<string>mMatchname</string>
 							<string>mMyArtistsButton</string>
+							<string>mService</string>
 							<string>mUserImageView</string>
 							<string>mUserName</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UIButton</string>
+							<string>UIImageView</string>
+							<string>id</string>
+							<string>UILabel</string>
 							<string>UIButton</string>
+							<string>id</string>
 							<string>UIImageView</string>
 							<string>UILabel</string>
 						</object>
@@ -334,7 +350,11 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>mFindMatchesButton</string>
+							<string>mMatchImageView</string>
+							<string>mMatcher</string>
+							<string>mMatchname</string>
 							<string>mMyArtistsButton</string>
+							<string>mService</string>
 							<string>mUserImageView</string>
 							<string>mUserName</string>
 						</object>
@@ -345,8 +365,24 @@
 								<string key="candidateClassName">UIButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
+								<string key="name">mMatchImageView</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">mMatcher</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">mMatchname</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
 								<string key="name">mMyArtistsButton</string>
 								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">mService</string>
+								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">mUserImageView</string>
@@ -383,6 +419,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>mHomeViewController</string>
 							<string>mLoginButton</string>
+							<string>mMatcher</string>
 							<string>mPasswordField</string>
 							<string>mService</string>
 							<string>mUsernameField</string>
@@ -391,6 +428,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>HBHomeViewController</string>
 							<string>UIButton</string>
+							<string>id</string>
 							<string>UITextField</string>
 							<string>id</string>
 							<string>UITextField</string>
@@ -402,6 +440,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>mHomeViewController</string>
 							<string>mLoginButton</string>
+							<string>mMatcher</string>
 							<string>mPasswordField</string>
 							<string>mService</string>
 							<string>mUsernameField</string>
@@ -415,6 +454,10 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">mLoginButton</string>
 								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">mMatcher</string>
+								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">mPasswordField</string>

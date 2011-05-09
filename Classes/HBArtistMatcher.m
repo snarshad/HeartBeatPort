@@ -59,7 +59,7 @@
 
 - (void)service:(id<HBServiceProtocol>)service nearbyMatchDataAcquired:(HBUser *)user
 {
-	[self matchAllUsers];
+	[NSThread detachNewThreadSelector:@selector(matchAllUsers) toTarget:self withObject:nil];
 }
 
 
@@ -77,6 +77,13 @@
 #pragma mark matching
 - (void)matchAllUsers
 {
+	
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	
+	if (alreadyMatching)
+		return;
+	
+	alreadyMatching = YES;
 	srandom([[NSDate date] timeIntervalSince1970]);
 
 	NSArray *users = nil;
@@ -119,7 +126,10 @@
 	
 	
 	[delegate matcher:self foundMatch:[mMatchedUsersByKey objectForKey:bestMatch] strength:bestStrength];
-
+	
+	alreadyMatching = NO;
+	
+	[pool release];
 }
 
 

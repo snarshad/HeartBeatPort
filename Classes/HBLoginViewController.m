@@ -40,8 +40,15 @@ static HBLoginViewController *s_loginController = nil;
 	mService = [[RdioService alloc] init];
 	mService.loginDelegate = self;
 	
-	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead. 
+	
 	NSString *token = [[NSUserDefaults standardUserDefaults] objectForKey:@"rdioSavedUserToken"];
+	if (token) //for demo, assume token means it will login
+	{
+		[mLoginButton setEnabled:NO];
+		[mLoginButton setTitle:@"Logging in..." forState:UIControlStateNormal];
+	}
+
+	[mService user]; // this doesn't actually return anything... it kicks off the login and we get rdioDidAuthorizeUser callback instead. 
 
 //	if (token) //for demo, assume token means it will login
 //	{	
@@ -54,6 +61,7 @@ static HBLoginViewController *s_loginController = nil;
 	mMatcher = [[HBArtistMatcher alloc] init];
 	mHomeViewController.service = mService;
 	mHomeViewController.matcher = mMatcher;
+
 	
     [super viewDidLoad];
 }
@@ -112,17 +120,17 @@ static HBLoginViewController *s_loginController = nil;
 	[rdioUser.userData setObject:accessToken forKey:@"accessToken"];
 	[rdioUser.userData addEntriesFromDictionary:user];
 	
-	if ([user valueForKey:@"icon"])
-	{
-		NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:[user valueForKey:@"icon"]]];
-		if (imageData)
-		{
-			UIImage *image = [UIImage imageWithData:imageData];
-			if (image)
-				rdioUser.avatar = image;
-		}
-		
-	}
+//	if ([user valueForKey:@"icon"])
+//	{
+//		NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:[user valueForKey:@"icon"]]];
+//		if (imageData)
+//		{
+//			UIImage *image = [UIImage imageWithData:imageData];
+//			if (image)
+//				rdioUser.avatar = image;
+//		}
+//		
+//	}
 	
 	[rdioUser.userData setObject:accessToken forKey:@"accessToken"];
 	[rdioUser.userData addEntriesFromDictionary:user];

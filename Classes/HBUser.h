@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "HBServiceProtocol.h"
 
+@protocol HBUserDelegate <NSObject>
+- (void)avatarRetrieved:(HBUser *)user;
+@end
+
+
 @interface HBUser : NSObject {
 	NSString *mUserName;
 	NSString *mRealName;
@@ -22,7 +27,12 @@
 	NSString *mGender;
 	
 	id <HBServiceProtocol>mService;
+	
+	NSObject <HBUserDelegate> *delegate;
+	
+	BOOL gettingAvatar;
 }
+@property (readwrite, assign)	id <HBUserDelegate>delegate;
 
 @property (nonatomic, retain)	id <HBServiceProtocol>service;
 @property (nonatomic, retain)	NSString *userName;
