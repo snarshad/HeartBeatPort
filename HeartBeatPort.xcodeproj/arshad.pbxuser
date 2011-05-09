@@ -39,7 +39,7 @@
 		activeArchitecturePreference = armv6;
 		activeBuildConfigurationName = Debug;
 		activeExecutable = EF982B8E1375EF76009B4B28 /* HeartBeatPort */;
-		activeSDKPreference = iphonesimulator4.3;
+		activeSDKPreference = iphoneos4.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* HeartBeatPort */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* HeartBeatPort */,
@@ -47,8 +47,6 @@
 		breakpoints = (
 			EF983326137660B6009B4B28 /* objc_exception_throw */,
 			EF1AD00813774C1D004D135F /* HBLoginViewController.m:111 */,
-			EF590A5D13776D3900EE3FC0 /* HBHomeViewController.m:227 */,
-			EF590A9413776E8900EE3FC0 /* HBUser.m:79 */,
 		);
 		codeSenseManager = EF982B9A1375EF7B009B4B28 /* Code sense */;
 		executables = (
@@ -1218,6 +1216,13 @@
 			EF590ABC13776EF600EE3FC0 /* PBXTextBookmark */ = EF590ABC13776EF600EE3FC0 /* PBXTextBookmark */;
 			EF590ABD13776EF600EE3FC0 /* PBXTextBookmark */ = EF590ABD13776EF600EE3FC0 /* PBXTextBookmark */;
 			EF590ABE13776EF600EE3FC0 /* PBXBookmark */ = EF590ABE13776EF600EE3FC0 /* PBXBookmark */;
+			EF590AC51377718300EE3FC0 /* PBXTextBookmark */ = EF590AC51377718300EE3FC0 /* PBXTextBookmark */;
+			EF590AC61377718300EE3FC0 /* PBXTextBookmark */ = EF590AC61377718300EE3FC0 /* PBXTextBookmark */;
+			EF590AC71377718300EE3FC0 /* PBXTextBookmark */ = EF590AC71377718300EE3FC0 /* PBXTextBookmark */;
+			EF590AC81377718300EE3FC0 /* PBXTextBookmark */ = EF590AC81377718300EE3FC0 /* PBXTextBookmark */;
+			EF590AC91377718300EE3FC0 /* PBXTextBookmark */ = EF590AC91377718300EE3FC0 /* PBXTextBookmark */;
+			EF590ACA1377718300EE3FC0 /* PBXTextBookmark */ = EF590ACA1377718300EE3FC0 /* PBXTextBookmark */;
+			EF590ACB1377718300EE3FC0 /* PBXBookmark */ = EF590ACB1377718300EE3FC0 /* PBXBookmark */;
 			EF982C461375FAC1009B4B28 = EF982C461375FAC1009B4B28 /* PBXBookmark */;
 			EF982C5213760098009B4B28 = EF982C5213760098009B4B28 /* PBXTextBookmark */;
 			EF982C5313760098009B4B28 = EF982C5313760098009B4B28 /* PBXTextBookmark */;
@@ -2430,7 +2435,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -2554,7 +2559,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -2674,7 +2679,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -2794,7 +2799,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -2914,7 +2919,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -3034,7 +3039,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -3171,7 +3176,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -3301,7 +3306,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -3431,7 +3436,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -3561,7 +3566,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -3708,7 +3713,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -3858,7 +3863,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -4008,7 +4013,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -4148,7 +4153,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -4228,7 +4233,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -4358,7 +4363,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1038;
@@ -4498,7 +4503,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 654;
 		vrLoc = 1768;
@@ -4575,7 +4580,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -4725,7 +4730,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -4882,7 +4887,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -5012,7 +5017,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 1038;
@@ -5142,7 +5147,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 1166;
@@ -5312,7 +5317,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 1166;
@@ -5462,7 +5467,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -5646,7 +5651,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -5833,7 +5838,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -5993,7 +5998,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -6143,7 +6148,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -6261,7 +6266,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -6421,7 +6426,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -6611,7 +6616,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -6771,7 +6776,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -6901,7 +6906,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 112";
 		rLen = 0;
-		rLoc = 3214;
+		rLoc = 3265;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -7051,7 +7056,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 112";
 		rLen = 0;
-		rLoc = 3214;
+		rLoc = 3265;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -7201,7 +7206,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 112";
 		rLen = 0;
-		rLoc = 3213;
+		rLoc = 3264;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 1122;
@@ -7972,7 +7977,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 117";
 		rLen = 0;
-		rLoc = 2940;
+		rLoc = 2991;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 2168;
@@ -8022,7 +8027,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 137";
 		rLen = 0;
-		rLoc = 3365;
+		rLoc = 3416;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 1761;
@@ -8102,7 +8107,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 110";
 		rLen = 0;
-		rLoc = 2594;
+		rLoc = 2645;
 		rType = 0;
 		vrLen = 1306;
 		vrLoc = 1761;
@@ -8172,7 +8177,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 112";
 		rLen = 0;
-		rLoc = 2594;
+		rLoc = 2645;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 1498;
@@ -8496,7 +8501,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 117";
 		rLen = 0;
-		rLoc = 2745;
+		rLoc = 2796;
 		rType = 0;
 		vrLen = 1367;
 		vrLoc = 1355;
@@ -8506,7 +8511,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 117";
 		rLen = 0;
-		rLoc = 2745;
+		rLoc = 2796;
 		rType = 0;
 		vrLen = 1367;
 		vrLoc = 1355;
@@ -10181,7 +10186,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 152";
 		rLen = 0;
-		rLoc = 3360;
+		rLoc = 3411;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 2931;
@@ -10265,7 +10270,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 152";
 		rLen = 0;
-		rLoc = 3360;
+		rLoc = 3411;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 2585;
@@ -10345,7 +10350,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 152";
 		rLen = 0;
-		rLoc = 3360;
+		rLoc = 3411;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 2585;
@@ -10355,7 +10360,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 151";
 		rLen = 0;
-		rLoc = 3360;
+		rLoc = 3411;
 		rType = 0;
 		vrLen = 630;
 		vrLoc = 2625;
@@ -10588,7 +10593,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 153";
 		rLen = 0;
-		rLoc = 3474;
+		rLoc = 3525;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 2932;
@@ -10608,7 +10613,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 153";
 		rLen = 0;
-		rLoc = 3474;
+		rLoc = 3525;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2688;
@@ -10628,7 +10633,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 153";
 		rLen = 0;
-		rLoc = 3474;
+		rLoc = 3525;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2688;
@@ -10894,7 +10899,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -10904,7 +10909,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -10924,7 +10929,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 2856;
@@ -10934,7 +10939,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 617;
 		vrLoc = 2690;
@@ -10944,7 +10949,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -10968,7 +10973,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 617;
 		vrLoc = 2690;
@@ -10978,7 +10983,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -10997,7 +11002,7 @@
 		ignoreCount = 0;
 		lineNumber = 111;
 		location = HeartBeatPort;
-		modificationTime = 326594233.823729;
+		modificationTime = 326594406.975441;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -11006,7 +11011,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2688;
@@ -11016,7 +11021,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -11050,7 +11055,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2688;
@@ -11060,7 +11065,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -11084,7 +11089,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2688;
@@ -11094,7 +11099,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -11118,7 +11123,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2688;
@@ -11128,7 +11133,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -11152,7 +11157,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2688;
@@ -11162,7 +11167,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 2858;
@@ -11186,7 +11191,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 2856;
@@ -11246,7 +11251,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 670;
 		vrLoc = 2637;
@@ -11256,7 +11261,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 408;
 		vrLoc = 2856;
@@ -11280,7 +11285,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 448;
 		vrLoc = 2854;
@@ -11298,7 +11303,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 664;
 		vrLoc = 2637;
@@ -11312,7 +11317,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 78;
 		vrLoc = 2856;
@@ -11340,7 +11345,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 198;
 		vrLoc = 2856;
@@ -11354,7 +11359,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 198;
 		vrLoc = 2856;
@@ -11382,7 +11387,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 138";
 		rLen = 0;
-		rLoc = 3089;
+		rLoc = 3140;
 		rType = 0;
 		vrLen = 481;
 		vrLoc = 2713;
@@ -11396,7 +11401,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 138";
 		rLen = 0;
-		rLoc = 3089;
+		rLoc = 3140;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 2512;
@@ -11492,7 +11497,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 3;
 		vrLoc = 0;
@@ -11512,7 +11517,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 145";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 3;
 		vrLoc = 0;
@@ -11643,7 +11648,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -11707,7 +11712,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 156";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -11771,7 +11776,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -11835,7 +11840,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -11909,7 +11914,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -11993,7 +11998,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12052,24 +12057,6 @@
 		isa = PBXBookmark;
 		fRef = BC06E182137744100007E46C /* Default.png */;
 	};
-	EF590A5D13776D3900EE3FC0 /* HBHomeViewController.m:227 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
-		functionName = "-avatarRetrieved:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 227;
-		location = HeartBeatPort;
-		modificationTime = 326594233.82444;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
 	EF590A5F13776D3B00EE3FC0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
@@ -12085,7 +12072,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12159,7 +12146,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12223,7 +12210,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 42;
 		vrLoc = 0;
@@ -12287,7 +12274,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12351,7 +12338,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12400,24 +12387,6 @@
 		isa = PBXBookmark;
 		fRef = BC06E182137744100007E46C /* Default.png */;
 	};
-	EF590A9413776E8900EE3FC0 /* HBUser.m:79 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = EF982C5013760009009B4B28 /* HBUser.m */;
-		functionName = "-getAvatar";
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 79;
-		location = HeartBeatPort;
-		modificationTime = 326594236.610434;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
 	EF590A9813776E8C00EE3FC0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
@@ -12433,7 +12402,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12517,7 +12486,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12581,7 +12550,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 21;
 		vrLoc = 0;
@@ -12645,7 +12614,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 155";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3314;
 		rType = 0;
 		vrLen = 42;
 		vrLoc = 0;
@@ -12704,6 +12673,70 @@
 		isa = PBXBookmark;
 		fRef = BC06E182137744100007E46C /* Default.png */;
 	};
+	EF590AC51377718300EE3FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
+		name = "HBUser.m: 81";
+		rLen = 353;
+		rLoc = 1909;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 1671;
+	};
+	EF590AC61377718300EE3FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
+		name = "HBArtistMatcher.m: 160";
+		rLen = 0;
+		rLoc = 3314;
+		rType = 0;
+		vrLen = 21;
+		vrLoc = 0;
+	};
+	EF590AC71377718300EE3FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C5013760009009B4B28 /* HBUser.m */;
+		name = "HBUser.m: 97";
+		rLen = 0;
+		rLoc = 2280;
+		rType = 0;
+		vrLen = 1482;
+		vrLoc = 1088;
+	};
+	EF590AC81377718300EE3FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C241375F6B6009B4B28 /* HBHomeViewController.m */;
+		name = "HBHomeViewController.m: 116";
+		rLen = 0;
+		rLoc = 2980;
+		rType = 0;
+		vrLen = 1723;
+		vrLoc = 2678;
+	};
+	EF590AC91377718300EE3FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C3B1375F97F009B4B28 /* HBLoginViewController.m */;
+		name = "HBLoginViewController.m: 140";
+		rLen = 0;
+		rLoc = 4289;
+		rType = 0;
+		vrLen = 1896;
+		vrLoc = 2806;
+	};
+	EF590ACA1377718300EE3FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF982C4F13760009009B4B28 /* HBUser.h */;
+		name = "HBUser.h: 13";
+		rLen = 40;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 0;
+	};
+	EF590ACB1377718300EE3FC0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BC06E182137744100007E46C /* Default.png */;
+	};
 	EF982B8E1375EF76009B4B28 /* HeartBeatPort */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -12711,7 +12744,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -12759,9 +12792,9 @@
 	};
 	EF982C241375F6B6009B4B28 /* HBHomeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1293, 3133}}";
-			sepNavSelRange = "{3103, 0}";
-			sepNavVisRange = "{2634, 1662}";
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 3159}}";
+			sepNavSelRange = "{2980, 0}";
+			sepNavVisRange = "{2678, 1723}";
 		};
 	};
 	EF982C3A1375F97F009B4B28 /* HBLoginViewController.h */ = {
@@ -12795,14 +12828,15 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {981, 676}}";
 			sepNavSelRange = "{247, 40}";
-			sepNavVisRange = "{0, 948}";
+			sepNavVisRange = "{0, 851}";
 		};
 	};
 	EF982C5013760009009B4B28 /* HBUser.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {981, 1456}}";
-			sepNavSelRange = "{1906, 0}";
-			sepNavVisRange = "{1132, 1058}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1695, 585}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2570}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {981, 1131}}";
+			sepNavSelRange = "{1696, 0}";
+			sepNavVisRange = "{1088, 898}";
 			sepNavWindowFrame = "{{386, 231}, {1040, 647}}";
 		};
 	};
@@ -13082,9 +13116,9 @@
 	};
 	EF982C9913760596009B4B28 /* HBArtistMatcher.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {921, 2210}}";
-			sepNavSelRange = "{3263, 0}";
-			sepNavVisRange = "{0, 42}";
+			sepNavIntBoundsRect = "{{0, 0}, {921, 2249}}";
+			sepNavSelRange = "{3314, 0}";
+			sepNavVisRange = "{0, 21}";
 			sepNavWindowFrame = "{{446, 0}, {1138, 878}}";
 		};
 	};
@@ -13140,7 +13174,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 0;
-		rLoc = 3214;
+		rLoc = 3265;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 0;
@@ -13500,7 +13534,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 0;
-		rLoc = 3214;
+		rLoc = 3265;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 43;
@@ -13510,7 +13544,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -13520,7 +13554,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -13540,7 +13574,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 327;
 		vrLoc = 155;
@@ -13582,7 +13616,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -13602,7 +13636,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 151;
@@ -13632,7 +13666,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 160;
 		vrLoc = 202;
@@ -13642,7 +13676,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 183;
@@ -13694,7 +13728,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 22";
 		rLen = 47;
-		rLoc = 3168;
+		rLoc = 3219;
 		rType = 0;
 		vrLen = 160;
 		vrLoc = 202;
@@ -16025,7 +16059,7 @@
 		comments = "Method definition for '-service:nearbyFriendsFound:' not found";
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		rLen = 1;
-		rLoc = 168;
+		rLoc = 173;
 		rType = 1;
 	};
 	EF982F73137632CD009B4B28 /* PBXTextBookmark */ = {
@@ -16089,7 +16123,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 61";
 		rLen = 0;
-		rLoc = 2871;
+		rLoc = 2922;
 		rType = 0;
 		vrLen = 330;
 		vrLoc = 946;
@@ -16197,7 +16231,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 3536;
+		rLoc = 3587;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 390;
@@ -16396,7 +16430,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 61";
 		rLen = 0;
-		rLoc = 2871;
+		rLoc = 2922;
 		rType = 0;
 		vrLen = 333;
 		vrLoc = 943;
@@ -16494,7 +16528,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 3536;
+		rLoc = 3587;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -16634,7 +16668,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 3536;
+		rLoc = 3587;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -16782,7 +16816,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 3536;
+		rLoc = 3587;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -16922,7 +16956,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 68";
 		rLen = 0;
-		rLoc = 3536;
+		rLoc = 3587;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 389;
@@ -22313,7 +22347,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 326594233.825405;
+		modificationTime = 326594407.139782;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 		symbolName = objc_exception_throw;
@@ -22513,7 +22547,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 95";
 		rLen = 0;
-		rLoc = 2673;
+		rLoc = 2724;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 1475;
@@ -22523,7 +22557,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 95";
 		rLen = 0;
-		rLoc = 2672;
+		rLoc = 2723;
 		rType = 0;
 		vrLen = 770;
 		vrLoc = 1479;
@@ -22703,7 +22737,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 99";
 		rLen = 0;
-		rLoc = 2745;
+		rLoc = 2796;
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 868;
@@ -23569,7 +23603,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 102";
 		rLen = 6;
-		rLoc = 2798;
+		rLoc = 2849;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 1096;
@@ -24101,7 +24135,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 105";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1039;
@@ -24241,7 +24275,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 105";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1039;
@@ -24251,7 +24285,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 105";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1039;
@@ -24361,7 +24395,7 @@
 		fRef = EF982C9913760596009B4B28 /* HBArtistMatcher.m */;
 		name = "HBArtistMatcher.m: 107";
 		rLen = 0;
-		rLoc = 2820;
+		rLoc = 2871;
 		rType = 0;
 		vrLen = 1386;
 		vrLoc = 1039;

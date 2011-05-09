@@ -202,47 +202,6 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>EF590A0313776AD400EE3FC0</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>HBHomeViewController.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>EF590A0413776AD400EE3FC0</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>HBHomeViewController.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>EF590ABA13776EF600EE3FC0</string>
-						<key>history</key>
-						<array>
-							<string>EF590A4813776CF400EE3FC0</string>
-							<string>EF590AB913776EF600EE3FC0</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1039, 739}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>291 98 1039 780 0 0 1440 878 </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
 				<string>EF590A0F13776AD400EE3FC0</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>HBUser.m</string>
@@ -257,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF590ABB13776EF600EE3FC0</string>
+						<string>EF590AC71377718300EE3FC0</string>
 						<key>history</key>
 						<array>
 							<string>EF590A9A13776E8C00EE3FC0</string>
@@ -284,6 +243,47 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>EF590A0313776AD400EE3FC0</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>HBHomeViewController.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>EF590A0413776AD400EE3FC0</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>HBHomeViewController.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>EF590AC81377718300EE3FC0</string>
+						<key>history</key>
+						<array>
+							<string>EF590A4813776CF400EE3FC0</string>
+							<string>EF590AB913776EF600EE3FC0</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1039, 739}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>291 98 1039 780 0 0 1440 878 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>EF1ACFF813774AEE004D135F</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>HBLoginViewController.m</string>
@@ -298,7 +298,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF590ABC13776EF600EE3FC0</string>
+						<string>EF590AC91377718300EE3FC0</string>
 						<key>history</key>
 						<array>
 							<string>EF590A0D13776AD400EE3FC0</string>
@@ -339,7 +339,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF590ABD13776EF600EE3FC0</string>
+						<string>EF590ACA1377718300EE3FC0</string>
 						<key>history</key>
 						<array>
 							<string>EF590A0A13776AD400EE3FC0</string>
@@ -380,7 +380,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>EF590ABE13776EF600EE3FC0</string>
+						<string>EF590ACB1377718300EE3FC0</string>
 						<key>history</key>
 						<array>
 							<string>EF1AD03313774DD6004D135F</string>
@@ -532,7 +532,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EF590AB713776EF600EE3FC0</string>
+										<string>EF590AC51377718300EE3FC0</string>
 										<key>history</key>
 										<array>
 											<string>EF982C5213760098009B4B28</string>
@@ -598,7 +598,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EF590AB813776EF600EE3FC0</string>
+										<string>EF590AC61377718300EE3FC0</string>
 										<key>history</key>
 										<array>
 											<string>EF982C5513760098009B4B28</string>
@@ -930,14 +930,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>EF590ACC1377718300EE3FC0</string>
 		<string>EF5909BA1377638D00EE3FC0</string>
 		<string>EF5909891377592500EE3FC0</string>
 		<string>EF1AD01813774CC1004D135F</string>
 		<string>EF590A0813776AD400EE3FC0</string>
 		<string>EF1ACFF813774AEE004D135F</string>
+		<string>EF590A0313776AD400EE3FC0</string>
 		<string>EF590A0F13776AD400EE3FC0</string>
 		<string>/Users/arshad/HeartBeatPort/HeartBeatPort.xcodeproj</string>
-		<string>EF590A0313776AD400EE3FC0</string>
 	</array>
 	<key>WindowString</key>
 	<string>65 55 1238 823 0 0 1440 878 </string>

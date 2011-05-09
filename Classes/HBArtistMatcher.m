@@ -122,7 +122,12 @@
 	}
 //	NSLog(@"Matches: %@", allMatches);
 	if (!bestMatch)
+	{
+		alreadyMatching = NO;
+		
+		[pool release];
 		return;
+	}
 	
 	
 	[delegate matcher:self foundMatch:[mMatchedUsersByKey objectForKey:bestMatch] strength:bestStrength];
